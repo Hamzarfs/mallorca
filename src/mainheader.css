@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+
+.mainheader {
+    background-color: #F3EBE0;
+    padding: 35px 0;
+    font-family: "TT Firs Neue Trl", sans-serif;
+    width: 100%;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.logo-img {
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+}
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .phone-numbers p, .whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    color: black;
+    font-size: 14px;
+  }
+
+  .phone-numbers .icon {
+   border: 1px solid;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.whatsapp .icon {
+
+     padding: 5px;
+     font-size: 40px;
+     color: black;
+ }
+ 
+
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons .icon {
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 3px;
+    font-size: 25px;
+    color: black;
+}
+  
+  .header-center {
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .tagline {
+    font-size: 12px;
+    color: black;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .quote-btn {
+    background: transparent;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    font-size: 18px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header-left, .header-right {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .phone-numbers, .whatsapp, .social-icons {
+      justify-content: center;
+    }
+  }
+  

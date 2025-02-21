@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
+body {
+  background-color: #F3EBE0 !important;
+  font-family: "TT Firs Neue Trl", sans-serif;
+}
+
+p {
+  font-family: "TT Firs Neue Trl", sans-serif;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "TT Firs Neue Trl", sans-serif !important;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,24 +1,42 @@
 import logo from './logo.svg';
 import './App.css';
+import MainHeader from './components/common/header';
+import HeroBanner from './components/home/mainbanner';
+import LeftImgContent from './components/home/clubnautica';
+import ImageHovVideo from './components/home/Imghovvideo';
+import AboutUsSec from './components/home/aboutussec';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+
+
+    <>
+    <MainHeader />
+    <HeroBanner />
+    <div className="container d-flex justify-content-center align-items-center text-center py-5">
+      <div className="col-md-8 col-lg-6">
+        <h2 className="" style={{ fontSize: "36px", fontWeight: "bold", color: "#A19C7E", marginBottom: "10px" }}>
+          Your Wedding Venues
+        </h2>
+        <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
+          If you are looking for a unique place to celebrate one of the most special days of your life, 
+          this estate will captivate you. An exceptional setting with exquisite decoration will be the 
+          perfect place for an intimate and beautiful celebration.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
+    <LeftImgContent/>
+    <ImageHovVideo/>
+    <AboutUsSec/>
+
+
+
+  </>
+ 
+
   );
 }
 
