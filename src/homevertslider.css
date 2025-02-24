@@ -1,0 +1,76 @@
+/* Unique class to prevent conflicts */
+.hovertslider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hovertslider .mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.hovertslider .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Content left side par shift hoga */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    padding-left: 10%; /* Left side space adjust karega */
+    scroll-snap-align: start;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.hovertslider .swiper-slide-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hovertslider-content {
+    text-align: left;
+    max-width: 600px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+}
+
+.hovertslider .swiper-slide-active .hovertslider-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hovertslider-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hovertslider-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hovertslider-content button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hovertslider-content button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* After last slide, allow normal scrolling */
+.hovertslider.scroll-enabled {
+    height: auto;
+    overflow: auto;
+}
