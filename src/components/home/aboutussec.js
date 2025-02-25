@@ -5,7 +5,7 @@ import "../../aboutussec.css";
 const AboutUsSec = () => {
   return (
     <div className="about-section">
-      <div className="container">
+      <div className="container-fluid">
         {/* First Row */}
         <div className="row">
           <div className="col-md-6">
@@ -23,6 +23,7 @@ const AboutUsSec = () => {
 
         {/* Second Row */}
         <div className="row text-center mt-4">
+        <div className="container">
           <div className="col-12">
             <h2 className="section-title">Where Your Love Story Begins</h2>
             <p className="section-text">
@@ -32,6 +33,7 @@ const AboutUsSec = () => {
               Every love story is one of a kind, and your wedding should be no different. Let us turn your vision into reality with care, creativity, and the expertise that has made us a trusted name for over a decade. Discover why couples continue to praise our dedication and let us make your dream day unforgettable.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

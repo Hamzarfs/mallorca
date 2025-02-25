@@ -1,0 +1,69 @@
+.topbar-container {
+    background-color: #AE9D81;
+    padding: 10px 0;
+    color: white;
+}
+
+.topbar-icon {
+    font-size: 28px;
+    margin-right: 8px;
+    color: white;
+}
+
+.topbar-text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.topbar-logo {
+    width: 377px;
+}
+
+.topbarsocial-icons {
+    display: flex;
+    gap: 12px;
+}
+
+/* Updated class name for social icons */
+.topbar-social-icon {
+    font-size: 20px;  /* Adjust icon size */
+    color: white;
+    background-color: transparent;
+    border: 2px solid white; /* White circular border */
+    width: 45px;  /* Cicle width */
+     height: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    padding: 5px;
+}
+
+.topbar-social-icon:hover {
+    background-color: white;
+    color: #AE9D81;
+}
+
+.topbar-quote-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.topbar-quote-btn:hover {
+    background-color: white;
+    color: #AE9D81;
+}
+
+/* Hide topbar on mobile and tablets */
+@media (max-width: 991px) {
+    .topbar-container {
+        display: none;
+    }
+}

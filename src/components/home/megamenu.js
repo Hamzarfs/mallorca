@@ -1,0 +1,47 @@
+import React from "react";
+import "../../megamenu.css"; // Unique CSS for Mega Menu
+import logo from "../../images/mallcorawhitelogo.png";
+import { FaInstagram, FaYoutube, FaFacebookF, FaTimes } from "react-icons/fa";
+
+const MegaMenu = ({ isOpen, onClose }) => {
+  return (
+    <div className={`megamenu ${isOpen ? "open" : ""}`}>
+      <div className="container">
+        {/* 🔹 First Row: Logo & Close Button */}
+        <div className="row align-items-center">
+          <div className="col-6">
+            <img src={logo} alt="Mallorca Weddings & Events" className="mega-logo" />
+          </div>
+          <div className="col-6 text-end">
+            <FaTimes className="close-btn" onClick={onClose} />
+          </div>
+        </div>
+
+        {/* 🔹 Border Below */}
+        <div className="menu-border"></div>
+
+        {/* 🔹 Second Row: Navigation Links & Social Icons */}
+        <div className="row bottom-row">
+          {/* Left Column: Navigation Links */}
+          <div className="col-md-8 menu-links">
+            <h2>Home</h2>
+            <h2>Your wedding venues</h2>
+            <h2>About Us</h2>
+            <h2>Catering & Private events</h2>
+            <h2>Our Team</h2>
+            <h2>Contact & Map</h2>
+          </div>
+
+          {/* Right Column: Social Icons */}
+          {/* <div className="col-md-4 megamenu-social">
+            <FaInstagram className="megamenu-icon" />
+            <FaYoutube className="megamenu-icon" />
+            <FaFacebookF className="megamenu-icon" />
+          </div> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MegaMenu;

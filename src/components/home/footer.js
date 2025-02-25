@@ -8,7 +8,7 @@ const Footer = () => {
       {/* First Row: Large Heading */}
       <div className="container">
       <h2 className="footer-heading">
-  You Dream <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; & relax. <br /> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; We plan.
+      Your wedding, <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; your dream, <br /> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; your way.
 </h2>
 
       </div>

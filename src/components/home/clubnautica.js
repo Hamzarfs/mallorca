@@ -50,14 +50,7 @@ const LeftImgContent = () => {
           <div className="col-lg-6 col-md-6 col-sm-12 text-container">
             <h2>Club Nautico</h2>
             <p>
-              If you are looking for a unique place to celebrate one of the most
-              special days of your life, this estate will captivate you. An
-              exceptional setting with exquisite decoration will be the perfect
-              place for an intimate and beautiful celebration.
-            </p>
-            <p>
-              If you are looking for a unique place to celebrate one of the most
-              special days of your life, this estate will captivate you.
+            Nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, Club Náutico offers an idyllic setting for your wedding day. Perched on the edge of the glistening Mediterranean, Club Náutico Porto Cristo is where unforgettable moments come to life, creating wedding memories you'll treasure forever.
             </p>
             <button className="btn-transparent">FURTHER INFO</button>
           </div>

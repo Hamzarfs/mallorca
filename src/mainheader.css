@@ -62,8 +62,9 @@
 
   
   .social-icons {
-    display: flex;
-    gap: 10px;
+    display: flex; /* Horizontal icons */
+  gap: 12px; /* Space between icons */
+  align-items: center; /* Align icons properly */
   }
   
   .social-icons .icon {

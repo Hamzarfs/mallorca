@@ -31,7 +31,7 @@ const ImageHovVideo = () => {
       <div className="container">
         <div className="row">
           {/* First Card */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <div
               className="imagehovvideo-card"
               onMouseEnter={() => handleMouseEnter(0)}
@@ -50,7 +50,7 @@ const ImageHovVideo = () => {
           </div>
 
           {/* Second Card */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <div
               className="imagehovvideo-card"
               onMouseEnter={() => handleMouseEnter(1)}
@@ -72,7 +72,7 @@ const ImageHovVideo = () => {
 
         <div className="row mt-5">
           {/* First Card */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <div
               className="imagehovvideo-card"
               onMouseEnter={() => handleMouseEnter(0)}
@@ -91,7 +91,7 @@ const ImageHovVideo = () => {
           </div>
 
           {/* Second Card */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
   <div
     className="imagehovvideo-card no-video" // Extra class for no video case
     onMouseEnter={(e) => e.currentTarget.classList.add("hover-effect")}

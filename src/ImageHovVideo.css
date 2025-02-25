@@ -19,7 +19,7 @@
   .image-wrapper img,
   .image-wrapper video {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     display: block;
     transition: opacity 0.3s ease-in-out;
   }
@@ -54,7 +54,7 @@
   }
   
   .btn-transparent {
-    background: transparent;
+    background: #4e321ab8;
     border: 2px solid #F3EBE0;
     color: #F3EBE0;
     padding: 10px 20px;

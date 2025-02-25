@@ -10,7 +10,7 @@ const HeroBanner = () => {
       </video>
       <div className="overlay"></div>
       <div className="content">
-        <h3 className="sub-heading">TIMELESS HISTORICAL ELEGANCE</h3>
+        <h3 className="sub-heading">Where Love Never Fades – Timeless Elegance for Your Perfect Day."</h3>
         <h1 className="hero-heading">YOUR DREAM WEDDING <br></br> IN MALLORCA</h1>
       </div>
     </section>

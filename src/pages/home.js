@@ -12,6 +12,9 @@ import OurTeam from '../components/home/ourteam';
 import ContactUsHome from '../components/home/contactussec';
 import ContactDetailsEnd from '../components/home/ContactDetailsEnd';
 import Footer from '../components/home/footer';
+import Topbar from '../components/home/topbar';
+import Newheader from '../components/home/newheader';
+import WhatsAppButton from '../components/common/Whatsapp';
 
 
 
@@ -21,17 +24,17 @@ function home() {
 
 
     <>
-    <MainHeader />
+    {/* <MainHeader /> */}
+    <Topbar/>
+    
     <HeroBanner />
     <div className="container d-flex justify-content-center align-items-center text-center py-5">
-      <div className="col-md-8 col-lg-6">
-        <h2 className="" style={{ fontSize: "36px", fontWeight: "bold", color: "#A19C7E", marginBottom: "10px" }}>
-          Your Wedding Venues
+      <div className="col-md-8 col-lg-8">
+        <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+        Club Náutico Porto Cristo
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-          If you are looking for a unique place to celebrate one of the most special days of your life, 
-          this estate will captivate you. An exceptional setting with exquisite decoration will be the 
-          perfect place for an intimate and beautiful celebration.
+        Mallorca Weddings and Events ensures your celebration is unforgettable. Our exclusive venues provide elegant and unique settings for weddings, receptions, corporate events, and private celebrations. Whether by the beach, in the countryside, or at the marina, we have the perfect location for your dream event.
         </p>
       </div>
     </div>
@@ -41,18 +44,18 @@ function home() {
     <StickyScrollSlide/>
     <div className="container d-flex justify-content-center align-items-center text-center py-5">
       <div className="col-md-8 col-lg-6">
-        <h2 className="" style={{ fontSize: "36px", fontWeight: "bold", color: "#A19C7E", marginBottom: "10px" }}>
+        <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
         Our Team
         </h2>
     
       </div>
     </div>
     <OurTeam/>
-    <OurTeam reverse={true} />
+ 
     <ContactUsHome/>
     <div className="container d-flex justify-content-center align-items-center text-center py-5">
       <div className="col-md-8 col-lg-6">
-        <h2 className="" style={{ fontSize: "36px", fontWeight: "bold", color: "#A19C7E", marginBottom: "10px" }}>
+        <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
        Get In Touch
         </h2>
     
@@ -60,6 +63,7 @@ function home() {
     </div>
     <ContactDetailsEnd/>
     <Footer/>
+    <WhatsAppButton/>
 
 
   </>
