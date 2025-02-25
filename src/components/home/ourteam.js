@@ -5,7 +5,7 @@ import ourteam1 from "../../images/ourteam1.png";
 const OurTeam = ({ reverse = false }) => {
   return (
     <section className="ourteam">
-      <div className="container">
+      <div className="container-fluid">
         <div className={`row align-items-stretch team-row ${reverse ? "flex-row-reverse" : ""}`}>
           {/* Left Column - Image */}
           <div className="col-md-6 p-0 team-image">
