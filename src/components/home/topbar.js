@@ -27,17 +27,40 @@ const Topbar = () => {
           </div>
 
           {/* Logo */}
-          <div className="col-lg-4 text-center">
+          <div className="col-lg-3 text-center">
             <img src={logo} alt="Mallorca Weddings & Events" className="topbar-logo" />
           </div>
 
 {/* Social Media Icons */}
-<div className="col-lg-2 d-flex justify-content-center topbarsocial-icons">
-    <FaInstagram className="topbar-social-icon" />
+<div className="col-lg-3 d-flex justify-content-end footer-bottom ps-5">
+    {/* <FaInstagram className="footer-left" />
     <FaYoutube className="topbar-social-icon" />
     <FaFacebookF className="topbar-social-icon" />
     <FaTiktok className="topbar-social-icon" />
-    <FaTripadvisor className="topbar-social-icon" />
+    <FaTripadvisor className="topbar-social-icon" /> */}
+
+           <div className="footer-left">
+              {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedinIn />
+              </a> */}
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <FaYoutube />
+              </a>
+              <a href="/about-us" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF />
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaTripadvisor />
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaTiktok />
+              </a>
+
+           
+            </div>
 </div>
 
 
