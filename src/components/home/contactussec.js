@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "../../contactushome.css"; // Unique CSS for styling
 import contactuspic from "../../images/contactus.webp";
+import MallorcaMap from "./map";
 
 const schema = yup.object().shape({
   fullName: yup.string().required("Full Name is required"),
@@ -31,11 +32,12 @@ const ContactUsHome = () => {
       <div className="row align-items-center">
         {/* Map Section */}
         <div className="col-md-6">
-          <img
-            src={contactuspic} // Replace with your actual map image
+          {/* <img
+            src={contactuspic}
             alt="Map"
             className="img-fluid"
-          />
+          /> */}
+          <MallorcaMap/>
         </div>
 
         {/* Form Section */}

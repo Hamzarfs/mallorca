@@ -5,8 +5,18 @@ import "../../contact-details-end.css"; // Make sure this CSS file exists
 const ContactDetailsEnd = () => {
   return (
     <section className="contact-details-end">
+       <div className="container d-flex justify-content-center align-items-center text-center py-2">
+      <div className="col-md-8 col-lg-6">
+        <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+       Get In Touch
+        </h2>
+    
+      </div>
+    </div>
       <div className="contact-details-end-container">
+        
         <div className="contact-details-end-row">
+          
           {/* Telephone Column */}
           <div className="contact-details-end-col">
             <div className="contact-details-end-icon-box">

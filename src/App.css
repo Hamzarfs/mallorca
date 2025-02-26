@@ -21,6 +21,27 @@ p {
 
 }
 
+/* Webkit Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;  /* Patla scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #F3EBE0; /* Light background */
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #4e321a; /* Custom color */
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3c2714; /* Thoda dark shade hover pe */
+}
 
 
 

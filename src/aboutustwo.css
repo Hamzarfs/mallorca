@@ -1,0 +1,22 @@
+.aboutustwo p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .aboutustwo img {
+    max-width: 80%;
+    height: auto;
+    /* border: 5px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  @media (max-width: 768px) {
+    .aboutustwo .row {
+      text-align: center;
+    }
+    .aboutustwo img {
+      max-width: 60%;
+    }
+  }
+  

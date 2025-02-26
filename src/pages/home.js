@@ -15,6 +15,7 @@ import Footer from '../components/home/footer';
 import Topbar from '../components/home/topbar';
 import Newheader from '../components/home/newheader';
 import WhatsAppButton from '../components/common/Whatsapp';
+import MallorcaMap from '../components/home/map';
 
 
 
@@ -53,15 +54,9 @@ function home() {
     <OurTeam/>
  
     <ContactUsHome/>
-    <div className="container d-flex justify-content-center align-items-center text-center py-5">
-      <div className="col-md-8 col-lg-6">
-        <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-       Get In Touch
-        </h2>
-    
-      </div>
-    </div>
+
     <ContactDetailsEnd/>
+ 
     <Footer/>
     <WhatsAppButton/>
 

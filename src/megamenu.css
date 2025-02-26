@@ -16,6 +16,16 @@
     transform: translateX(0);
 }
 
+.menu-links h2 a {
+  text-decoration: none; /* Underline hatane ke liye */
+  color: inherit; /* Original color maintain karne ke liye */
+}
+
+.menu-links h2 a:hover {
+  text-decoration: none; /* Hover pe bhi underline na aaye */
+}
+
+
   
   .mega-logo {
     width: 300px;

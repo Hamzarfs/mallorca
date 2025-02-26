@@ -17,6 +17,7 @@ const Footer = () => {
       <div className="footer-nav">
         <ul>
           <li><a href="/">Home</a></li>
+          <li><a href="/about-us">Find out more</a></li>
           <li><a href="/wedding-venues">Wedding Venues</a></li>
           <li><a href="/corporate-events">Corporate & Team Building Events</a></li>
           <li><a href="/private-chef">Private Chef Services</a></li>

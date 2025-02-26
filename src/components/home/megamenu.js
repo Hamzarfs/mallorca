@@ -24,12 +24,15 @@ const MegaMenu = ({ isOpen, onClose }) => {
         <div className="row bottom-row">
           {/* Left Column: Navigation Links */}
           <div className="col-md-8 menu-links">
-            <h2>Home</h2>
-            <h2>Your wedding venues</h2>
-            <h2>About Us</h2>
-            <h2>Catering & Private events</h2>
-            <h2>Our Team</h2>
-            <h2>Contact & Map</h2>
+        
+    <h2><a href="/">Home</a></h2>
+    <h2><a href="#">Your Wedding Venues</a></h2>
+    <h2><a href="/about-us">Find out more</a></h2>
+    <h2><a href="#">Catering & Private Events</a></h2>
+    <h2><a href="#">Our Team</a></h2>
+    <h2><a href="#">Contact & Map</a></h2>
+
+
           </div>
 
           {/* Right Column: Social Icons */}
