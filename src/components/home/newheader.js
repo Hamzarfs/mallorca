@@ -16,7 +16,7 @@ const NewHeader = () => {
             <div className="col-lg-12 d-flex justify-content-center d-none d-lg-flex">
               <ul className="new-header-menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="#">Your wedding venues</a></li>
+                <li><a href="#">Wedding venues</a></li>
                 <li><a href="/about-us">Find out more</a></li>
                 <li><a href="#">Catering & Private events</a></li>
                 <li><a href="#">Our Team</a></li>
