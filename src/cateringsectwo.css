@@ -1,0 +1,57 @@
+.cateringsectwo {
+    /* background-color: #f5efe6; */
+    padding: 60px 0;
+  }
+  
+  /* Text Column */
+  .cateringsectwo-text h2 {
+    font-family: "Playfair Display", serif;
+    color: #a19c7e;
+    font-size: 52px;
+    font-weight: 700;
+  }
+  
+  .cateringsectwo-text p {
+    font-size: 16px;
+    color: #3e3e3e;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+  
+  /* Button */
+  .cateringsectwo-btn {
+    background: transparent;
+    border: 2px solid #3e3e3e;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #3e3e3e;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cateringsectwo-btn:hover {
+    background: #a19c7e;
+    color: #fff;
+  }
+  
+  /* Image */
+  .cateringsectwo-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .cateringsectwo-text {
+      text-align: center;
+    }
+  
+    .cateringsectwo-btn {
+      display: block;
+      margin: 10px auto;
+    }
+  
+    .cateringsectwo-img {
+      margin-top: 20px;
+    }
+  }
+  

@@ -10,6 +10,8 @@ import ContactDetailsEnd from '../components/home/ContactDetailsEnd';
 import Footer from '../components/home/footer';
 import OurTeamCards from '../components/OurTeam/OurTeam';
 import ContactUsHome from '../components/home/contactussec';
+import CateringSecOne from '../components/catering/Cateringsecone';
+import CateringSecTwo from '../components/catering/CateringSecTwo';
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -30,6 +32,9 @@ function Catering() {
                     backgroundImage={cateringbg}
                 />
     </div>
+
+    <CateringSecOne/>
+    <CateringSecTwo/>
  
    
     <ContactDetailsEnd/>

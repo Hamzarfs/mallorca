@@ -1,0 +1,74 @@
+.cateringsecone {
+  /* background-color: #f5efe6; */
+  padding: 50px 0;
+}
+
+/* Left Side Image */
+.cateringsecone-img {
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  object-fit: contain;
+}
+
+/* Right Side Full Image Cover */
+.cateringsecone-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cateringsecone-image-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cateringsecone-full-img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  display: block;
+}
+
+/* Heading Centered with Overlay Stroke Effect */
+.cateringsecone-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #a19c7e;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.cateringsecone-quote-icon {
+  font-size: 150px;
+  color: rgba(161, 156, 126, 0.2);
+  position: absolute;
+  top: 2%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+/* Contact Button */
+.cateringsecone-btn {
+  position: absolute;
+  bottom: 21%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: 2px solid #3e3e3e;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #3e3e3e;
+  transition: all 0.3sease-in-out;
+  z-index: 2;
+}
+.cateringsecone-btn:hover {
+  background: #3e3e3e;
+  color: #fff;
+}
