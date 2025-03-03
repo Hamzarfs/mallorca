@@ -1,0 +1,85 @@
+.ourteamcards {
+    padding: 60px 0;
+  }
+  
+  .team-heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #A19C7E;
+    margin-bottom: 30px;
+  }
+  
+  .team-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 20px;  */
+  }
+
+  .team-name
+  {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3E3E3E;
+  }
+
+
+  .team-description {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FBF4EC;
+    border: none;
+    padding: 20px;
+    height: 100%; /* Ye ensure karega ke height equal ho */
+  }
+  /* Ye ensure karega ke content evenly spread ho aur social icons bottom pe chalay jayen */
+  .team-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  /* Social icons ko bottom pe laane ka trick */
+  .team-card .social-icons {
+    margin-top: auto; /* Automatically push icons to the bottom */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 15px;
+  }
+  
+  .social-icons span {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3e3e3e;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #3e3e3e;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons span:hover {
+    background-color: #3e3e3e;
+    color: #fbf4ec;
+  }
+  
+  /* Add spacing between cards in mobile & tablet view */
+  @media (max-width: 991px) {
+    .team-card {
+      margin-bottom: 20px; /* Cards ke beech space for better mobile UI */
+    }
+  }
+  

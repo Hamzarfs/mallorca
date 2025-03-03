@@ -10,19 +10,19 @@ const slides = [
     id: 1,
     image: slider1,
     title: "Catering & Private Chef Services",
-    text: "Transform your celebration into a culinary masterpiece with our Private Chef and catering services.",
+    text: "Transform your celebration into a culinary masterpiece with our Private Chef and catering service, delivering restaurant-quality cuisine in the comfort of your home or chosen venue anywhere on the island of Mallorca.",
   },
   {
     id: 2,
     image: slider2,
-    title: "Luxury Dining Experience",
-    text: "Enjoy gourmet dining with our professional chefs who craft exquisite meals tailored to your taste.",
+    title: "Corporate & Team Building Events",
+    text: "Treat your team to a memorable corporate celebration or an engaging team-building experience that’s as fun as it is rewarding. With our extensive corporate menu, your event can be customized to suit your exact needs, blending exceptional dining with exciting, hands-on activities.",
   },
   {
     id: 3,
     image: slider3,
-    title: "Fresh & Organic Ingredients",
-    text: "We use only the freshest, locally sourced ingredients to create delicious and healthy dishes.",
+    title: "Private Events",
+    text: "Our dedicated team is passionate about delivering unparalleled service in breathtaking locations, offering you an exclusive escape into luxury. From crafting exquisite menus tailored to your vision to sourcing the finest ingredients, we ensure every detail exceeds expectations.",
   },
 ];
 
@@ -42,7 +42,7 @@ const Slide = ({ slide }) => {
       <div className="slide-content">
         <h2>{slide.title}</h2>
         <p>{slide.text}</p>
-        <button className="slide-btn">About Us</button>
+        <button className="slide-btn">Find out more</button>
       </div>
     </motion.div>
   );

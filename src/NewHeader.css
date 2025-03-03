@@ -17,7 +17,7 @@
     margin: 0;
     display: flex;
     gap: 20px;
-    font-family: 'TT Firs Neue Trl', sans-serif; /* Apply font */
+    font-family: 'Playfair Display', sans-serif; /* Apply font */
 }
 
 .new-header-menu li {
@@ -30,7 +30,7 @@
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease;
-    font-family: 'TT Firs Neue Trl', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .new-header-menu li a:hover {

@@ -24,6 +24,19 @@
     display: flex;
     gap: 12px;
 }
+.phone-link {
+    color: inherit !important; /* Keeps the default text color */
+    text-decoration: none !important; /* Removes underline */
+  }
+  
+.whatsapp-link {
+    color: white !important; /* Ensures text is white */
+  }
+  
+  .whatsapp-link:hover {
+    color: #d7ffe5 !important; /* Optional: WhatsApp green on hover */
+  }
+  
 
 /* Updated class name for social icons */
 .topbar-social-icon {

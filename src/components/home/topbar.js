@@ -13,22 +13,38 @@ const Topbar = () => {
         <div className="row align-items-center">
           {/* Phone Numbers */}
           <div className="col-lg-2 d-flex align-items-center">
-            <FaPhoneAlt className="topbar-icon" />
-            <div className="topbar-text">
-              <p>+44 7876 740598</p>
-              <p>+34 671 63 55 11</p>
-            </div>
-          </div>
+  <FaPhoneAlt className="topbar-icon" />
+  <div className="topbar-text">
+    <p><a href="tel:+447876740598" className="phone-link">+44 7876 740598</a></p>
+    <p><a href="tel:+34671635511" className="phone-link">+34 671 63 55 11</a></p>
+  </div>
+</div>
+
 
           {/* WhatsApp */}
           <div className="col-lg-2 d-flex align-items-center">
-            <FaWhatsapp className="topbar-icon" />
-            <span className="topbar-text">WhatsApp Us</span>
-          </div>
+  <a
+    href="https://wa.me/447876740598"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="whatsapp-link d-flex align-items-center text-decoration-none"
+  >
+    <FaWhatsapp className="topbar-icon" />
+    <span className="topbar-text">WhatsApp Us</span>
+  </a>
+</div>
+
+
 
           {/* Logo */}
           <div className="col-lg-3 text-center">
-            <img src={logo} alt="Mallorca Weddings & Events" className="topbar-logo" />
+          <a href="/">
+    <img 
+      src={logo} 
+      alt="Mallorca Weddings & Events" 
+      className="topbar-logo" 
+    />
+  </a>
           </div>
 
 {/* Social Media Icons */}

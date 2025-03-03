@@ -52,7 +52,7 @@ const LeftImgContent = () => {
             <p>
             Nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, Club Náutico offers an idyllic setting for your wedding day. Perched on the edge of the glistening Mediterranean, Club Náutico Porto Cristo is where unforgettable moments come to life, creating wedding memories you'll treasure forever.
             </p>
-            <button className="btn-transparent">FURTHER INFO</button>
+           <a href="/wedding-venues"><button className="btn-transparent">FURTHER INFO</button></a> 
           </div>
         </div>
       </div>

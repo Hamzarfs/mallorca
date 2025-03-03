@@ -15,12 +15,15 @@ const NewHeader = () => {
             {/* Desktop Menu */}
             <div className="col-lg-12 d-flex justify-content-center d-none d-lg-flex">
               <ul className="new-header-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="#">Wedding venues</a></li>
-                <li><a href="/about-us">Find out more</a></li>
-                <li><a href="#">Catering & Private events</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Contact & Map</a></li>
+                {/* <li><a href="/">Home</a></li> */}
+                <li><a href="/wedding-venues">Your Wedding Venues</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/our-team">Our Team</a></li>
+                <li><a href="/catering">Catering </a></li>
+                <li><a href="/catering">Private Chef</a></li>
+                <li><a href="/catering">Corporate Events & Team Building</a></li>
+                <li><a href="/catering">Private Events</a></li> 
+                <li><a href="/contact-us">Contact & Map</a></li>
               </ul>
             </div>
 
