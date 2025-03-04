@@ -21,13 +21,13 @@ const teamMembers = [
     description:
       "After many years working in management of top-class hotels throughout Spain and running his own Cooking Holidays business, Sergio became General Manager of the famous Yacht Club Cala d’Or and for 12 years was responsible for hundreds of fantastic events. His passion for creating mouth-watering cuisine and his attention to detail has ensured over the years that he has secured a prominent place in Mallorca’s events world.  Sergio is fluent in his home tongue of Italian, as well as Spanish, Russian and English.",
   },
-  {
-    name: "Silvia Corcuera",
-    role: "Wedding and Events Manager",
-    image: team3,
-    description:
-      "Silvia worked at the Yacht Club for 8 years. Starting as Restaurant and Bar Supervisor and working up to Assistant Manager.  Silvia biggest talent is her creativity. Your wedding decor will be in the best possible hands with her. She is fantastic at creating a stunning event room, with simple or extravagant floral displays and table displays. She will see your vision and put everything together on the day.  She has lived in Mallorca for many years and speaks fluent Spanish, English and German.",
-  },
+  // {
+  //   name: "Silvia Corcuera",
+  //   role: "Wedding and Events Manager",
+  //   image: team3,
+  //   description:
+  //     "Silvia worked at the Yacht Club for 8 years. Starting as Restaurant and Bar Supervisor and working up to Assistant Manager.  Silvia biggest talent is her creativity. Your wedding decor will be in the best possible hands with her. She is fantastic at creating a stunning event room, with simple or extravagant floral displays and table displays. She will see your vision and put everything together on the day.  She has lived in Mallorca for many years and speaks fluent Spanish, English and German.",
+  // },
 ];
 
 const OurTeam = () => {
@@ -37,7 +37,8 @@ const OurTeam = () => {
         <Row className="text-center">
           <Col>
             <h2 className="team-heading">
-              Exceptional Event Catering <br /> & Private Chef Services
+              {/* Exceptional Event Catering <br /> & Private Chef Services */}
+            
             </h2>
           </Col>
         </Row>
@@ -53,12 +54,12 @@ const OurTeam = () => {
           <p className="team-role">{member.role}</p>
           <p className="team-description">{member.description}</p>
           <div className="social-icons">
-            <span>
+            {/* <span>
               <FaInstagram />
             </span>
             <span>
               <FaFacebookF />
-            </span>
+            </span> */}
             <span>
               <FaLinkedinIn />
             </span>

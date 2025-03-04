@@ -8,6 +8,7 @@ import vid2 from "../../images/FincaSaPlanaNova.mp4";
 import img3 from "../../images/FincaEncanto.webp"; 
 import img4 from "../../images/lavistamarina.webp";
 import vid3 from "../../images/FincaEncanto.mp4"; 
+import brochurePDF from "../../images/Wedding-Brochure.pdf";
 // import vid4 from "../../images/FincaSaPlanaNova.mp4"; 
 
 const ImageHovVideo = () => {
@@ -115,11 +116,17 @@ const ImageHovVideo = () => {
         
       </div>
 
-      <div className="container d-flex justify-content-center align-items-center mt-5">
-      <button className="weddingbrochure-btn">
-        <span>VIEW OUR WEDDING BROCHURE</span>
-      </button>
-    </div>
+      <div className="container d-flex justify-content-center align-items-center gap-3 py-5">
+     <button
+       className="weddingbrochure-btn px-4"
+       onClick={() => window.open(brochurePDF, "_blank")}
+     >
+       <span>VIEW OUR WEDDING BROCHURE</span>
+     </button>
+  <button className="weddingbrochure-btn">
+    <span>Get a Quote</span>
+  </button>
+</div>
       
     </section>
 

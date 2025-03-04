@@ -32,7 +32,7 @@ const WeddingBnrTwo = () => {
         </p>
 
         {/* View Details Button */}
-        <button className="view-details-btn">VIEW DETAILS</button>
+       <a href="/club-nautico"> <button className="view-details-btn">VIEW DETAILS</button></a>
       </div>
     </section>
   );

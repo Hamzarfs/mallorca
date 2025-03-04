@@ -8,6 +8,7 @@ import AboutUsTwo from '../components/aboutus/aboutsectwo';
 import AboutUsThree from '../components/aboutus/aboutussecthree';
 import ContactDetailsEnd from '../components/home/ContactDetailsEnd';
 import Footer from '../components/home/footer';
+import OurTeamCards from '../components/OurTeam/OurTeam';
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -40,7 +41,7 @@ function About() {
     </div>
     <AboutUsTwo/>
     <AboutUsThree/>
-   
+    <OurTeamCards/>
     <ContactDetailsEnd/>
     <Footer/>
     

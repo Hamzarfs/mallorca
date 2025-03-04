@@ -2,6 +2,10 @@
     background-color: #AE9D81;
     padding: 10px 0;
     color: white;
+    position: sticky;
+    top: 0; 
+    z-index: 100; 
+    width: 100%; 
 }
 
 .topbar-icon {

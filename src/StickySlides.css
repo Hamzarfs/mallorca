@@ -70,6 +70,7 @@
     border: 2px solid white;
     cursor: pointer;
     transition: background 0.3s ease;
+    margin-right: 10px;
 }
 
 .slide-btn:hover {

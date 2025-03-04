@@ -43,6 +43,8 @@ const Slide = ({ slide }) => {
         <h2>{slide.title}</h2>
         <p>{slide.text}</p>
         <button className="slide-btn">Find out more</button>
+        <button className="slide-btn">Get a Quote</button>
+        
       </div>
     </motion.div>
   );

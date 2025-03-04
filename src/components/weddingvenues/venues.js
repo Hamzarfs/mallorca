@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../images/venue1.webp"; // Update the path as per your folder structure
+import image1 from "../../images/venue1.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";

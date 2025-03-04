@@ -72,3 +72,10 @@
   background: #3e3e3e;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+
+.col-lg-6.cateringsecone-content {
+  display: none;
+}
+}

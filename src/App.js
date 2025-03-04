@@ -6,6 +6,10 @@ import Weddingvenue from "../src/pages/weddingvenue";
 import Ourteam from "./pages/Ourteam";
 import Contactus from "./pages/Contactus";
 import Catering from "./pages/Catering";
+import Clubnautico from "./pages/venues/ClubNautico";
+import Fincaart from "./pages/venues/Fincaart";
+import Privatechef from "./pages/privatechef"
+import Privateevent from "./pages/Privateevent"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -20,6 +24,11 @@ const App = () => {
                 <Route path="/our-team" element={<Ourteam />} />
                 <Route path="/contact-us" element={<Contactus />} />
                 <Route path="/catering" element={<Catering />} />
+                <Route path="/private-chef" element={<Privatechef />} />
+                <Route path="/private-event" element={<Privateevent />} />
+                <Route path="/club-nautico" element={<Clubnautico />} />
+                <Route path="/finca-art" element={<Fincaart />} />
+
             </Routes>
         </Router>
     );
