@@ -1,7 +1,7 @@
 import React from "react";
 import "../../aboutusthree.css";
 import imageSrc from "../../images/segioimg.webp";
-import imageSrc2 from "../../images/claire.webp"; // Update with the correct path
+import imageSrc2 from "../../images/claire.webp"; 
 
 const AboutUsThree = () => {
   return (

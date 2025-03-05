@@ -50,6 +50,12 @@
     font-size: 16px;
     color: #726b5f;
   }
+
+  .contact-details-end-text a {
+    font-size: 16px;
+    color: #726b5f;
+    text-decoration: none;
+  }
   
   /* Responsive */
   @media (max-width: 768px) {

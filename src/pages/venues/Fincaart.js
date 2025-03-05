@@ -2,7 +2,7 @@
 import BreadcrumbSection from '../../components/aboutus/BreadCrumb';
 import '../../App.css';
 import MainHeader from '../../components/common/header';
-import bannerimg from '../../images/clubnauticobanner.webp';
+import bannerimg from '../../images/fincaartbanner.webp';
 import Topbar from '../../components/home/topbar';
 import AboutUsTwo from '../../components/aboutus/aboutsectwo';
 import AboutUsThree from '../../components/aboutus/aboutussecthree';
@@ -12,19 +12,19 @@ import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
 import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/clubnauticagallery1.webp";
-import VenueGallery2 from "../../images/clubnauticagallery2.webp";
-import VenueGallery3 from "../../images/clubnauticagallery3.webp";
-import VenueGallery4 from "../../images/clubnauticagallery4.webp";
-import VenueGallery5 from "../../images/clubnauticagallery5.webp";
-import VenueGallery6 from "../../images/clubnauticagallery6.webp";
-import VenueGallery7 from "../../images/clubnauticagallery7.webp";
-import VenueGallery8 from "../../images/clubnauticagallery8.webp";
-import VenueGallery9 from "../../images/clubnauticagallery9.webp";
-import VenueGallery10 from "../../images/clubnauticagallery10.webp";
-import VenueGallery11 from "../../images/clubnauticagallery11.webp";
-import VenueGallery12 from "../../images/clubnauticagallery12.webp";
-import image1 from "../../images/venue1.webp"; 
+import VenueGallery1 from "../../images/fincaartgallery/FA1.webp";
+import VenueGallery2 from "../../images/fincaartgallery/FA2.webp";
+import VenueGallery3 from "../../images/fincaartgallery/FA3.webp";
+import VenueGallery4 from "../../images/fincaartgallery/FA4.webp";
+import VenueGallery5 from "../../images/fincaartgallery/FA5.webp";
+import VenueGallery6 from "../../images/fincaartgallery/1.webp";
+import VenueGallery7 from "../../images/fincaartgallery/2.webp";
+import VenueGallery8 from "../../images/fincaartgallery/3.webp";
+import VenueGallery9 from "../../images/fincaartgallery/4.webp";
+import VenueGallery10 from "../../images/fincaartgallery/5.webp";
+import VenueGallery11 from "../../images/fincaartgallery/6.webp";
+// import VenueGallery12 from "../../images/fincaartgallery/7.webp";
+import image1 from "../../images/venue5.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
@@ -43,7 +43,7 @@ const clubnauticaimages = [
   VenueGallery9,
   VenueGallery10,
   VenueGallery11,
-  VenueGallery12
+  // VenueGallery12
 
   // Add more images...
 ];
@@ -51,14 +51,14 @@ const clubnauticaimages = [
 
 const venues = [
   {
-    name: "Finca Art",
+    name: "Club Nautico",
     image: image1, 
-    link: "/finca-art",
+    link: "/club-nautico",
   },
   {
     name: "Finca Sa Plana Nova",
     image: image2,
-    link: "/finca-sa-plana-nova",
+    link: "/fincasa-plana",
   },
   {
     name: "Finca Encanto",
@@ -89,22 +89,14 @@ function Clubnautica() {
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Transforming Dreams Into Unforgettable Mallorca Weddings
+        Say ‘I Do’ at the Enchanting Finca Art
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-        Our majestic Club Nautico is in Porto Cristo, a working fishing village on the east coast of Mallorca. Porto Cristo a very relaxed and beautiful area with the marina being the hub and a variety of hotels and accommodation options to choose from.  You can spend your days on the beaches or explore one of the many coves and when the sun goes down there are the many cafes, bars and restaurants dotted around the waterfront to explore, serving delicious local cuisine.<br></br><br></br>
-        The venue itself is built on the edge of the Mediterranean – originally built as a member’s only club for Yacht owners but now offering their venue for weddings and events.
-
-As you enter the venue you are greeted with a huge outside terrace area, spanning two sides of the building with glass doors surrounding the building and white sail canopies above.  You will feel the warmth of the sun and feel the marina breeze but be protected from the heat whilst you sip a cocktail and gaze out at sea.
+        Nestled just outside the picturesque village of Ses Salines on Mallorca’s stunning south coast, Finca Art is a breathtaking Spanish country estate, perfect for couples dreaming of a one-of-a-kind wedding. With sweeping views of the countryside and mountains, this venue effortlessly blends Mallorcan charm with modern elegance, creating a setting that is as unforgettable as your love story.<br></br><br></br>
+        The crown jewel of Finca Art is its expansive outdoor space—a dream for those envisioning a magical "Mamma Mia"-style celebration. Picture your reception by the sparkling turquoise pool, fairy lights reflecting off the water as the warm Mallorcan breeze surrounds you. Eat, drink, and dance under the stars, creating memories that will last a lifetime.
         <br></br><br></br>
-
-        The venue offers two different areas for your ceremony, either on one of the terraces or there is a grassed area closer to the sea, either are ideal for photos and privacy is ensured.
-
-If you are a smaller wedding and prefer to eat al fresco, then this can be arranged.  Alternatively, you can dine in our air-conditioned event room.  The inside area also has a fully equipped bar and an outside bar can also be set up on the terrace for drinks and canapes after your ceremony.
-
-For any couples who would prefer a Catholic wedding or an Anglican blessing a local church, there is a beautiful church called Església Mare de Déu del Carme Porto Cristo which is very close to the Club.
-
-If you would like some recommendations for local accommodation in Porto Cristo and surrounding areas, just ask your wedding planner.
+        Whether you choose to hire Finca Art exclusively for your big day or for a longer stay, the villa offers ultimate comfort and luxury. With seven stylish bedrooms, a fully equipped modern kitchen, and both indoor and outdoor living spaces, it’s the perfect retreat for you and your loved ones.<br></br><br></br>
+        Finca Art isn’t just a wedding venue—it’s a place where dreams come true and moments turn into cherished memories.
         </p>
 
       </div>
@@ -120,9 +112,9 @@ If you would like some recommendations for local accommodation in Porto Cristo a
       <span>VIEW OUR WEDDING BROCHURE</span>
     </button>
 
-  <button className="weddingbrochure-btn">
+ <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
     <span>CONTACT US</span>
-  </button>
+  </button> </a>
 </div>
 
 <VenueGallery images={clubnauticaimages} />

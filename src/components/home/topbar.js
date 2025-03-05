@@ -1,5 +1,6 @@
 import React from "react";
-import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaYoutube, FaFacebookF, FaTiktok, FaTripadvisor } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaYoutube, FaFacebookF, FaTripadvisor } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import "../../Topbar.css"; // Ensure to create this CSS file
 import logo from "../../images/mallcorawhitelogo.png";
 import NewHeader from "./newheader";
@@ -59,21 +60,21 @@ const Topbar = () => {
               {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
               </a> */}
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/channel/UCHRuPwVKJ_6Ag17eD-LiW3g" target="_blank" rel="noopener noreferrer">
                 <FaYoutube />
               </a>
-              <a href="/about-us" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/mallorca.weddings.events/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/mallorcaweddingsandevents/" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g580311-d25929839-Reviews-Mallorca_Weddings_Events-Porto_Cristo_Majorca_Balearic_Islands.html" target="_blank" rel="noopener noreferrer">
                 <FaTripadvisor />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaTiktok />
-              </a>
+              <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
+  <FaXTwitter />
+</a>
 
            
             </div>
@@ -83,7 +84,7 @@ const Topbar = () => {
 
           {/* Get A Quote Button */}
           <div className="col-lg-2 text-end">
-            <button className="topbar-quote-btn">GET A QUOTE</button>
+           <a href="/contact-us" target="_blank"> <button className="topbar-quote-btn">GET A QUOTE</button></a>
           </div>
         </div>
       </div>

@@ -45,7 +45,7 @@ const ImageHovVideo = () => {
               <div className="text-content">
                 <h3>Finca Art</h3>
                 {/* <p>Experience the beauty of Finca Art, the perfect event venue.</p> */}
-                <a href="/wedding-venues">  <button className="btn-transparent">FURTHER INFO</button></a>
+                <a href="/finca-art ">  <button className="btn-transparent">FURTHER INFO</button></a>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const ImageHovVideo = () => {
               <div className="text-content">
                 <h3>Finca Sa Plana Nova</h3>
                 {/* <p>Enjoy a stunning ambiance at Finca Sa Plana Nova.</p> */}
-                <a href="/wedding-venues">  <button className="btn-transparent">FURTHER INFO</button></a>
+                <a href="/fincasa-plana">  <button className="btn-transparent">FURTHER INFO</button></a>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const ImageHovVideo = () => {
               <div className="text-content">
                 <h3>Finca Encanto</h3>
                 {/* <p>Experience the beauty of Finca Art, the perfect event venue.</p> */}
-                <a href="/wedding-venues">  <button className="btn-transparent">FURTHER INFO</button></a>
+                <a href="/finca-Encanto">  <button className="btn-transparent">FURTHER INFO</button></a>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const ImageHovVideo = () => {
     <div className="text-content">
       <h3>La Vista Marina</h3>
       {/* <p>Enjoy a stunning ambiance at Finca Sa Plana Nova.</p> */}
-      <a href="/wedding-venues">  <button className="btn-transparent">FURTHER INFO</button></a>
+      <a href="/la-vista-marina">  <button className="btn-transparent">FURTHER INFO</button></a>
     </div>
   </div>
   
@@ -117,15 +117,16 @@ const ImageHovVideo = () => {
       </div>
 
       <div className="container d-flex justify-content-center align-items-center gap-3 py-5">
-     <button
-       className="weddingbrochure-btn px-4"
-       onClick={() => window.open(brochurePDF, "_blank")}
-     >
-       <span>VIEW OUR WEDDING BROCHURE</span>
-     </button>
-  <button className="weddingbrochure-btn">
-    <span>Get a Quote</span>
-  </button>
+       <button
+           className="weddingbrochure-btn px-4"
+           onClick={() => window.open(brochurePDF, "_blank")}
+         >
+           <span>VIEW OUR WEDDING BROCHURE</span>
+         </button>
+     
+      <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
+         <span>CONTACT US</span>
+       </button> </a>
 </div>
       
     </section>

@@ -17,12 +17,13 @@ const Footer = () => {
       <div className="footer-nav">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/about-us">Find out more</a></li>
+          <li><a href="/about-us">About Us</a></li>
           <li><a href="/wedding-venues">Wedding Venues</a></li>
-          <li><a href="/corporate-events">Corporate & Team Building Events</a></li>
-          <li><a href="/private-chef">Private Chef Services</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/catering">Catering</a></li>
+                <li><a href="/private-chef">Private Chef</a></li>
+                <li><a href="/corporate-events">Corporate Events & Team Building</a></li>
+                <li><a href="/private-events">Private Events</a></li>
+                <li><a href="/contact-us">Contact & Map</a></li>
         </ul>
       </div>
 

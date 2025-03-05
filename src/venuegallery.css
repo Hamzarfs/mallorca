@@ -10,31 +10,32 @@
   margin-bottom: 20px;
 }
 
-.venuegallery .row {
+/* Masonry Grid */
+.masonry-grid {
   display: flex;
-  flex-wrap: wrap;
-  /* gap: 10px; */
-  margin-bottom: 20px;
+  margin-left: -10px; /* Offset for gutter */
+  width: auto;
 }
 
-.venuegallery-img {
+.masonry-grid_column {
+  padding-left: 10px; /* Gutter spacing */
+  background-clip: padding-box;
+}
+
+/* Masonry Images */
+.masonry-grid img {
   width: 100%;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Space between images */
 }
 
-.venuegallery-img:hover {
-  transform: scale(1.05);
+.masonry-grid img:hover {
+  transform: scale(1.02);
 }
 
-
-
-/*  Youtube */
-
-
-
+/* Youtube Video */
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -56,7 +57,7 @@
   height: 100%;
 }
 
-
+/* Venue Card */
 .venue-card {
   display: block;
   text-align: center;
@@ -85,17 +86,19 @@
   font-weight: 600;
 }
 
-
-
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .venuegallery-heading {
-      font-size: 26px;
-    }
-  
-    .venuegallery-img {
-      border-radius: 8px;
-    }
+/* Responsive */
+@media (max-width: 1024px) {
+  .venuegallery-heading {
+    font-size: 30px;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .venuegallery-heading {
+    font-size: 26px;
+  }
+
+  .venuegallery-img {
+    border-radius: 8px;
+  }
+}

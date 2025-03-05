@@ -58,7 +58,7 @@ const venues = [
   {
     name: "Finca Sa Plana Nova",
     image: image2,
-    link: "/finca-sa-plana-nova",
+    link: "/fincasa-plana",
   },
   {
     name: "Finca Encanto",
@@ -89,23 +89,18 @@ function Clubnautica() {
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Transforming Dreams Into Unforgettable Mallorca Weddings
+        Celebrate Your Love at the Iconic Club Náutico in Porto Cristo
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-        Our majestic Club Nautico is in Porto Cristo, a working fishing village on the east coast of Mallorca. Porto Cristo a very relaxed and beautiful area with the marina being the hub and a variety of hotels and accommodation options to choose from.  You can spend your days on the beaches or explore one of the many coves and when the sun goes down there are the many cafes, bars and restaurants dotted around the waterfront to explore, serving delicious local cuisine.<br></br><br></br>
-        The venue itself is built on the edge of the Mediterranean – originally built as a member’s only club for Yacht owners but now offering their venue for weddings and events.
-
-As you enter the venue you are greeted with a huge outside terrace area, spanning two sides of the building with glass doors surrounding the building and white sail canopies above.  You will feel the warmth of the sun and feel the marina breeze but be protected from the heat whilst you sip a cocktail and gaze out at sea.
+        Nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, Club Náutico offers an idyllic setting for your wedding day.  Perched on the edge of the glistening Mediterranean, Club Náutico Porto Cristo is where unforgettable moments come to life, creating wedding memories you'll treasure forever. <br></br><br></br>
+        Upon arrival, you’ll be captivated by a sprawling outdoor terrace that wraps around the venue, framed by elegant white sail canopies and expansive glass doors. With the warm sun on your skin and a gentle marina breeze, enjoy cocktails while gazing at uninterrupted sea views.
         <br></br><br></br>
 
-        The venue offers two different areas for your ceremony, either on one of the terraces or there is a grassed area closer to the sea, either are ideal for photos and privacy is ensured.
-
-If you are a smaller wedding and prefer to eat al fresco, then this can be arranged.  Alternatively, you can dine in our air-conditioned event room.  The inside area also has a fully equipped bar and an outside bar can also be set up on the terrace for drinks and canapes after your ceremony.
-
-For any couples who would prefer a Catholic wedding or an Anglican blessing a local church, there is a beautiful church called Església Mare de Déu del Carme Porto Cristo which is very close to the Club.
-
-If you would like some recommendations for local accommodation in Porto Cristo and surrounding areas, just ask your wedding planner.
+        For your ceremony, choose between two spectacular backdrops: an elegant terrace overlooking the water or a secluded spot on the rocks beside the ocean—perfectly picturesque and intimate. Dining options include al fresco dining under the stars or the comfort of our air-conditioned event room, which features a stylish bar. <br>
+        </br><br></br>
+        From the beauty of the natural surroundings to the impeccable amenities and atmosphere, Club Náutico Porto Cristo is a breathtaking venue where your dream wedding can truly come to life.
         </p>
+     
 
       </div>
 
@@ -120,9 +115,9 @@ If you would like some recommendations for local accommodation in Porto Cristo a
       <span>VIEW OUR WEDDING BROCHURE</span>
     </button>
 
-  <button className="weddingbrochure-btn">
+ <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
     <span>CONTACT US</span>
-  </button>
+  </button> </a>
 </div>
 
 <VenueGallery images={clubnauticaimages} />

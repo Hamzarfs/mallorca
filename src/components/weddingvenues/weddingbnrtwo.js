@@ -9,7 +9,7 @@ const WeddingBnrTwo = () => {
         <div className="col-8 sm-12 md-10 lg-col-12">
         {/* Main Heading */}
         <h2 className="wedvenues-heading" >
-          Transforming Dreams Into Unforgettable Mallorca Weddings
+        Wedding Venues
         </h2>
         </div>
 

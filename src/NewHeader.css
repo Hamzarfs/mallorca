@@ -176,3 +176,16 @@
         background: #F3E4CE;
     }
 }
+
+@media (max-width: 992px) {
+    .new-header {
+        background-color: #F3E4CE;
+        padding: 15px 0;
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+        width: 100%;
+        font-family: 'TT Firs Neue Trl', sans-serif;
+    }
+
+}

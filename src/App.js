@@ -8,11 +8,13 @@ import Contactus from "./pages/Contactus";
 import Catering from "./pages/Catering";
 import Clubnautico from "./pages/venues/ClubNautico";
 import Fincaart from "./pages/venues/Fincaart";
+import Fincasaplana from "./pages/venues/Fincasaplana";
+import Fincaencanto from "./pages/venues/Fincaencanto";
+import LaVistamarina from "./pages/venues/LaVistamarina";
 import Privatechef from "./pages/privatechef"
-import Privateevent from "./pages/Privateevent"
+import Corporateevents from "./pages/Corporateevents"
+import Privateevents from "./pages/Privateevents"
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
 
 const App = () => {
     return (
@@ -25,10 +27,13 @@ const App = () => {
                 <Route path="/contact-us" element={<Contactus />} />
                 <Route path="/catering" element={<Catering />} />
                 <Route path="/private-chef" element={<Privatechef />} />
-                <Route path="/private-event" element={<Privateevent />} />
+                <Route path="/corporate-events" element={<Corporateevents />} />
+                <Route path="/private-events" element={<Privateevents />} />
                 <Route path="/club-nautico" element={<Clubnautico />} />
                 <Route path="/finca-art" element={<Fincaart />} />
-
+                <Route path="/fincasa-plana" element={<Fincasaplana />} />
+                <Route path="/finca-encanto" element={<Fincaencanto />} />
+                <Route path="/la-vista-marina" element={<LaVistamarina />} />
             </Routes>
         </Router>
     );

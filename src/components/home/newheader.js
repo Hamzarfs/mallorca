@@ -30,17 +30,17 @@ const NewHeader = () => {
                     <ul className="dropdown-menu">
                       <li><a href="/club-nautico">Club Náutico</a></li>
                       <li><a href="/finca-art">Finca Art</a></li>
-                      <li><a href="/wedding-venues/villa">Finca Sa Plana Nova</a></li>
-                      <li><a href="/wedding-venues/castle">Finca Encanto</a></li>
-                      <li><a href="/wedding-venues/hotel">La Vista Marina</a></li>
+                      <li><a href="/fincasa-plana">Finca Sa Plana Nova</a></li>
+                      <li><a href="/finca-encanto">Finca Encanto</a></li>
+                      <li><a href="/la-vista-marina">La Vista Marina</a></li>
                     </ul>
                   )}
                 </li>
                 <li><a href="/about-us">About Us</a></li>
                 <li><a href="/catering">Catering</a></li>
                 <li><a href="/private-chef">Private Chef</a></li>
-                <li><a href="/private-event">Corporate Events & Team Building</a></li>
-                <li><a href="/private-event">Private Events</a></li>
+                <li><a href="/corporate-events">Corporate Events & Team Building</a></li>
+                <li><a href="/private-events">Private Events</a></li>
                 <li><a href="/contact-us">Contact & Map</a></li>
               </ul>
             </div>

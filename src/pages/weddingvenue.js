@@ -41,8 +41,6 @@ function weddingvenue() {
         </p>
 
       </div>
-
-      
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 mb-5">

@@ -74,8 +74,8 @@
 }
 
 .topbar-quote-btn:hover {
-    background-color: white;
-    color: #AE9D81;
+    background-color: #4e321ab8;
+    color: white;
 }
 
 /* Hide topbar on mobile and tablets */

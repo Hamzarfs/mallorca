@@ -12,7 +12,7 @@ const HeroBanner = () => {
       <div className="content">
         <h3 className="sub-heading">Where Love Never Fades – Timeless Elegance for Your Perfect Day."</h3>
         <h1 className="hero-heading">YOUR DREAM WEDDING <br></br> IN MALLORCA</h1>
-        <a href="/wedding-venues"><button className="btn-transparent mt-4">Get a Quote</button></a> 
+        <a href="/contact-us"><button className="btn-transparent mt-4">Get a Quote</button></a> 
       </div>
     </section>
   );

@@ -34,6 +34,30 @@ function Catering() {
     </div>
 
     <CateringSecOne/>
+    <div className="container d-flex justify-content-center align-items-center text-center">
+      <div className="col-md-8 col-lg-8">
+        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+        Private Chef Service – A Luxurious & Personalized Culinary Experience
+        </h2>
+        <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
+        At Mallorca Weddings and Events, our private chef service was created to meet the
+ needs of those who want to offer their guests something truly special—an
+ elegant gourmet dining experience in the comfort and convenience of their own home,
+ holiday villa, or yacht. <br></br>
+<strong>An Exclusive Fine Dining Experience</strong> <br></br>
+ Why settle for ordinary when you can have a private chef experience tailored just for
+ you? With Mallorca Weddings and Events, we bring restaurant-quality cuisine to
+ your chosen setting, ensuring an exclusive and unforgettable dining experience.
+        <br></br><br></br>
+
+        Would you like to surprise your guests with a special dinner? Are you on holiday and
+ prefer not to cook every day? Or are you looking to create a tailored dining experience for a birthday, hen do, or intimate gathering? Our private chef service is dedicated
+ to smaller, more exclusive events, ensuring a refined, restaurant-quality experience.
+        </p>
+
+      </div>
+   
+    </div>
     <CateringSecTwo/>
  
    
