@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTripadvisor } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import "../../footer.css"; // Unique CSS file
 
 const Footer = () => {
@@ -30,18 +31,21 @@ const Footer = () => {
       {/* Third Row: Social Icons & Policy Links */}
       <div className="container-fluid footer-bottom">
         <div className="footer-left">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-            <FaYoutube />
-          </a>
-          <a href="/about-us" target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
-          </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF />
-          </a>
+         <a href="https://www.youtube.com/channel/UCHRuPwVKJ_6Ag17eD-LiW3g" target="_blank" rel="noopener noreferrer">
+                         <FaYoutube />
+                       </a>
+                       <a href="https://www.instagram.com/mallorca.weddings.events/" target="_blank" rel="noopener noreferrer">
+                         <FaInstagram />
+                       </a>
+                       <a href="https://www.facebook.com/mallorcaweddingsandevents/" target="_blank" rel="noopener noreferrer">
+                         <FaFacebookF />
+                       </a>
+                       <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g580311-d25929839-Reviews-Mallorca_Weddings_Events-Porto_Cristo_Majorca_Balearic_Islands.html" target="_blank" rel="noopener noreferrer">
+                         <FaTripadvisor />
+                       </a>
+                       <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
+           <FaXTwitter />
+         </a>
         </div>
         <div className="footer-right">
           <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms">Terms & Conditions</a>

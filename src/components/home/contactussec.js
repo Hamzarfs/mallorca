@@ -41,7 +41,7 @@ const ContactUsHome = () => {
         </div>
 
         {/* Form Section */}
-        <div className="col-md-6">
+        <div className="col-md-6 px-3">
           <h2 className="contact-title">Contact Us</h2>
           <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
             <div className="form-group">
