@@ -32,7 +32,7 @@ function home() {
     <div className="container d-flex justify-content-center align-items-center text-center py-5">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "56px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Club Náutico Porto Cristo
+        Your Wedding Venues
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         Mallorca Weddings and Events ensures your celebration is unforgettable. Our exclusive venues provide elegant and unique settings for weddings, receptions, corporate events, and private celebrations. Whether by the beach, in the countryside, or at the marina, we have the perfect location for your dream event.

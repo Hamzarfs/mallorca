@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt,FaWhatsapp, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 import "../../contact-details-end.css"; // Make sure this CSS file exists
 
 const ContactDetailsEnd = () => {
@@ -25,11 +25,11 @@ const ContactDetailsEnd = () => {
           {/* Telephone Column */}
           <div className="contact-details-end-col">
             <div className="contact-details-end-icon-box">
-              <FaPhoneAlt className="contact-details-end-icon" />
+               <FaWhatsapp  className="contact-details-end-icon" />
             </div>
-            <h3 className="contact-details-end-heading">TELEPHONE:</h3>
+            <h3 className="contact-details-end-heading">CONTACT:</h3>
             <p className="contact-details-end-text">
-              <a href="tel:+447876740598" className="contact-link">
+              <a href="https://wa.me/447876740598" className="contact-link">
                 +44 7876 740598
               </a>{" "}
               |{" "}

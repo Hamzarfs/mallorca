@@ -13,7 +13,7 @@ const Topbar = () => {
       <div className="container">
         <div className="row align-items-center">
           {/* Phone Numbers */}
-          <div className="col-lg-2 d-flex align-items-center">
+          <div className="col-lg-2 d-flex align-items-center text-center">
   <FaPhoneAlt className="topbar-icon" />
   <div className="topbar-text">
     <p><a href="tel:+447876740598" className="phone-link">+44 7876 740598</a></p>
@@ -23,7 +23,7 @@ const Topbar = () => {
 
 
           {/* WhatsApp */}
-          <div className="col-lg-2 d-flex align-items-center">
+          {/* <div className="col-lg-2 d-flex align-items-center">
   <a
     href="https://wa.me/447876740598"
     target="_blank"
@@ -33,12 +33,12 @@ const Topbar = () => {
     <FaWhatsapp className="topbar-icon" />
     <span className="topbar-text">WhatsApp Us</span>
   </a>
-</div>
+</div> */}
 
 
 
           {/* Logo */}
-          <div className="col-lg-3 text-center">
+          <div className="col-lg-5 text-end">
           <a href="/">
     <img 
       src={logo} 
@@ -72,9 +72,9 @@ const Topbar = () => {
               <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g580311-d25929839-Reviews-Mallorca_Weddings_Events-Porto_Cristo_Majorca_Balearic_Islands.html" target="_blank" rel="noopener noreferrer">
                 <FaTripadvisor />
               </a>
-              <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
   <FaXTwitter />
-</a>
+</a> */}
 
            
             </div>
