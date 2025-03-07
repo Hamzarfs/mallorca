@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube, FaTripadvisor } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTripadvisor , FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "../../footer.css"; // Unique CSS file
 
@@ -43,12 +43,15 @@ const Footer = () => {
                        <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g580311-d25929839-Reviews-Mallorca_Weddings_Events-Porto_Cristo_Majorca_Balearic_Islands.html" target="_blank" rel="noopener noreferrer">
                          <FaTripadvisor />
                        </a>
+                          <a href="https://www.tiktok.com/@mallorcaweddingsevents" target="_blank" rel="noopener noreferrer">
+                         <FaTiktok />
+                       </a>
                        {/* <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
            <FaXTwitter />
          </a> */}
         </div>
         <div className="footer-right">
-          <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms">Terms & Conditions</a>
+          <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-condition">Terms & Conditions</a>
         </div>
       </div>
     </footer>

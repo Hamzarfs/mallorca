@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -36,8 +36,39 @@ const ContactUsHome = () => {
     mode: "onChange",
   });
 
+  const [selectedServices, setSelectedServices] = useState([]);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+  
+  const services = ["Weddings", "Catering", "Private Chef", "Corporate Events", "Private Events"];
+
+  // Handle checkbox selection
+  const handleServiceChange = (service) => {
+    setSelectedServices((prev) =>
+      prev.includes(service) ? prev.filter((s) => s !== service) : [...prev, service]
+    );
+  };
+
+  // Toggle dropdown manually
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   const onSubmit = (data) => {
-    console.log("Form Data:", data);
+    console.log("Form Data:", { ...data, selectedServices });
     // Handle form submission (e.g., send data to the server)
   };
 
@@ -59,7 +90,7 @@ const ContactUsHome = () => {
                 placeholder="Full Name*"
                 {...register("fullName")}
                 className={`form-control ${errors.fullName ? "is-invalid" : ""}`}
-                maxLength={51} // Limits input to 50 characters
+                maxLength={51}
               />
               <div className="invalid-feedback">{errors.fullName?.message}</div>
             </div>
@@ -80,9 +111,39 @@ const ContactUsHome = () => {
                 placeholder="Telephone*"
                 {...register("telephone")}
                 className={`form-control ${errors.telephone ? "is-invalid" : ""}`}
-                maxLength={16} // Limits input to 15 digits
+                maxLength={16}
               />
               <div className="invalid-feedback">{errors.telephone?.message}</div>
+            </div>
+
+            {/* Services Dropdown with Checkboxes */}
+            <div className="form-group position-relative" ref={dropdownRef}>
+              <button
+                type="button"
+                className="btn btn-outline-dark w-100 text-left"
+                onClick={toggleDropdown}
+              >
+                {selectedServices.length > 0 ? selectedServices.join(", ") : "Select Services"}
+              </button>
+
+              {dropdownOpen && (
+                <ul className="dropdown-menu show w-100 p-3 position-absolute">
+                  {services.map((service) => (
+                    <li key={service} className="form-check">
+                      <input
+                        type="checkbox"
+                        className="form-check-input"
+                        id={service}
+                        checked={selectedServices.includes(service)}
+                        onChange={() => handleServiceChange(service)}
+                      />
+                      <label className="form-check-label" htmlFor={service}>
+                        {service}
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className="form-group">
@@ -90,7 +151,7 @@ const ContactUsHome = () => {
                 placeholder="Your Enquiry*"
                 {...register("enquiry")}
                 className={`form-control ${errors.enquiry ? "is-invalid" : ""}`}
-                maxLength={2001} // Limits input to 2000 characters
+                maxLength={2001}
               ></textarea>
               <div className="invalid-feedback">{errors.enquiry?.message}</div>
             </div>

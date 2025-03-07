@@ -48,7 +48,8 @@ const LeftImgContent = () => {
 
           {/* Content Column */}
           <div className="col-lg-6 col-md-6 col-sm-12 text-container">
-            <h2>Club Nautico</h2>
+            <h2>Club Nautico Porto Cristo
+            </h2>
             <p>
             Nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, Club Náutico offers an idyllic setting for your wedding day. Perched on the edge of the glistening Mediterranean, Club Náutico Porto Cristo is where unforgettable moments come to life, creating wedding memories you'll treasure forever.
             </p>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaYoutube, FaFacebookF, FaTripadvisor } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp, FaInstagram, FaYoutube, FaFacebookF, FaTripadvisor, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "../../Topbar.css"; // Ensure to create this CSS file
 import logo from "../../images/mallcorawhitelogo.png";
@@ -16,8 +16,18 @@ const Topbar = () => {
           <div className="col-lg-2 d-flex align-items-center text-center">
   <FaPhoneAlt className="topbar-icon" />
   <div className="topbar-text">
-    <p><a href="tel:+447876740598" className="phone-link">+44 7876 740598</a></p>
-    <p><a href="tel:+34671635511" className="phone-link">+34 671 63 55 11</a></p>
+    <p>&nbsp; &nbsp;  &nbsp; <a href="tel:+447876740598" className="phone-link"><img
+          src="https://flagcdn.com/w40/gb.png"
+          alt="UK Flag"
+          width="20"
+          height="15"
+        /> +44 7876 740598</a></p>
+    <p>&nbsp; <a href="tel:+34671635511" className="phone-link"><img
+          src="https://flagcdn.com/w40/es.png"
+          alt="Spain Flag"
+          width="20"
+          height="15"
+        />  +34 671 63 55 11</a></p>
   </div>
 </div>
 
@@ -72,6 +82,9 @@ const Topbar = () => {
               <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g580311-d25929839-Reviews-Mallorca_Weddings_Events-Porto_Cristo_Majorca_Balearic_Islands.html" target="_blank" rel="noopener noreferrer">
                 <FaTripadvisor />
               </a>
+              <a href="https://www.tiktok.com/@mallorcaweddingsevents" target="_blank" rel="noopener noreferrer">
+  <FaTiktok />
+</a>
               {/* <a href="https://x.com/Mallorcaweddin1" target="_blank" rel="noopener noreferrer">
   <FaXTwitter />
 </a> */}

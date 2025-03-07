@@ -21,11 +21,11 @@ const WeddingBnrTwo = () => {
         />
 
         {/* Heading Below Image */}
-        <h3 className="venue-title">Club Nautica Porto Cristo</h3>
+        <h3 className="venue-title">Club Nautico Porto Cristo</h3>
 
         {/* Description */}
         <p className="venue-description">
-          Our majestic Club Nautica is in Porto Cristo, a working fishing
+          Our majestic Club Nautico is in Porto Cristo, a working fishing
           village on the east coast of Mallorca. Porto Cristo is a very relaxed
           and beautiful area with the marina being the hub and a variety of
           hotels and accommodation options to choose from...

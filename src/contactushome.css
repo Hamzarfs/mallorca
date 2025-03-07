@@ -3,6 +3,22 @@
     /* background-color: #f5efe4; */
   }
   
+
+  .form-group .dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000; /* Ensures it's above other elements */
+  }
+  
+  .btn-outline-dark {
+    text-align: left;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+    background: #F3E4CE;
+}
+  
   .contact-title {
     font-size: 2rem;
     font-weight: bold;

@@ -11,27 +11,39 @@ import Footer from '../../components/home/footer';
 import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
-import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/clubnauticagallery1.webp";
-import VenueGallery2 from "../../images/clubnauticagallery2.webp";
-import VenueGallery3 from "../../images/clubnauticagallery3.webp";
-import VenueGallery4 from "../../images/clubnauticagallery4.webp";
-import VenueGallery5 from "../../images/clubnauticagallery5.webp";
-import VenueGallery6 from "../../images/clubnauticagallery6.webp";
-import VenueGallery7 from "../../images/clubnauticagallery7.webp";
-import VenueGallery8 from "../../images/clubnauticagallery8.webp";
-import VenueGallery9 from "../../images/clubnauticagallery9.webp";
-import VenueGallery10 from "../../images/clubnauticagallery10.webp";
-import VenueGallery11 from "../../images/clubnauticagallery11.webp";
-import VenueGallery12 from "../../images/clubnauticagallery12.webp";
 import image1 from "../../images/venue1.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
+import clubvid from "../../images/ClubNauticoPortoCristo.mp4";
+
+import VenueGallery from '../../components/venues/Venuegallery';
+import VenueGallery1 from "../../images/clubnauticogallery/clubnautico (1).jpg";
+import VenueGallery2 from "../../images/clubnauticogallery/clubnautico (2).jpg";
+import VenueGallery3 from "../../images/clubnauticogallery/clubnautico (3).jpg";
+import VenueGallery4 from "../../images/clubnauticogallery/clubnautico (4).jpg";
+import VenueGallery5 from "../../images/clubnauticogallery/clubnautico (5).jpg";
+import VenueGallery6 from "../../images/clubnauticogallery/clubnautico (6).jpg";
+import VenueGallery7 from "../../images/clubnauticogallery/clubnautico (7).jpg";
+import VenueGallery8 from "../../images/clubnauticogallery/clubnautico (8).jpg";
+import VenueGallery9 from "../../images/clubnauticogallery/clubnautico (9).jpg";
+import VenueGallery10 from "../../images/clubnauticogallery/clubnautico (10).jpg";
+import VenueGallery11 from "../../images/clubnauticogallery/clubnautico (11).jpg";
+import VenueGallery12 from "../../images/clubnauticogallery/clubnautico (12).jpg";
+import VenueGallery13 from "../../images/clubnauticogallery/clubnautico (13).jpg";
+import VenueGallery14 from "../../images/clubnauticogallery/clubnautico (14).jpg";
+import VenueGallery15 from "../../images/clubnauticogallery/clubnautico (15).jpg";
+import VenueGallery16 from "../../images/clubnauticogallery/clubnautico (16).jpg";
+import VenueGallery17 from "../../images/clubnauticogallery/clubnautico (17).jpg";
+import VenueGallery18 from "../../images/clubnauticogallery/clubnautico (18).jpg";
+import VenueGallery19 from "../../images/clubnauticogallery/clubnautico (19).jpg";
+import VenueGallery20 from "../../images/clubnauticogallery/clubnautico (20).jpg";
 
 // import HeroBanner from '../components/home/mainbanner';
 
 const clubnauticaimages = [
+  VenueGallery19,
+  VenueGallery20,
   VenueGallery1,
   VenueGallery2,
   VenueGallery3,
@@ -43,7 +55,14 @@ const clubnauticaimages = [
   VenueGallery9,
   VenueGallery10,
   VenueGallery11,
-  VenueGallery12
+  VenueGallery12,
+  VenueGallery13,
+  VenueGallery14,
+  VenueGallery15,
+  VenueGallery16,
+  VenueGallery17,
+  VenueGallery18,
+ 
 
   // Add more images...
 ];
@@ -80,7 +99,7 @@ function Clubnautica() {
     {/* <BreadcrumbSection/> */}
     <div>
                 <BreadcrumbSection
-                    heading="Club Nautica Porto Cristo"
+                    heading="Club Nautico Porto Cristo"
                     // description="Precision Printing, Creative Designs"
                     // buttonText="Get Started"
                     backgroundImage={bannerimg}
@@ -130,17 +149,12 @@ function Clubnautica() {
 
       {/* Responsive Video Embed */}
       <div className="video-wrapper">
-        <iframe
-          width="1060"
-          height="515"
-          src="https://www.youtube.com/embed/-yxvYG3KWYo?si=wVm2S053ltaTe6MY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div>
+  <video  controls>
+    <source src={clubvid} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
     </section>
 
     

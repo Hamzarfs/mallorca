@@ -33,8 +33,8 @@ function Catering() {
                 />
     </div>
 
-    <CateringSecOne/>
-    <div className="container d-flex justify-content-center align-items-center text-center">
+   
+    <div className="container d-flex justify-content-center align-items-center text-center mt-4">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
         Private Chef Service – A Luxurious & Personalized Culinary Experience

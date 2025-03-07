@@ -14,6 +14,8 @@ import LaVistamarina from "./pages/venues/LaVistamarina";
 import Privatechef from "./pages/privatechef"
 import Corporateevents from "./pages/Corporateevents"
 import Privateevents from "./pages/Privateevents"
+import PrivacyPolicy from "./pages/Privacypolicy";
+import TermsAndConditions from "./pages/Termsandconditions";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
@@ -34,6 +36,9 @@ const App = () => {
                 <Route path="/fincasa-plana" element={<Fincasaplana />} />
                 <Route path="/finca-encanto" element={<Fincaencanto />} />
                 <Route path="/la-vista-marina" element={<LaVistamarina />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms-condition" element={<TermsAndConditions />} />
+
             </Routes>
         </Router>
     );

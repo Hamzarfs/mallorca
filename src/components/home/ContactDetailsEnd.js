@@ -30,11 +30,21 @@ const ContactDetailsEnd = () => {
             <h3 className="contact-details-end-heading">CONTACT:</h3>
             <p className="contact-details-end-text">
               <a href="https://wa.me/447876740598" className="contact-link">
-                +44 7876 740598
+              <img
+          src="https://flagcdn.com/w40/gb.png"
+          alt="UK Flag"
+          width="20"
+          height="15"
+        />  +44 7876 740598
               </a>{" "}
               |{" "}
               <a href="tel:+34671635511" className="contact-link">
-                +34 671 635 511
+              <img
+          src="https://flagcdn.com/w40/es.png"
+          alt="Spain Flag"
+          width="20"
+          height="15"
+        />+34 671 635 511
               </a>
             </p>
           </div>
