@@ -41,7 +41,7 @@ function About() {
     </div>
     <AboutUsTwo/>
     <AboutUsThree/>
-    <OurTeamCards/>
+    {/* <OurTeamCards/> */}
     <ContactDetailsEnd/>
     <Footer/>
     

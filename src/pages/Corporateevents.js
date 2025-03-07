@@ -60,21 +60,32 @@ function Corporateevents() {
               <h2 className="strokhead">Personal & Group Events
               </h2>
             </div> */}
-            <p>
-            Treat your team to a memorable corporate celebration or an engaging team-building experience that’s as fun as it is rewarding. With our extensive corporate menu, your event can be customized to suit your exact needs, blending exceptional dining with exciting, hands-on activities.<br></br><br></br>
-Learn to craft iconic Italian dishes, create a spread of authentic tapas, or master the art of traditional Spanish paella making—all in a vibrant, interactive setting. These experiences are designed to help your staff unwind, collaborate, and enjoy themselves, fostering connections and creativity. <br></br><br></br>
-It’s the perfect recipe for fun, team spirit, and lasting memories!
+            <h3>Corporate & Team-Building Events</h3>
+   <p className="venue-description">
+  Take your corporate celebrations and team-building experiences to the next level with an unforgettable event at <strong>Club Náutico Porto Cristo</strong>. Set against the stunning backdrop of Mallorca’s beautiful coastline, our <strong>spacious terrace overlooking the sea</strong> provides the perfect setting for an inspiring and memorable gathering.
+</p>
 
-            </p>
-            {/* <p>
-              Sergio then went on to set up Mallorca Weddings & Events almost 4
-              years ago. His commitment to crafting exceptional cuisine, paired
-              with his meticulous attention to detail, has made him a trusted
-              name in creating unforgettable celebrations. Fluent in Italian,
-              Spanish, Russian, and English, Sergio seamlessly connects with
-              clients from around the globe, ensuring every event is as
-              personal as it is extraordinary.
-            </p> */}
+<p className="venue-description">
+  Whether you’re looking to reward your team, strengthen collaboration, or simply enjoy a unique group experience, we offer interactive, hands-on activities paired with exceptional dining. Our extensive corporate menu allows you to customize every detail, blending gourmet flavors with engaging culinary challenges.
+</p>
+
+<p className="venue-description">
+  Learn to craft classic Italian dishes, prepare a delicious spread of authentic tapas, or master the art of traditional Spanish paella—all in a fun and dynamic setting. For an extra dose of excitement, turn up the heat with a <strong>Master Chef-style competition</strong>, where teams go head-to-head in a friendly culinary showdown. Or, take part in a <strong>wine and food pairing experience</strong>, a <strong>cocktail-making workshop</strong>, or an interactive <strong>dessert challenge</strong>.
+</p>
+
+<p className="venue-description">
+  Beyond team-building activities, <strong>Club Náutico Porto Cristo</strong> is also the perfect venue for a spectacular <strong>gala dinner</strong>, a vibrant <strong>tapas night with multiple food stations</strong>, or a <strong>BBQ under the stars with live music</strong>. With the <strong>Mediterranean breeze, breathtaking sea views, and a relaxed yet elegant ambiance</strong>, our terrace sets the stage for an event that is both exclusive and unforgettable.
+</p>
+
+<p className="venue-description">
+  The possibilities are endless, and we are here to <strong>tailor-make every detail to match your vision</strong>, ensuring a truly one-of-a-kind experience that your team will remember for years to come.
+</p>
+
+<p className="venue-description">
+  ✅ <strong>Let’s create an event to remember! Contact us today and let’s start planning your perfect corporate gathering at Club Náutico Porto Cristo.</strong>
+</p>
+
+   
           </div>
         </div>
 
