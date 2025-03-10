@@ -11,25 +11,60 @@ import Footer from '../../components/home/footer';
 import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
+
 import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/fincaartgallery/FA1.webp";
-import VenueGallery2 from "../../images/fincaartgallery/FA2.webp";
-import VenueGallery3 from "../../images/fincaartgallery/FA3.webp";
-import VenueGallery4 from "../../images/fincaartgallery/FA4.webp";
-import VenueGallery5 from "../../images/fincaartgallery/FA5.webp";
-import VenueGallery6 from "../../images/fincaartgallery/1.webp";
-import VenueGallery7 from "../../images/fincaartgallery/2.webp";
-import VenueGallery8 from "../../images/fincaartgallery/3.webp";
-import VenueGallery9 from "../../images/fincaartgallery/4.webp";
-import VenueGallery10 from "../../images/fincaartgallery/5.webp";
-import VenueGallery11 from "../../images/fincaartgallery/6.webp";
-// import VenueGallery12 from "../../images/fincaartgallery/7.webp";
+import clubvid from "../../images/FincaSaPlanaNova.mp4";
 import image1 from "../../images/venue5.webp"; 
 import image2 from "../../images/venue1.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
+import VenueGallery1 from "../../images/fincasaplanagallery/fincasaplana (1).webp";
+import VenueGallery2 from "../../images/fincasaplanagallery/fincasaplana (2).webp";
+import VenueGallery3 from "../../images/fincasaplanagallery/fincasaplana (3).webp";
+import VenueGallery4 from "../../images/fincasaplanagallery/fincasaplana (4).webp";
+import VenueGallery5 from "../../images/fincasaplanagallery/fincasaplana (5).webp";
+import VenueGallery6 from "../../images/fincasaplanagallery/fincasaplana (6).webp";
+import VenueGallery7 from "../../images/fincasaplanagallery/fincasaplana (7).webp";
+import VenueGallery8 from "../../images/fincasaplanagallery/fincasaplana (8).webp";
+import VenueGallery9 from "../../images/fincasaplanagallery/fincasaplana (9).webp";
+import VenueGallery10 from "../../images/fincasaplanagallery/fincasaplana (10).webp";
+import VenueGallery11 from "../../images/fincasaplanagallery/fincasaplana (11).webp";
+import VenueGallery12 from "../../images/fincasaplanagallery/fincasaplana (12).webp";
+import VenueGallery13 from "../../images/fincasaplanagallery/fincasaplana (13).webp";
+import VenueGallery14 from "../../images/fincasaplanagallery/fincasaplana (14).webp";
+import VenueGallery15 from "../../images/fincasaplanagallery/fincasaplana (15).webp";
 
-// import HeroBanner from '../components/home/mainbanner';
+import VenueGallery17 from "../../images/fincasaplanagallery/fincasaplana (17).webp";
+import VenueGallery18 from "../../images/fincasaplanagallery/fincasaplana (18).webp";
+import VenueGallery19 from "../../images/fincasaplanagallery/fincasaplana (19).webp";
+import VenueGallery20 from "../../images/fincasaplanagallery/fincasaplana (20).webp";
+import VenueGallery21 from "../../images/fincasaplanagallery/fincasaplana (21).webp";
+import VenueGallery22 from "../../images/fincasaplanagallery/fincasaplana (22).webp";
+import VenueGallery23 from "../../images/fincasaplanagallery/fincasaplana (23).webp";
+import VenueGallery24 from "../../images/fincasaplanagallery/fincasaplana (24).webp";
+import VenueGallery25 from "../../images/fincasaplanagallery/fincasaplana (25).webp";
+import VenueGallery26 from "../../images/fincasaplanagallery/fincasaplana (26).webp";
+import VenueGallery27 from "../../images/fincasaplanagallery/fincasaplana (27).webp";
+import VenueGallery28 from "../../images/fincasaplanagallery/fincasaplana (28).webp";
+import VenueGallery29 from "../../images/fincasaplanagallery/fincasaplana (29).webp";
+import VenueGallery30 from "../../images/fincasaplanagallery/fincasaplana (30).webp";
+import VenueGallery31 from "../../images/fincasaplanagallery/fincasaplana (31).webp";
+import VenueGallery32 from "../../images/fincasaplanagallery/fincasaplana (32).webp";
+import VenueGallery33 from "../../images/fincasaplanagallery/fincasaplana (33).webp";
+import VenueGallery34 from "../../images/fincasaplanagallery/fincasaplana (34).webp";
+import VenueGallery35 from "../../images/fincasaplanagallery/fincasaplana (35).webp";
+import VenueGallery36 from "../../images/fincasaplanagallery/fincasaplana (36).webp";
+import VenueGallery37 from "../../images/fincasaplanagallery/fincasaplana (37).webp";
+import VenueGallery38 from "../../images/fincasaplanagallery/fincasaplana (38).webp";
+import VenueGallery39 from "../../images/fincasaplanagallery/fincasaplana (39).webp";
+import VenueGallery40 from "../../images/fincasaplanagallery/fincasaplana (40).webp";
+import VenueGallery41 from "../../images/fincasaplanagallery/fincasaplana (41).webp";
+import VenueGallery42 from "../../images/fincasaplanagallery/fincasaplana (42).webp";
+import VenueGallery43 from "../../images/fincasaplanagallery/fincasaplana (43).webp";
+import VenueGallery44 from "../../images/fincasaplanagallery/fincasaplana (44).webp";
+import VenueGallery45 from "../../images/fincasaplanagallery/fincasaplana (45).webp";
+import VenueGallery46 from "../../images/fincasaplanagallery/fincasaplana (46).webp";
+import VenueGallery47 from "../../images/fincasaplanagallery/fincasaplana (47).webp";
 
 const clubnauticaimages = [
   VenueGallery1,
@@ -43,9 +78,42 @@ const clubnauticaimages = [
   VenueGallery9,
   VenueGallery10,
   VenueGallery11,
-  // VenueGallery12
+  VenueGallery12,
+  VenueGallery13,
+  VenueGallery14,
+  VenueGallery15,
 
-  // Add more images...
+  VenueGallery17,
+  VenueGallery18,
+  VenueGallery19,
+  VenueGallery20,
+  VenueGallery21,
+  VenueGallery22,
+  VenueGallery23,
+  VenueGallery24,
+  VenueGallery25,
+  VenueGallery26,
+  VenueGallery27,
+  VenueGallery28,
+  VenueGallery29,
+  VenueGallery30,
+  VenueGallery31,
+  VenueGallery32,
+  VenueGallery33,
+  VenueGallery34,
+  VenueGallery35,
+  VenueGallery36,
+  VenueGallery37,
+  VenueGallery38,
+  VenueGallery39,
+  VenueGallery40,
+  VenueGallery41,
+  VenueGallery42,
+  VenueGallery43,
+  VenueGallery44,
+  VenueGallery45,
+  VenueGallery46,
+  VenueGallery47,
 ];
 
 
@@ -126,18 +194,12 @@ function Fincasaplana() {
       </h2>
 
       {/* Responsive Video Embed */}
-      <div className="video-wrapper">
-        <iframe
-          width="1060"
-          height="515"
-          src="https://www.youtube.com/embed/-yxvYG3KWYo?si=wVm2S053ltaTe6MY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div>
+         <div className="video-wrapper">
+     <video  controls>
+       <source src={clubvid} type="video/mp4" />
+       Your browser does not support the video tag.
+     </video>
+   </div>
     </section>
 
     

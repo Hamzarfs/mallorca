@@ -10,6 +10,50 @@
   margin-bottom: 20px;
 }
 
+
+/*  */
+
+/* Lazy Loading Styles */
+.lazy-placeholder {
+  background: #F3EBE0;
+  border-radius: 8px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #F3EBE0;
+  border-top: 4px solid #4E321A;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Optimize Image Loading */
+.venuegallery-img {
+  transition: opacity 0.3s ease;
+}
+
+.venuegallery-img[data-loaded="false"] {
+  opacity: 0;
+}
+
+.venuegallery-img[data-loaded="true"] {
+  opacity: 1;
+}
+
+
+/*  */
+
 /* Masonry Grid */
 .masonry-grid {
   display: flex;
@@ -35,28 +79,19 @@
   transform: scale(1.02);
 }
 
-/* Youtube Video */
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 1060px; /* Adjust max-width as needed */
+  max-width: 800px;
   margin: 0 auto;
+  height: 100%; /* Remove padding-bottom */
 }
 
-.video-wrapper::before {
-  content: "";
-  display: block;
-  /* padding-top: 56.25%;  */
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.video-wrapper video {
   width: 100%;
   height: 100%;
+  object-fit: cover; /* Video ko container ke hisab se fit karega */
 }
-
 /* Venue Card */
 .venue-card {
   display: block;
@@ -94,6 +129,18 @@
 }
 
 @media (max-width: 768px) {
+  .venuegallery {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .video-wrapper video {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   .venuegallery-heading {
     font-size: 26px;
   }

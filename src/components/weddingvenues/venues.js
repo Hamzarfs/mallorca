@@ -19,7 +19,7 @@ const WedVenues = () => {
               outside the beautiful village of Ses Salines on the south coast of
               Mallorca.
             </p>
-            <button className="view-details-btn">VIEW DETAILS</button>
+            <a href="/finca-art">   <button className="view-details-btn">VIEW DETAILS</button></a>
           </div>
 
           <div className="col-md-6 text-center mt-4">
@@ -30,7 +30,7 @@ const WedVenues = () => {
               finca dating back to 1880. Steeped in history and breathtaking
               natural landscapes...
             </p>
-            <button className="view-details-btn">VIEW DETAILS</button>
+            <a href="/fincasa-plana">     <button className="view-details-btn">VIEW DETAILS</button></a>
           </div>
         </div>
 
@@ -44,7 +44,7 @@ const WedVenues = () => {
               outside the beautiful village of Ses Salines on the south coast of
               Mallorca.
             </p>
-            <button className="view-details-btn">VIEW DETAILS</button>
+            <a href="/finca-Encanto">  <button className="view-details-btn">VIEW DETAILS</button> </a>
           </div>
 
           <div className="col-md-6 text-center mt-4">
@@ -55,7 +55,7 @@ const WedVenues = () => {
               marina, in the picturesque resort of Cala d’Or on the south-east
               coast of Mallorca.
             </p>
-            <button className="view-details-btn">VIEW DETAILS</button>
+            <a href="/la-vista-marina">  <button className="view-details-btn">VIEW DETAILS</button> </a>
           </div>
         </div>
       </div>

@@ -11,25 +11,33 @@ import Footer from '../../components/home/footer';
 import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
-import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/fincaartgallery/FA1.webp";
-import VenueGallery2 from "../../images/fincaartgallery/FA2.webp";
-import VenueGallery3 from "../../images/fincaartgallery/FA3.webp";
-import VenueGallery4 from "../../images/fincaartgallery/FA4.webp";
-import VenueGallery5 from "../../images/fincaartgallery/FA5.webp";
-import VenueGallery6 from "../../images/fincaartgallery/1.webp";
-import VenueGallery7 from "../../images/fincaartgallery/2.webp";
-import VenueGallery8 from "../../images/fincaartgallery/3.webp";
-import VenueGallery9 from "../../images/fincaartgallery/4.webp";
-import VenueGallery10 from "../../images/fincaartgallery/5.webp";
-import VenueGallery11 from "../../images/fincaartgallery/6.webp";
-// import VenueGallery12 from "../../images/fincaartgallery/7.webp";
+
+
+import clubvid from "../../images/FincaArt.mp4";
 import image1 from "../../images/venue5.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
-
-// import HeroBanner from '../components/home/mainbanner';
+import VenueGallery from '../../components/venues/Venuegallery';
+import VenueGallery1 from "../../images/lavistamarina/lavistamarina (1).webp";
+import VenueGallery2 from "../../images/lavistamarina/lavistamarina (2).webp";
+import VenueGallery3 from "../../images/lavistamarina/lavistamarina (3).webp";
+import VenueGallery4 from "../../images/lavistamarina/lavistamarina (4).webp";
+import VenueGallery5 from "../../images/lavistamarina/lavistamarina (5).webp";
+import VenueGallery6 from "../../images/lavistamarina/lavistamarina (6).webp";
+import VenueGallery7 from "../../images/lavistamarina/lavistamarina (7).webp";
+import VenueGallery8 from "../../images/lavistamarina/lavistamarina (8).webp";
+import VenueGallery9 from "../../images/lavistamarina/lavistamarina (9).webp";
+import VenueGallery10 from "../../images/lavistamarina/lavistamarina (10).webp";
+import VenueGallery11 from "../../images/lavistamarina/lavistamarina (11).webp";
+import VenueGallery12 from "../../images/lavistamarina/lavistamarina (12).webp";
+import VenueGallery13 from "../../images/lavistamarina/lavistamarina (13).webp";
+import VenueGallery14 from "../../images/lavistamarina/lavistamarina (14).webp";
+import VenueGallery15 from "../../images/lavistamarina/lavistamarina (15).webp";
+import VenueGallery16 from "../../images/lavistamarina/lavistamarina (16).webp";
+import VenueGallery17 from "../../images/lavistamarina/lavistamarina (17).webp";
+import VenueGallery18 from "../../images/lavistamarina/lavistamarina (18).webp";
+import VenueGallery19 from "../../images/lavistamarina/lavistamarina (19).webp";
 
 const clubnauticaimages = [
   VenueGallery1,
@@ -43,9 +51,14 @@ const clubnauticaimages = [
   VenueGallery9,
   VenueGallery10,
   VenueGallery11,
-  // VenueGallery12
-
-  // Add more images...
+  VenueGallery12,
+  VenueGallery13,
+  VenueGallery14,
+  VenueGallery15,
+  VenueGallery16,
+  VenueGallery17,
+  VenueGallery18,
+  VenueGallery19,
 ];
 
 
@@ -118,27 +131,18 @@ function LaVistamarina() {
 </div>
 
 <VenueGallery images={clubnauticaimages} />
-
-<section className="venuegallery container">
-      {/* Heading */}
+{/* <section className="venuegallery container">
       <h2 className="venuegallery-heading">
         This magical wedding was planned by us at this location
       </h2>
 
-      {/* Responsive Video Embed */}
       <div className="video-wrapper">
-        <iframe
-          width="1060"
-          height="515"
-          src="https://www.youtube.com/embed/-yxvYG3KWYo?si=wVm2S053ltaTe6MY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div>
-    </section>
+  <video  controls>
+    <source src={clubvid} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+    </section> */}
 
     
     <section className="venuegallery container">

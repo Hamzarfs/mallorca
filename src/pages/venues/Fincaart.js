@@ -13,7 +13,7 @@ import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
 import VenueGallery from '../../components/venues/Venuegallery';
 
-
+import clubvid from "../../images/FincaArt.mp4";
 import image1 from "../../images/venue5.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
@@ -176,18 +176,13 @@ function Clubnautica() {
       </h2>
 
       {/* Responsive Video Embed */}
+      {/* Responsive Video Embed */}
       <div className="video-wrapper">
-        <iframe
-          width="1060"
-          height="515"
-          src="https://www.youtube.com/embed/-yxvYG3KWYo?si=wVm2S053ltaTe6MY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div>
+  <video  controls>
+    <source src={clubvid} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
     </section>
 
     

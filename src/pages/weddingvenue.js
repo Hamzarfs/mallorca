@@ -11,6 +11,8 @@ import Footer from '../components/home/footer';
 import WeddingBnrTwo from '../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../components/weddingvenues/venues';
 
+import brochurePDF from "../images/Wedding-Brochure.pdf";
+
 // import HeroBanner from '../components/home/mainbanner';
 
 
@@ -44,12 +46,15 @@ function weddingvenue() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 mb-5">
-  <button className="weddingbrochure-btn px-4">
-    <span>VIEW OUR WEDDING BROCHURE</span>
-  </button>
-  <button className="weddingbrochure-btn">
-    <span>CONTACT US</span>
-  </button>
+   <button
+           className="weddingbrochure-btn px-4"
+           onClick={() => window.open(brochurePDF, "_blank")}
+         >
+           <span>VIEW OUR WEDDING BROCHURE</span>
+         </button>
+         <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
+         <span>CONTACT US</span>
+       </button> </a>
 </div>
 <WeddingBnrTwo/>
 <WedVenues/>

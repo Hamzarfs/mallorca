@@ -11,30 +11,30 @@ import Footer from '../../components/home/footer';
 import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
-import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/fincaartgallery/FA1.webp";
-import VenueGallery2 from "../../images/fincaartgallery/FA2.webp";
-import VenueGallery3 from "../../images/fincaartgallery/FA3.webp";
-import VenueGallery4 from "../../images/fincaartgallery/FA4.webp";
-import VenueGallery5 from "../../images/fincaartgallery/FA5.webp";
-import VenueGallery6 from "../../images/fincaartgallery/1.webp";
-import VenueGallery7 from "../../images/fincaartgallery/2.webp";
-import VenueGallery8 from "../../images/fincaartgallery/3.webp";
-import VenueGallery9 from "../../images/fincaartgallery/4.webp";
-import VenueGallery10 from "../../images/fincaartgallery/5.webp";
-import VenueGallery11 from "../../images/fincaartgallery/6.webp";
-// import VenueGallery12 from "../../images/fincaartgallery/7.webp";
 import image1 from "../../images/venue5.webp"; 
 import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue1.webp";
 import image4 from "../../images/venue4.webp";
+import VenueGallery from '../../components/venues/Venuegallery';
 
-// import HeroBanner from '../components/home/mainbanner';
+import clubvid from "../../images/FincaEncanto.mp4";
+
+
+import VenueGallery1 from "../../images/fincaencanto/Fincaencantogallery (1).webp";
+import VenueGallery2 from "../../images/fincaencanto/Fincaencantogallery (2).webp";
+// import VenueGallery3 from "../../images/fincaencanto/Fincaencantogallery (3).webp";
+import VenueGallery4 from "../../images/fincaencanto/Fincaencantogallery (4).webp";
+import VenueGallery5 from "../../images/fincaencanto/Fincaencantogallery (5).webp";
+import VenueGallery6 from "../../images/fincaencanto/Fincaencantogallery (6).webp";
+import VenueGallery7 from "../../images/fincaencanto/Fincaencantogallery (7).webp";
+import VenueGallery8 from "../../images/fincaencanto/Fincaencantogallery (8).webp";
+import VenueGallery9 from "../../images/fincaencanto/Fincaencantogallery (9).webp";
+import VenueGallery10 from "../../images/fincaencanto/Fincaencantogallery (10).webp";
 
 const clubnauticaimages = [
   VenueGallery1,
   VenueGallery2,
-  VenueGallery3,
+  // VenueGallery3,
   VenueGallery4,
   VenueGallery5,
   VenueGallery6,
@@ -42,11 +42,8 @@ const clubnauticaimages = [
   VenueGallery8,
   VenueGallery9,
   VenueGallery10,
-  VenueGallery11,
-  // VenueGallery12
-
-  // Add more images...
 ];
+
 
 
 const venues = [
@@ -127,17 +124,11 @@ function Fincaencanto() {
 
       {/* Responsive Video Embed */}
       <div className="video-wrapper">
-        <iframe
-          width="1060"
-          height="515"
-          src="https://www.youtube.com/embed/-yxvYG3KWYo?si=wVm2S053ltaTe6MY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div>
+  <video  controls>
+    <source src={clubvid} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
     </section>
 
     

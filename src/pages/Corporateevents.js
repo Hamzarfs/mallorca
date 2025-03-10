@@ -12,6 +12,7 @@ import OurTeamCards from '../components/OurTeam/OurTeam';
 
 import imageSrc from "../images/Corporatesec1.webp";
 import imageSrc2 from "../images/Corporate&TeamBuildingEvents.jpeg"; 
+import clubimg from "../images/clubnautico.webp";
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -46,8 +47,9 @@ function Corporateevents() {
 
     <section className="aboutusthree py-5">
       <div className="container">
-        {/* First Row - Default Order */}
-        <div className="row align-items-center ">
+
+
+      <div className="row align-items-center mb-5">
           {/* Left Column - Image */}
           <div className="col-md-5 text-center">
             <img src={imageSrc} alt="Sergio" className="img-fluid styled-image" />
@@ -55,13 +57,12 @@ function Corporateevents() {
 
           {/* Right Column - Heading + Paragraph */}
           <div className="col-md-7">
-            {/* <div className="heading-container">
-              <h2 className="stroke-text">Personal </h2>
-              <h2 className="strokhead">Personal & Group Events
+            <div className="heading-container">
+              <h2 className="stroke-text">Corporate</h2>
+              <h2 className="strokhead">Corporate & Team-Building Events
               </h2>
-            </div> */}
-            <h3>Corporate & Team-Building Events</h3>
-   <p className="venue-description">
+            </div>
+            <p className="venue-description">
   Take your corporate celebrations and team-building experiences to the next level with an unforgettable event at <strong>Club Náutico Porto Cristo</strong>. Set against the stunning backdrop of Mallorca’s beautiful coastline, our <strong>spacious terrace overlooking the sea</strong> provides the perfect setting for an inspiring and memorable gathering.
 </p>
 
@@ -72,8 +73,25 @@ function Corporateevents() {
 <p className="venue-description">
   Learn to craft classic Italian dishes, prepare a delicious spread of authentic tapas, or master the art of traditional Spanish paella—all in a fun and dynamic setting. For an extra dose of excitement, turn up the heat with a <strong>Master Chef-style competition</strong>, where teams go head-to-head in a friendly culinary showdown. Or, take part in a <strong>wine and food pairing experience</strong>, a <strong>cocktail-making workshop</strong>, or an interactive <strong>dessert challenge</strong>.
 </p>
+          </div>
+        </div>
 
-<p className="venue-description">
+
+        {/* Second Row - Reverse Order */}
+        <div className="row align-items-center flex-md-row-reverse">
+          {/* Left Column - Image (Now on Right) */}
+          <div className="col-md-5 text-center">
+            <img src={clubimg} alt="Sergio" className="img-fluid styled-image" />
+          </div>
+
+          {/* Right Column - Heading + Paragraph (Now on Left) */}
+          <div className="col-md-7">
+            <div className="heading-container">
+              {/* <h2 className="stroke-text">Claire</h2>
+              <h2 className="strokhead">Claire</h2> */}
+            </div>
+
+            <p className="venue-description">
   Beyond team-building activities, <strong>Club Náutico Porto Cristo</strong> is also the perfect venue for a spectacular <strong>gala dinner</strong>, a vibrant <strong>tapas night with multiple food stations</strong>, or a <strong>BBQ under the stars with live music</strong>. With the <strong>Mediterranean breeze, breathtaking sea views, and a relaxed yet elegant ambiance</strong>, our terrace sets the stage for an event that is both exclusive and unforgettable.
 </p>
 
@@ -84,6 +102,24 @@ function Corporateevents() {
 <p className="venue-description">
   ✅ <strong>Let’s create an event to remember! Contact us today and let’s start planning your perfect corporate gathering at Club Náutico Porto Cristo.</strong>
 </p>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+          {/* Right Column - Heading + Paragraph */}
+          <div className="row align-items-center ">
+          <div className="col-md-12">
+            {/* <div className="heading-container">
+              <h2 className="stroke-text">Personal </h2>
+              <h2 className="strokhead">Personal & Group Events
+              </h2>
+            </div> */}
 
    
           </div>

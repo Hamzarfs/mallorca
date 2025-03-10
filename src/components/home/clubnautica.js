@@ -48,7 +48,7 @@ const LeftImgContent = () => {
 
           {/* Content Column */}
           <div className="col-lg-6 col-md-6 col-sm-12 text-container">
-            <h3>Exclusive Venue for Mallorca Weddings and Events</h3>
+            <p><strong>Exclusive Venue for Mallorca Weddings and Events</strong></p>
             <h2>Club Nautico Porto Cristo
             </h2>
             <p>
