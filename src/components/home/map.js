@@ -20,31 +20,31 @@ const customIcon = new L.Icon({
 // Locations with correct coordinates
 const locations = [
   {
-    position: [39.6935, 3.3176],
+    position: [39.377119795679675, 3.0703722685356425],  // Actualizado (Finca Art)
     title: "Finca Art",
     description: "A stunning retreat in the heart of Mallorca.",
     img: locationImg1,
   },
   {
-    position: [39.6450, 3.1750], 
+    position: [39.450222493837934, 3.2388505266890193],  // Actualizado (Finca Sa Plana Nova)
     title: "Finca Sa Plana Nova",
     description: "A peaceful countryside getaway.",
     img: locationImg2,
   },
   {
-    position: [39.5900, 3.2400], 
+    position: [39.41438915987933, 3.215693397852413],  // Actualizado (Finca Encanto)
     title: "Finca Encanto",
     description: "Surrounded by nature with breathtaking views.",
     img: locationImg3,
   },
   {
-    position: [39.5378, 3.3370], 
+    position: [39.53931275490579, 3.3353669978560667],  // Actualizado (Club Nàutic Portocristo)
     title: "Club Nautico Porto Cristo",
     description: "A famous marina with vibrant nightlife.",
     img: locationImg4,
   },
   {
-    position: [39.4950, 3.2950], 
+    position: [39.371648749830904, 3.2216294960025427],  // Coordenadas aproximadas para "LA Vista"*
     title: "La Vista Marina",
     description: "An exclusive beachfront experience.",
     img: locationImg5,
@@ -53,7 +53,7 @@ const locations = [
 
 const MallorcaMap = () => {
   return (
-    <MapContainer center={[39.6, 3.2]} zoom={10} style={{ height: "600px", width: "100%" ,zIndex: "-1"}}>
+    <MapContainer center={[39.6, 3.2]} zoom={10} style={{ height: "600px", width: "100%" }}>
       {/* OpenStreetMap Tiles */}
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
