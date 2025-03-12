@@ -25,6 +25,7 @@ const Footer = () => {
                 <li><a href="/corporate-events">Corporate Events & Team Building</a></li>
                 <li><a href="/private-events">Private Events</a></li>
                 <li><a href="/contact-us">Contact & Map</a></li>
+                <li><a href="/gallery">Gallery</a></li>
         </ul>
       </div>
 

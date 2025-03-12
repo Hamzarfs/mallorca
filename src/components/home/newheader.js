@@ -28,7 +28,7 @@ const NewHeader = () => {
                   </a>
                   {dropdownOpen && (
                     <ul className="dropdown-menu">
-                      <li><a href="/club-nautico">Club Náutico</a></li>
+                      <li><a href="/club-nautico">Club Nautico Porto Cristo</a></li>
                       <li><a href="/finca-art">Finca Art</a></li>
                       <li><a href="/fincasa-plana">Finca Sa Plana Nova</a></li>
                       <li><a href="/finca-encanto">Finca Encanto</a></li>
@@ -41,6 +41,7 @@ const NewHeader = () => {
                 <li><a href="/private-chef">Private Chef</a></li>
                 <li><a href="/corporate-events">Corporate Events & Team Building</a></li>
                 <li><a href="/private-events">Private Events</a></li>
+                <li><a href="/gallery">Gallery</a></li>
                 <li><a href="/contact-us">Contact & Map</a></li>
               </ul>
             </div>

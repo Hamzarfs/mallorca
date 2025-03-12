@@ -48,7 +48,7 @@ const clubnauticaimages = [
 
 const venues = [
   {
-    name: "Club Nautico",
+    name: "Club Nautico Porto Cristo ",
     image: image1, 
     link: "/club-nautico",
   },
@@ -86,14 +86,14 @@ function Fincaencanto() {
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Celebrate Your Love at the Enchanting Finca Encanto
+        Celebrate Your Love at the Enchanting Finca Encanto <br></br><br></br>
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         Nestled in Mallorca’s picturesque southeast, Finca Encanto is a meticulously restored 14th-century estate that provides a truly breathtaking setting for your dream wedding. From the moment you arrive, you’ll be swept away by its seamless blend of historic charm, sophisticated luxury, and the serene beauty of rolling olive groves and fragrant orange trees.<br></br><br></br>
         Whether you’re planning an intimate ceremony or a grand celebration, Finca Encanto offers a range of magical spaces to suit your vision. Picture saying “I do” in the estate’s enchanting courtyards or lush gardens, perfect for romantic outdoor ceremonies and starlit receptions. Inside, its elegant spaces fuse rustic Mallorcan architecture with contemporary sophistication—ideal for vibrant celebrations.
         <br></br><br></br>
         With 22 exquisitely designed suites and double rooms, Finca Encanto provides a serene retreat for you and your guests, ensuring everyone feels indulged and at ease. Tailored luxury is at the heart of the experience, with personalized service and bespoke wedding packages designed to make your day effortlessly perfect.<br></br><br></br>
-        Let Finca Encanto’s timeless charm, elegant surroundings, and impeccable attention to detail bring your wedding dreams to life.
+        Let Finca Encanto’s timeless charm, elegant surroundings, and impeccable attention to detail bring your wedding dreams to life.<br></br><br></br>
         </p>
 
       </div>

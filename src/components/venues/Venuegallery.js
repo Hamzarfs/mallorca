@@ -15,7 +15,7 @@ const Placeholder = () => (
 
 const VenueGallery = ({ images }) => {
   const [showAll, setShowAll] = useState(false);
-  const [visibleItems, setVisibleItems] = useState(9);
+  const [visibleItems, setVisibleItems] = useState(12);
   
   const breakpointColumnsObj = {
     default: 3,

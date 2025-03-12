@@ -61,7 +61,9 @@ const CateringSecOne = () => {
           <p className="text-muted">
             With Mallorca Weddings and Events, you don’t just get catering—you get a full-service event experience, designed to make your special day effortless & unforgettable.
           </p>
-          <p> <strong className="fw-bold"> Contact us </strong> today
+          <p> <strong> <a href="/contact-us" className="text-decoration-none">
+      Contact us
+    </a> </strong> today
            to discuss your catering and event needs, and let us create an
           extraordinary celebration in Mallorca!
           </p>

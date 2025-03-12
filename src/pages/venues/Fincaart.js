@@ -101,7 +101,7 @@ const clubnauticaimages = [
 
 const venues = [
   {
-    name: "Club Nautico",
+    name: "Club Nautico Porto Cristo ",
     image: image1, 
     link: "/club-nautico",
   },
@@ -140,6 +140,7 @@ function Clubnautica() {
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
         Say ‘I Do’ at the Enchanting Finca Art
+        <br></br><br></br>
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         Nestled just outside the picturesque village of Ses Salines on Mallorca’s stunning south coast, Finca Art is a breathtaking Spanish country estate, perfect for couples dreaming of a one-of-a-kind wedding. With sweeping views of the countryside and mountains, this venue effortlessly blends Mallorcan charm with modern elegance, creating a setting that is as unforgettable as your love story.<br></br><br></br>
@@ -147,6 +148,7 @@ function Clubnautica() {
         <br></br><br></br>
         Whether you choose to hire Finca Art exclusively for your big day or for a longer stay, the villa offers ultimate comfort and luxury. With seven stylish bedrooms, a fully equipped modern kitchen, and both indoor and outdoor living spaces, it’s the perfect retreat for you and your loved ones.<br></br><br></br>
         Finca Art isn’t just a wedding venue—it’s a place where dreams come true and moments turn into cherished memories.
+        <br></br><br></br>
         </p>
 
       </div>
@@ -171,9 +173,9 @@ function Clubnautica() {
 
 <section className="venuegallery container">
       {/* Heading */}
-      <h2 className="venuegallery-heading">
+      {/* <h2 className="venuegallery-heading">
         This magical wedding was planned by us at this location
-      </h2>
+      </h2> */}
 
       {/* Responsive Video Embed */}
       {/* Responsive Video Embed */}

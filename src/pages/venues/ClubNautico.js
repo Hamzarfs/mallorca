@@ -108,19 +108,24 @@ function Clubnautica() {
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Celebrate Your Love at the Iconic Club Náutico in Porto Cristo
-        </h2>
-        <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-        Nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, Club Náutico offers an idyllic setting for your wedding day.  Perched on the edge of the glistening Mediterranean, Club Náutico Porto Cristo is where unforgettable moments come to life, creating wedding memories you'll treasure forever. <br></br><br></br>
-        Upon arrival, you’ll be captivated by a sprawling outdoor terrace that wraps around the venue, framed by elegant white sail canopies and expansive glass doors. With the warm sun on your skin and a gentle marina breeze, enjoy cocktails while gazing at uninterrupted sea views.
+        Celebrate Your Love at the Iconic Club Náutico Porto Cristo
         <br></br><br></br>
+        </h2>
+        <p style={{ fontSize: 16, color: "#333", lineHeight: 1.6 }}>
+      Close to some of <strong>Mallorca’s finest holiday resorts</strong>, nestled in the heart of Porto Cristo, a charming fishing village on Mallorca’s serene east coast, <strong>Club Náutico Porto Cristo</strong> offers an idyllic setting for your wedding day. Perched on the edge of the glistening Mediterranean, this is where unforgettable moments come to life, <strong>creating wedding memories you'll treasure forever.</strong>
+      <br />
+      <br />
+      Upon arrival, you’ll be captivated by a <strong>sprawling outdoor terrace</strong> that wraps around the venue, framed by elegant white sail canopies and expansive glass doors. With the warm sun on your skin and a gentle marina breeze, enjoy cocktails while gazing at uninterrupted sea views.
+      <br />
+      <br />
+      <strong>For your ceremony</strong>, choose between two spectacular backdrops: <strong>an elegant terrace overlooking the sea</strong> or <strong>a secluded spot on the rocks beside the Mediterranean ocean</strong>—perfectly picturesque and intimate. Dining options include al fresco dining under the stars or the comfort of our air-conditioned event room, which features a stylish bar.
+      <br />
+      <br />
+      From the beauty of the natural surroundings to the impeccable amenities and atmosphere, <strong>Club Náutico Porto Cristo is a breathtaking venue where your dream wedding can truly come to life.</strong>
+    </p>
 
-        For your ceremony, choose between two spectacular backdrops: an elegant terrace overlooking the water or a secluded spot on the rocks beside the ocean—perfectly picturesque and intimate. Dining options include al fresco dining under the stars or the comfort of our air-conditioned event room, which features a stylish bar. <br>
-        </br><br></br>
-        From the beauty of the natural surroundings to the impeccable amenities and atmosphere, Club Náutico Porto Cristo is a breathtaking venue where your dream wedding can truly come to life.
-        </p>
      
-
+        <br></br><br></br>
       </div>
 
       
@@ -143,9 +148,9 @@ function Clubnautica() {
 
 <section className="venuegallery container">
       {/* Heading */}
-      <h2 className="venuegallery-heading">
+      {/* <h2 className="venuegallery-heading">
         This magical wedding was planned by us at this location
-      </h2>
+      </h2> */}
 
       {/* Responsive Video Embed */}
       <div className="video-wrapper">

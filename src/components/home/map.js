@@ -53,7 +53,7 @@ const locations = [
 
 const MallorcaMap = () => {
   return (
-    <MapContainer center={[39.6, 3.2]} zoom={10} style={{ height: "600px", width: "100%" }}>
+    <MapContainer center={[39.6, 3.2]} zoom={10} style={{ height: "600px", width: "100%", zIndex: "1" }}>
       {/* OpenStreetMap Tiles */}
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

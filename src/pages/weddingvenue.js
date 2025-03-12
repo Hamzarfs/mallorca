@@ -33,6 +33,7 @@ function weddingvenue() {
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
         Transforming Dreams Into Unforgettable Mallorca Weddings
+        <br></br><br></br>
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         With a portfolio of stunning venues, we offer something to suit every taste, style, and budget. Whether it’s our ultra-chic Yacht Club perched on the edge of the Mediterranean, a trendy rooftop venue with panoramic views of the Cala d’Or marina, or a romantic Spanish finca where you can dine under the stars, each setting is as breathtaking as your love story. <br></br><br></br>
@@ -40,6 +41,7 @@ function weddingvenue() {
         <br></br><br></br>
 
         At Mallorca Weddings & Events, we believe your wedding day should be uniquely yours. That’s why our services go beyond our exclusive venues. Whether you dream of saying “I do” at a luxurious private villa, a charming countryside finca, or a serene beachside location, our expert wedding planning and catering services are designed to bring your vision to life—anywhere on the island.
+        <br></br><br></br>
         </p>
 
       </div>

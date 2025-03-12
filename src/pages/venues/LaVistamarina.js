@@ -64,7 +64,7 @@ const clubnauticaimages = [
 
 const venues = [
   {
-    name: "Club Nautico",
+    name: "Club Nautico Porto Cristo ",
     image: image1, 
     link: "/club-nautico",
   },

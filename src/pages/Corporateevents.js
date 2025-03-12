@@ -100,7 +100,9 @@ function Corporateevents() {
 </p>
 
 <p className="venue-description">
-  ✅ <strong>Let’s create an event to remember! Contact us today and let’s start planning your perfect corporate gathering at Club Náutico Porto Cristo.</strong>
+  ✅ Let’s create an event to remember! <strong> <a href="/contact-us" className="text-decoration-none">
+      Contact us
+    </a> </strong>today and let’s start planning your perfect corporate gathering at Club Náutico Porto Cristo.
 </p>
 
           </div>

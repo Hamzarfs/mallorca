@@ -27,7 +27,7 @@ const OurTeam = () => {
           <div className="col-md-6 d-flex flex-column px-4 py-5 team-text">
             <div className="text-content">
               <h2 className="text-white">Sergio</h2>
-              <p className="text-white">Wedding & Events Manager</p>
+              <p className="text-white">Director</p>
             </div>
             <img src={ourteam1} alt="Sergio" className="img-fluid w-100 hidden-image" />
           </div>

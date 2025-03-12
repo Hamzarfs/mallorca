@@ -70,7 +70,7 @@ const Topbar = () => {
               {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
               </a> */}
-              <a href="https://www.youtube.com/channel/UCHRuPwVKJ_6Ag17eD-LiW3g" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@MallorcaWeddingsandEvents" target="_blank" rel="noopener noreferrer">
                 <FaYoutube />
               </a>
               <a href="https://www.instagram.com/mallorca.weddings.events/" target="_blank" rel="noopener noreferrer">

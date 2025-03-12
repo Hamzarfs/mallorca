@@ -17,17 +17,17 @@ const CateringSecTwo = () => {
                   <ul className="list-unstyled">
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p>  <strong>Custom menu creatio -</strong> Tailored to your tastes and preferences</p>
+                      <p>  <strong>Custom menu creatio -</strong> Tailored to your tastes and preferences.</p>
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p>  <strong>Ingredient sourcing & amp; delivery -</strong> Using only the freshest, highest-quality
+                      <p>  <strong>Ingredient sourcing & delivery -</strong> Using only the freshest, highest-quality
 products.
 </p>
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p> <strong>Cooking & amp; full kitchen cleanup – </strong> So you can relax and enjoy the moment.</p>
+                      <p> <strong>Cooking & full kitchen cleanup – </strong> So you can relax and enjoy the moment.</p>
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <p>  For those looking for a fully immersive fine dining experience, we also offer
@@ -39,22 +39,21 @@ products.
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p> <strong>Tableware &amp; glassware – </strong>  Elegant settings for a sophisticated dining
+                      <p> <strong>Tableware glassware – </strong>  Elegant settings for a sophisticated dining
                       experience.</p>
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p> <strong>Cooking & amp; full kitchen cleanup –</strong> Custom setups to match your event’s
+                      <p> <strong>Cooking & full kitchen cleanup –</strong> Custom setups to match your event’s
                       style.</p>
                     </li>
+                    <br></br>
                   </ul>
                   <p className="text-muted">
-                    Our experienced wedding planners and event managers coordinate every detail, saving you time and ensuring a stress-free, beautifully executed celebration.
+                  Our experienced wedding planners and event managers coordinate every detail, saving you time and ensuring a stress-free, beautifully executed celebration.
                   </p>
                   <p className="text-muted">
-                  The greatest benefit of our private chef service is the luxury of time—spending
-quality moments with your guests while enjoying exceptional cuisine in a relaxed and
- intimate setting.
+                  The greatest benefit of our private chef service is the luxury of time—spending quality moments with your guests while enjoying exceptional cuisine in a relaxed and intimate setting.
                   </p>
                 
          

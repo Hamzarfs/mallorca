@@ -35,7 +35,7 @@ function home() {
         Your Wedding Venues
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-        Mallorca Weddings and Events ensures your celebration is unforgettable. Our exclusive venues provide elegant and unique settings for weddings, receptions, corporate events, and private celebrations. Whether by the beach, in the countryside, or at the marina, we have the perfect location for your dream event.
+        Mallorca Weddings and Events ensures your celebration is unforgettable. Our exclusive venues provide elegant and unique settings for weddings, corporate events and private celebrations – beautifully modern with sea views or rustic Spanish Finca countryside settings, we have the perfect location for your dream event.
         </p>
       </div>
     </div>
