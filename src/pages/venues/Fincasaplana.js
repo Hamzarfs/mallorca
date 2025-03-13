@@ -18,102 +18,101 @@ import image1 from "../../images/venue5.webp";
 import image2 from "../../images/venue1.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
-import VenueGallery1 from "../../images/fincasaplanagallery/fincasaplana (1).webp";
-import VenueGallery2 from "../../images/fincasaplanagallery/fincasaplana (2).webp";
-import VenueGallery3 from "../../images/fincasaplanagallery/fincasaplana (3).webp";
-import VenueGallery4 from "../../images/fincasaplanagallery/fincasaplana (4).webp";
-import VenueGallery5 from "../../images/fincasaplanagallery/fincasaplana (5).webp";
-import VenueGallery6 from "../../images/fincasaplanagallery/fincasaplana (6).webp";
-import VenueGallery7 from "../../images/fincasaplanagallery/fincasaplana (7).webp";
-import VenueGallery8 from "../../images/fincasaplanagallery/fincasaplana (8).webp";
-import VenueGallery9 from "../../images/fincasaplanagallery/fincasaplana (9).webp";
-import VenueGallery10 from "../../images/fincasaplanagallery/fincasaplana (10).webp";
-import VenueGallery11 from "../../images/fincasaplanagallery/fincasaplana (11).webp";
-import VenueGallery12 from "../../images/fincasaplanagallery/fincasaplana (12).webp";
-import VenueGallery13 from "../../images/fincasaplanagallery/fincasaplana (13).webp";
-import VenueGallery14 from "../../images/fincasaplanagallery/fincasaplana (14).webp";
-import VenueGallery15 from "../../images/fincasaplanagallery/fincasaplana (15).webp";
-
-import VenueGallery17 from "../../images/fincasaplanagallery/fincasaplana (17).webp";
-import VenueGallery18 from "../../images/fincasaplanagallery/fincasaplana (18).webp";
-import VenueGallery19 from "../../images/fincasaplanagallery/fincasaplana (19).webp";
-import VenueGallery20 from "../../images/fincasaplanagallery/fincasaplana (20).webp";
-import VenueGallery21 from "../../images/fincasaplanagallery/fincasaplana (21).webp";
-import VenueGallery22 from "../../images/fincasaplanagallery/fincasaplana (22).webp";
-import VenueGallery23 from "../../images/fincasaplanagallery/fincasaplana (23).webp";
-import VenueGallery24 from "../../images/fincasaplanagallery/fincasaplana (24).webp";
-import VenueGallery25 from "../../images/fincasaplanagallery/fincasaplana (25).webp";
-import VenueGallery26 from "../../images/fincasaplanagallery/fincasaplana (26).webp";
-import VenueGallery27 from "../../images/fincasaplanagallery/fincasaplana (27).webp";
-import VenueGallery28 from "../../images/fincasaplanagallery/fincasaplana (28).webp";
-import VenueGallery29 from "../../images/fincasaplanagallery/fincasaplana (29).webp";
-import VenueGallery30 from "../../images/fincasaplanagallery/fincasaplana (30).webp";
-import VenueGallery31 from "../../images/fincasaplanagallery/fincasaplana (31).webp";
-import VenueGallery32 from "../../images/fincasaplanagallery/fincasaplana (32).webp";
-import VenueGallery33 from "../../images/fincasaplanagallery/fincasaplana (33).webp";
-import VenueGallery34 from "../../images/fincasaplanagallery/fincasaplana (34).webp";
-import VenueGallery35 from "../../images/fincasaplanagallery/fincasaplana (35).webp";
-import VenueGallery36 from "../../images/fincasaplanagallery/fincasaplana (36).webp";
-import VenueGallery37 from "../../images/fincasaplanagallery/fincasaplana (37).webp";
-import VenueGallery38 from "../../images/fincasaplanagallery/fincasaplana (38).webp";
-import VenueGallery39 from "../../images/fincasaplanagallery/fincasaplana (39).webp";
-import VenueGallery40 from "../../images/fincasaplanagallery/fincasaplana (40).webp";
-import VenueGallery41 from "../../images/fincasaplanagallery/fincasaplana (41).webp";
-import VenueGallery42 from "../../images/fincasaplanagallery/fincasaplana (42).webp";
-import VenueGallery43 from "../../images/fincasaplanagallery/fincasaplana (43).webp";
-import VenueGallery44 from "../../images/fincasaplanagallery/fincasaplana (44).webp";
-import VenueGallery45 from "../../images/fincasaplanagallery/fincasaplana (45).webp";
-import VenueGallery46 from "../../images/fincasaplanagallery/fincasaplana (46).webp";
-import VenueGallery47 from "../../images/fincasaplanagallery/fincasaplana (47).webp";
+import fincasagallery1 from "../../images/fincasaplanagallery/fincasaplana (1).webp";
+import fincasagallery2 from "../../images/fincasaplanagallery/fincasaplana (2).webp";
+import fincasagallery3 from "../../images/fincasaplanagallery/fincasaplana (3).webp";
+import fincasagallery4 from "../../images/fincasaplanagallery/fincasaplana (4).webp";
+import fincasagallery5 from "../../images/fincasaplanagallery/fincasaplana (5).webp";
+import fincasagallery6 from "../../images/fincasaplanagallery/fincasaplana (6).webp";
+import fincasagallery7 from "../../images/fincasaplanagallery/fincasaplana (7).webp";
+import fincasagallery8 from "../../images/fincasaplanagallery/fincasaplana (8).webp";
+import fincasagallery9 from "../../images/fincasaplanagallery/fincasaplana (9).webp";
+import fincasagallery10 from "../../images/fincasaplanagallery/fincasaplana (10).webp";
+import fincasagallery11 from "../../images/fincasaplanagallery/fincasaplana (11).webp";
+import fincasagallery12 from "../../images/fincasaplanagallery/fincasaplana (12).webp";
+import fincasagallery13 from "../../images/fincasaplanagallery/fincasaplana (13).webp";
+import fincasagallery14 from "../../images/fincasaplanagallery/fincasaplana (14).webp";
+import fincasagallery15 from "../../images/fincasaplanagallery/fincasaplana (15).webp";
+import fincasagallery17 from "../../images/fincasaplanagallery/fincasaplana (17).webp";
+import fincasagallery18 from "../../images/fincasaplanagallery/fincasaplana (18).webp";
+import fincasagallery19 from "../../images/fincasaplanagallery/fincasaplana (19).webp";
+import fincasagallery20 from "../../images/fincasaplanagallery/fincasaplana (20).webp";
+import fincasagallery21 from "../../images/fincasaplanagallery/fincasaplana (21).webp";
+import fincasagallery22 from "../../images/fincasaplanagallery/fincasaplana (22).webp";
+import fincasagallery23 from "../../images/fincasaplanagallery/fincasaplana (23).webp";
+import fincasagallery24 from "../../images/fincasaplanagallery/fincasaplana (24).webp";
+import fincasagallery25 from "../../images/fincasaplanagallery/fincasaplana (25).webp";
+import fincasagallery26 from "../../images/fincasaplanagallery/fincasaplana (26).webp";
+import fincasagallery27 from "../../images/fincasaplanagallery/fincasaplana (27).webp";
+import fincasagallery28 from "../../images/fincasaplanagallery/fincasaplana (28).webp";
+import fincasagallery29 from "../../images/fincasaplanagallery/fincasaplana (29).webp";
+import fincasagallery30 from "../../images/fincasaplanagallery/fincasaplana (30).webp";
+import fincasagallery31 from "../../images/fincasaplanagallery/fincasaplana (31).webp";
+import fincasagallery32 from "../../images/fincasaplanagallery/fincasaplana (32).webp";
+import fincasagallery33 from "../../images/fincasaplanagallery/fincasaplana (33).webp";
+import fincasagallery34 from "../../images/fincasaplanagallery/fincasaplana (34).webp";
+import fincasagallery35 from "../../images/fincasaplanagallery/fincasaplana (35).webp";
+import fincasagallery36 from "../../images/fincasaplanagallery/fincasaplana (36).webp";
+import fincasagallery37 from "../../images/fincasaplanagallery/fincasaplana (37).webp";
+import fincasagallery38 from "../../images/fincasaplanagallery/fincasaplana (38).webp";
+import fincasagallery39 from "../../images/fincasaplanagallery/fincasaplana (39).webp";
+import fincasagallery40 from "../../images/fincasaplanagallery/fincasaplana (40).webp";
+import fincasagallery41 from "../../images/fincasaplanagallery/fincasaplana (41).webp";
+import fincasagallery42 from "../../images/fincasaplanagallery/fincasaplana (42).webp";
+import fincasagallery43 from "../../images/fincasaplanagallery/fincasaplana (43).webp";
+import fincasagallery44 from "../../images/fincasaplanagallery/fincasaplana (44).webp";
+import fincasagallery45 from "../../images/fincasaplanagallery/fincasaplana (45).webp";
+import fincasagallery46 from "../../images/fincasaplanagallery/fincasaplana (46).webp";
+import fincasagallery47 from "../../images/fincasaplanagallery/fincasaplana (47).webp";
 
 const clubnauticaimages = [
-  VenueGallery1,
-  VenueGallery2,
-  VenueGallery3,
-  VenueGallery4,
-  VenueGallery5,
-  VenueGallery6,
-  VenueGallery7,
-  VenueGallery8,
-  VenueGallery9,
-  VenueGallery10,
-  VenueGallery11,
-  VenueGallery12,
-  VenueGallery13,
-  VenueGallery14,
-  VenueGallery15,
+  fincasagallery1,
+  fincasagallery2,
+  fincasagallery3,
+  fincasagallery4,
+  fincasagallery5,
+  fincasagallery6,
+  fincasagallery7,
+  fincasagallery8,
+  fincasagallery9,
+  fincasagallery10,
+  fincasagallery11,
+  fincasagallery12,
+  fincasagallery13,
+  fincasagallery14,
+  fincasagallery15,
 
-  VenueGallery17,
-  VenueGallery18,
-  VenueGallery19,
-  VenueGallery20,
-  VenueGallery21,
-  VenueGallery22,
-  VenueGallery23,
-  VenueGallery24,
-  VenueGallery25,
-  VenueGallery26,
-  VenueGallery27,
-  VenueGallery28,
-  VenueGallery29,
-  VenueGallery30,
-  VenueGallery31,
-  VenueGallery32,
-  VenueGallery33,
-  VenueGallery34,
-  VenueGallery35,
-  VenueGallery36,
-  VenueGallery37,
-  VenueGallery38,
-  VenueGallery39,
-  VenueGallery40,
-  VenueGallery41,
-  VenueGallery42,
-  VenueGallery43,
-  VenueGallery44,
-  VenueGallery45,
-  VenueGallery46,
-  VenueGallery47,
+  fincasagallery17,
+  fincasagallery18,
+  fincasagallery19,
+  fincasagallery20,
+  fincasagallery21,
+  fincasagallery22,
+  fincasagallery23,
+  fincasagallery24,
+  fincasagallery25,
+  fincasagallery26,
+  fincasagallery27,
+  fincasagallery28,
+  fincasagallery29,
+  fincasagallery30,
+  fincasagallery31,
+  fincasagallery32,
+  fincasagallery33,
+  fincasagallery34,
+  fincasagallery35,
+  fincasagallery36,
+  fincasagallery37,
+  fincasagallery38,
+  fincasagallery39,
+  fincasagallery40,
+  fincasagallery41,
+  fincasagallery42,
+  fincasagallery43,
+  fincasagallery44,
+  fincasagallery45,
+  fincasagallery46,
+  fincasagallery47,
 ];
 
 

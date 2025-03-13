@@ -96,7 +96,6 @@ const clubnauticaimages = [
   VenueGallery34,
   VenueGallery35,
   VenueGallery36
-  // Add more images if needed...
 ];
 
 const venues = [

@@ -19,46 +19,46 @@ import image2 from "../../images/venue2.webp";
 import image3 from "../../images/venue3.webp";
 import image4 from "../../images/venue4.webp";
 import VenueGallery from '../../components/venues/Venuegallery';
-import VenueGallery1 from "../../images/lavistamarina/lavistamarina (1).webp";
-import VenueGallery2 from "../../images/lavistamarina/lavistamarina (2).webp";
-import VenueGallery3 from "../../images/lavistamarina/lavistamarina (3).webp";
-import VenueGallery4 from "../../images/lavistamarina/lavistamarina (4).webp";
-import VenueGallery5 from "../../images/lavistamarina/lavistamarina (5).webp";
-import VenueGallery6 from "../../images/lavistamarina/lavistamarina (6).webp";
-import VenueGallery7 from "../../images/lavistamarina/lavistamarina (7).webp";
-import VenueGallery8 from "../../images/lavistamarina/lavistamarina (8).webp";
-import VenueGallery9 from "../../images/lavistamarina/lavistamarina (9).webp";
-import VenueGallery10 from "../../images/lavistamarina/lavistamarina (10).webp";
-import VenueGallery11 from "../../images/lavistamarina/lavistamarina (11).webp";
-import VenueGallery12 from "../../images/lavistamarina/lavistamarina (12).webp";
-import VenueGallery13 from "../../images/lavistamarina/lavistamarina (13).webp";
-import VenueGallery14 from "../../images/lavistamarina/lavistamarina (14).webp";
-import VenueGallery15 from "../../images/lavistamarina/lavistamarina (15).webp";
-import VenueGallery16 from "../../images/lavistamarina/lavistamarina (16).webp";
-import VenueGallery17 from "../../images/lavistamarina/lavistamarina (17).webp";
-import VenueGallery18 from "../../images/lavistamarina/lavistamarina (18).webp";
-import VenueGallery19 from "../../images/lavistamarina/lavistamarina (19).webp";
+import LavistaGallery1 from "../../images/lavistamarina/lavistamarina (1).webp";
+import LavistaGallery2 from "../../images/lavistamarina/lavistamarina (2).webp";
+import LavistaGallery3 from "../../images/lavistamarina/lavistamarina (3).webp";
+import LavistaGallery4 from "../../images/lavistamarina/lavistamarina (4).webp";
+import LavistaGallery5 from "../../images/lavistamarina/lavistamarina (5).webp";
+import LavistaGallery6 from "../../images/lavistamarina/lavistamarina (6).webp";
+import LavistaGallery7 from "../../images/lavistamarina/lavistamarina (7).webp";
+import LavistaGallery8 from "../../images/lavistamarina/lavistamarina (8).webp";
+import LavistaGallery9 from "../../images/lavistamarina/lavistamarina (9).webp";
+import LavistaGallery10 from "../../images/lavistamarina/lavistamarina (10).webp";
+import LavistaGallery11 from "../../images/lavistamarina/lavistamarina (11).webp";
+import LavistaGallery12 from "../../images/lavistamarina/lavistamarina (12).webp";
+import LavistaGallery13 from "../../images/lavistamarina/lavistamarina (13).webp";
+import LavistaGallery14 from "../../images/lavistamarina/lavistamarina (14).webp";
+import LavistaGallery15 from "../../images/lavistamarina/lavistamarina (15).webp";
+import LavistaGallery16 from "../../images/lavistamarina/lavistamarina (16).webp";
+import LavistaGallery17 from "../../images/lavistamarina/lavistamarina (17).webp";
+import LavistaGallery18 from "../../images/lavistamarina/lavistamarina (18).webp";
+import LavistaGallery19 from "../../images/lavistamarina/lavistamarina (19).webp";
 
 const clubnauticaimages = [
-  VenueGallery1,
-  VenueGallery2,
-  VenueGallery3,
-  VenueGallery4,
-  VenueGallery5,
-  VenueGallery6,
-  VenueGallery7,
-  VenueGallery8,
-  VenueGallery9,
-  VenueGallery10,
-  VenueGallery11,
-  VenueGallery12,
-  VenueGallery13,
-  VenueGallery14,
-  VenueGallery15,
-  VenueGallery16,
-  VenueGallery17,
-  VenueGallery18,
-  VenueGallery19,
+  LavistaGallery1,
+  LavistaGallery2,
+  LavistaGallery3,
+  LavistaGallery4,
+  LavistaGallery5,
+  LavistaGallery6,
+  LavistaGallery7,
+  LavistaGallery8,
+  LavistaGallery9,
+  LavistaGallery10,
+  LavistaGallery11,
+  LavistaGallery12,
+  LavistaGallery13,
+  LavistaGallery14,
+  LavistaGallery15,
+  LavistaGallery16,
+  LavistaGallery17,
+  LavistaGallery18,
+  LavistaGallery19,
 ];
 
 

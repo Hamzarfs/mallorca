@@ -50,9 +50,6 @@ import VenueGallery34 from "../images/fincaartgallery/fincaartgallery (34).webp"
 import VenueGallery35 from "../images/fincaartgallery/fincaartgallery (35).webp";
 import VenueGallery36 from "../images/fincaartgallery/fincaartgallery (36).webp";
 
-
-// import HeroBanner from '../components/home/mainbanner';
-
 const clubnauticaimages = [
   VenueGallery1,
   VenueGallery2,

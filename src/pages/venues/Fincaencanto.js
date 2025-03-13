@@ -20,28 +20,26 @@ import VenueGallery from '../../components/venues/Venuegallery';
 import clubvid from "../../images/FincaEncanto.mp4";
 
 
-import VenueGallery1 from "../../images/fincaencanto/Fincaencantogallery (1).webp";
-import VenueGallery2 from "../../images/fincaencanto/Fincaencantogallery (2).webp";
-// import VenueGallery3 from "../../images/fincaencanto/Fincaencantogallery (3).webp";
-import VenueGallery4 from "../../images/fincaencanto/Fincaencantogallery (4).webp";
-import VenueGallery5 from "../../images/fincaencanto/Fincaencantogallery (5).webp";
-import VenueGallery6 from "../../images/fincaencanto/Fincaencantogallery (6).webp";
-import VenueGallery7 from "../../images/fincaencanto/Fincaencantogallery (7).webp";
-import VenueGallery8 from "../../images/fincaencanto/Fincaencantogallery (8).webp";
-import VenueGallery9 from "../../images/fincaencanto/Fincaencantogallery (9).webp";
-import VenueGallery10 from "../../images/fincaencanto/Fincaencantogallery (10).webp";
+import Galleryencanto1 from "../../images/fincaencanto/Fincaencantogallery (1).webp";
+import Galleryencanto2 from "../../images/fincaencanto/Fincaencantogallery (2).webp";
+import Galleryencanto4 from "../../images/fincaencanto/Fincaencantogallery (4).webp";
+import Galleryencanto5 from "../../images/fincaencanto/Fincaencantogallery (5).webp";
+import Galleryencanto6 from "../../images/fincaencanto/Fincaencantogallery (6).webp";
+import Galleryencanto7 from "../../images/fincaencanto/Fincaencantogallery (7).webp";
+import Galleryencanto8 from "../../images/fincaencanto/Fincaencantogallery (8).webp";
+import Galleryencanto9 from "../../images/fincaencanto/Fincaencantogallery (9).webp";
+import Galleryencanto10 from "../../images/fincaencanto/Fincaencantogallery (10).webp";
 
 const clubnauticaimages = [
-  VenueGallery1,
-  VenueGallery2,
-  // VenueGallery3,
-  VenueGallery4,
-  VenueGallery5,
-  VenueGallery6,
-  VenueGallery7,
-  VenueGallery8,
-  VenueGallery9,
-  VenueGallery10,
+  Galleryencanto1,
+  Galleryencanto2,
+  Galleryencanto4,
+  Galleryencanto5,
+  Galleryencanto6,
+  Galleryencanto7,
+  Galleryencanto8,
+  Galleryencanto9,
+  Galleryencanto10,
 ];
 
 

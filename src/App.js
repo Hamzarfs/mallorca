@@ -17,6 +17,9 @@ import Privateevents from "./pages/Privateevents"
 import PrivacyPolicy from "./pages/Privacypolicy";
 import TermsAndConditions from "./pages/Termsandconditions";
 import Gallery from "./pages/Gallery";
+import NewGallery from "./pages/NewGallery";
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
@@ -34,7 +37,8 @@ const App = () => {
                 <Route path="/private-events" element={<Privateevents />} />
                 <Route path="/club-nautico" element={<Clubnautico />} />
                 <Route path="/finca-art" element={<Fincaart />} />
-                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/new-gallery" element={<Gallery />} />
+                <Route path="/gallery" element={<NewGallery />} />
                 <Route path="/fincasa-plana" element={<Fincasaplana />} />
                 <Route path="/finca-encanto" element={<Fincaencanto />} />
                 <Route path="/la-vista-marina" element={<LaVistamarina />} />

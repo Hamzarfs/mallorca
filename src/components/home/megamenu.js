@@ -33,7 +33,7 @@ const MegaMenu = ({ isOpen, onClose }) => {
     <h2><a href="/corporate-events">Corporate Events & Team Building</a></h2>
     <h2><a href="/private-events">Private Events</a></h2>
     <li><a href="/gallery">Gallery</a></li>
-    <h2><a href="contact-us">Contact & Map</a></h2>
+    <h2><a href="/contact-us">Contact & Map</a></h2>
 
 
           </div>
