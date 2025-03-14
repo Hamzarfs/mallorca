@@ -188,10 +188,7 @@ function Fincasaplana() {
 
 <section className="venuegallery container">
       {/* Heading */}
-      <h2 className="venuegallery-heading">
-        This magical wedding was planned by us at this location
-      </h2>
-
+   
       {/* Responsive Video Embed */}
          <div className="video-wrapper">
      <video  controls>

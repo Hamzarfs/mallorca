@@ -2,7 +2,7 @@
 import BreadcrumbSection from '../../components/aboutus/BreadCrumb';
 import '../../App.css';
 import MainHeader from '../../components/common/header';
-import bannerimg from '../../images/lavistamarinabanner.webp';
+import bannerimg from '../../images/lavistamarinanewbanner.webp';
 import Topbar from '../../components/home/topbar';
 import AboutUsTwo from '../../components/aboutus/aboutsectwo';
 import AboutUsThree from '../../components/aboutus/aboutussecthree';

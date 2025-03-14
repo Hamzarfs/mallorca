@@ -62,7 +62,7 @@ const AboutUsThree = () => {
           </div>
         </div>
 
-        <div className="row align-items-center mt-5 mb-5">
+        <div className="row align-items-center mt-5">
           {/* Left Column - Image */}
           <div className="col-md-5 text-center">
             {/* <img src={imageSrc} alt="Sergio" className="img-fluid styled-image" /> */}

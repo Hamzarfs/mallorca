@@ -1,6 +1,6 @@
 import React from "react";
 import "../../WeddingBnrTwo.css"; // Custom CSS
-import bannertwo from "../../images/weddingbnrtwo.webp"
+import bannertwo from "../../images/ClubNauticoPortoCristo.jpg"
 
 const WeddingBnrTwo = () => {
   return (
