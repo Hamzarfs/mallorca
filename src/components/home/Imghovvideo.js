@@ -6,7 +6,7 @@ import img2 from "../../images/fincasa.webp";
 import vid1 from "../../images/FincaArt.mp4"; 
 import vid2 from "../../images/FincaSaPlanaNova.mp4"; 
 import img3 from "../../images/FincaEncanto.webp"; 
-import img4 from "../../images/lavistamarina.webp";
+import img4 from "../../images/lavistamarinanewimg.webp";
 import vid3 from "../../images/FincaEncanto.mp4"; 
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
 // import vid4 from "../../images/FincaSaPlanaNova.mp4"; 

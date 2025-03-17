@@ -17,13 +17,8 @@ import Newheader from '../components/home/newheader';
 import WhatsAppButton from '../components/common/Whatsapp';
 import MallorcaMap from '../components/home/map';
 
-
-
 function home() {
   return (
-
-
-
     <>
     {/* <MainHeader /> */}
     <Topbar/>

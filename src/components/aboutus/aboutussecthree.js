@@ -71,8 +71,8 @@ const AboutUsThree = () => {
           {/* Right Column - Heading + Paragraph */}
           <div className="col-md-7">
             <div className="heading-container">
-              <h2 className="stroke-text">Luca Aguilera </h2>
-              <h2 className="strokhead">Luca Aguilera </h2>
+              <h2 className="stroke-text">Lucas Aguilera </h2>
+              <h2 className="strokhead">Lucas Aguilera </h2>
             </div>
             <p>
             Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. Whether it’s an intimate gathering, a lavish wedding, a corporate function, or a grand-scale event, Luca’s passion and expertise ensure every dish is crafted to perfection.

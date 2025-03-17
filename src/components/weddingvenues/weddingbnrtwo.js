@@ -1,6 +1,6 @@
 import React from "react";
 import "../../WeddingBnrTwo.css"; // Custom CSS
-import bannertwo from "../../images/ClubNauticoPortoCristo.jpg"
+import bannertwo from "../../images/weddingvenue2.webp"
 
 const WeddingBnrTwo = () => {
   return (
@@ -9,8 +9,14 @@ const WeddingBnrTwo = () => {
         <div className="col-8 sm-12 md-10 lg-col-12">
         {/* Main Heading */}
         <h2 className="wedvenues-heading" >
-        Wedding Venues
+        Wedding Venues 
+
+       
         </h2>
+        <div className="mb-3">
+  <strong>Make your wedding a one-of-a-kind, unforgettable celebration</strong>
+</div>
+
         </div>
 
         {/* Image */}

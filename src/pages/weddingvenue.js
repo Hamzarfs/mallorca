@@ -2,7 +2,7 @@
 import BreadcrumbSection from '../components/aboutus/BreadCrumb';
 import '../../src/App.css';
 import MainHeader from '../components/common/header';
-import bannerimg from '../../src/images/weddingvenuesbanner.webp';
+import bannerimg from '../../src/images/weddingvenubannerimg.webp';
 import Topbar from '../components/home/topbar';
 import AboutUsTwo from '../components/aboutus/aboutsectwo';
 import AboutUsThree from '../components/aboutus/aboutussecthree';

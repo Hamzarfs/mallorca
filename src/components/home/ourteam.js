@@ -58,6 +58,37 @@ const OurTeam = () => {
             <img src={ourteam2} alt="Sergio" className="img-fluid w-100 hidden-image" />
           </div>
         </div>
+
+                {/* ✅ First Row (Normal) */}
+                <div className="row align-items-stretch team-row">
+          {/* Left Column - Image */}
+          <div className="col-md-6 p-0 team-image">
+            <div className="image-wrapper">
+              <img src={ourteam1} alt="Sergio" className="img-fluid w-100" />
+              <div className="hover-content">
+                <h2>Lucas Aguilera</h2>
+                <p>
+            Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. Whether it’s an intimate gathering, a lavish wedding, a corporate function, or a grand-scale event, Luca’s passion and expertise ensure every dish is crafted to perfection.
+            </p>
+            <p>
+            Luca specializes in a diverse range of cuisines, including Mediterranean, Spanish, Italian, Latin American, Asian, Middle Eastern, and Vegan dishes. His extensive knowledge and creativity allow him to curate menus that cater to a variety of tastes and dietary preferences, ensuring an unforgettable dining experience for every guest.
+            </p>
+   
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column - Text Section */}
+          <div className="col-md-6 d-flex flex-column px-4 py-5 team-text">
+            <div className="text-content">
+              <h2 className="text-white">Lucas Aguilera
+              </h2>
+              <p className="text-white">Executive Chef
+              </p>
+            </div>
+            <img src={ourteam1} alt="Sergio" className="img-fluid w-100 hidden-image" />
+          </div>
+        </div>
       </div>
     </section>
   );

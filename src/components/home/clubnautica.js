@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../LeftImgContent.css"; // Custom CSS
+import "../../LeftImgContent.css";
 import clubimg from "../../images/clubnautico.webp";
 import clubvid from "../../images/ClubNauticoPortoCristo.mp4";
 
@@ -22,24 +22,24 @@ const LeftImgContent = () => {
 
   return (
     <section className="leftimgcontent">
-      <div className="container bgcolor">
-        <div className="row align-items-center">
+      <div className="container">
+        <div className="row ">
           {/* Image & Video Column */}
-          <div className="col-lg-6 col-md-6 col-sm-12 image-container">
+          <div className="col-lg-6 col-md-6 col-sm-12 image-container ">
             <div
               className="image-wrapper"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img
-                src={clubimg} // Change with your image path
+                src={clubimg} 
                 alt="Event Venue"
                 className="img-fluid"
               />
               <video
                 ref={videoRef}
                 className="hover-video"
-                src={clubvid} // Change with your video path
+                src={clubvid} 
                 muted
                 loop
               ></video>
@@ -47,7 +47,7 @@ const LeftImgContent = () => {
           </div>
 
           {/* Content Column */}
-          <div className="col-lg-6 col-md-6 col-sm-12 text-container">
+          <div className="col-lg-6 col-md-6 col-sm-12 text-container bgcolor">
             <p><strong>Exclusive Venue for Mallorca Weddings and Events</strong></p>
             <h2>Club Nautico Porto Cristo 
             </h2>

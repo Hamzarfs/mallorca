@@ -26,6 +26,7 @@ const AboutUsSec = () => {
         <div className="container">
           <div className="col-12">
             <h2 className="section-title">Where Your Love Story Begins</h2>
+            <strong>Because your wedding deserves nothing less than unforgettable.</strong>
             <p className="section-text">
               From luxurious venues to seamless planning, we pride ourselves on delivering exceptional quality, personalized service, and cost-effective solutions in Mallorca’s most stunning and exclusive locations. Our multilingual team understands the importance of every detail and works tirelessly to ensure your big day is as stress-free as it is extraordinary. <br></br><br></br>
             </p>

@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../../images/venue1.webp"; 
-import image2 from "../../images/venue2.webp";
-import image3 from "../../images/venue3.webp";
-import image4 from "../../images/venue4.webp";
+import image1 from "../../images/fincaart.webp"; 
+import image2 from "../../images/fincasa.webp";
+import image3 from "../../images/FincaEncanto.webp";
+import image4 from "../../images/lavistamarinanewimg.webp";
 import "../../wedvenues.css"; // Import CSS
 
 const WedVenues = () => {

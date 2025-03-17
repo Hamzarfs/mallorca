@@ -49,13 +49,7 @@ import VenueGallery26 from "../../images/fincaartgallery/fincaartgallery (26).we
 import VenueGallery27 from "../../images/fincaartgallery/fincaartgallery (27).webp";
 import VenueGallery28 from "../../images/fincaartgallery/fincaartgallery (28).webp";
 import VenueGallery29 from "../../images/fincaartgallery/fincaartgallery (29).webp";
-import VenueGallery30 from "../../images/fincaartgallery/fincaartgallery (30).webp";
-import VenueGallery31 from "../../images/fincaartgallery/fincaartgallery (31).webp";
-import VenueGallery32 from "../../images/fincaartgallery/fincaartgallery (32).webp";
-import VenueGallery33 from "../../images/fincaartgallery/fincaartgallery (33).webp";
-import VenueGallery34 from "../../images/fincaartgallery/fincaartgallery (34).webp";
-import VenueGallery35 from "../../images/fincaartgallery/fincaartgallery (35).webp";
-import VenueGallery36 from "../../images/fincaartgallery/fincaartgallery (36).webp";
+
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -89,13 +83,7 @@ const clubnauticaimages = [
   VenueGallery27,
   VenueGallery28,
   VenueGallery29,
-  VenueGallery30,
-  VenueGallery31,
-  VenueGallery32,
-  VenueGallery33,
-  VenueGallery34,
-  VenueGallery35,
-  VenueGallery36
+
 ];
 
 const venues = [
