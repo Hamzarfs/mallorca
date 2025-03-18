@@ -29,17 +29,31 @@ import Galleryencanto7 from "../../images/fincaencanto/Fincaencantogallery (7).w
 import Galleryencanto8 from "../../images/fincaencanto/Fincaencantogallery (8).webp";
 import Galleryencanto9 from "../../images/fincaencanto/Fincaencantogallery (9).webp";
 import Galleryencanto10 from "../../images/fincaencanto/Fincaencantogallery (10).webp";
+import Galleryencanto11 from "../../images/fincaencanto/Fincaencantogallery (11).webp";
+import Galleryencanto12 from "../../images/fincaencanto/Fincaencantogallery (12).webp";
+import Galleryencanto13 from "../../images/fincaencanto/Fincaencantogallery (13).webp";
+import Galleryencanto14 from "../../images/fincaencanto/Fincaencantogallery (14).webp";
+import Galleryencanto15 from "../../images/fincaencanto/Fincaencantogallery (15).webp";
+import Galleryencanto16 from "../../images/fincaencanto/Fincaencantogallery (16).webp";
 
 const clubnauticaimages = [
   Galleryencanto1,
   Galleryencanto2,
-  Galleryencanto4,
   Galleryencanto5,
-  Galleryencanto6,
+  
   Galleryencanto7,
-  Galleryencanto8,
+  
   Galleryencanto9,
   Galleryencanto10,
+  Galleryencanto11,
+  Galleryencanto12,
+  Galleryencanto13,
+  Galleryencanto14,
+  Galleryencanto15,
+  Galleryencanto16,
+  Galleryencanto4,
+  Galleryencanto6,
+  Galleryencanto8,
 ];
 
 
@@ -116,9 +130,9 @@ function Fincaencanto() {
 
 <section className="venuegallery container">
       {/* Heading */}
-      <h2 className="venuegallery-heading">
+      {/* <h2 className="venuegallery-heading">
         This magical wedding was planned by us at this location
-      </h2>
+      </h2> */}
 
       {/* Responsive Video Embed */}
       <div className="video-wrapper">

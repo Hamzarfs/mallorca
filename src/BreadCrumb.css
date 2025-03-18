@@ -20,7 +20,9 @@
   font-size: 55px;
   font-weight: 700;
   line-height: 1.1em;
-  font-family: "Cinzel Decorative", serif;
+  font-family: 'Playfair Display';
+  text-transform: uppercase;
+  
 }
 
 .breadcrumb-section .description {

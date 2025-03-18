@@ -28,7 +28,7 @@ const MegaMenu = ({ isOpen, onClose }) => {
     <h2><a href="/">Home</a></h2>
     <h2><a href="/about-us">About Us</a></h2>
     <h2><a href="/wedding-venues">Wedding Venues</a></h2>
-    <h2><a href="/catering">Catering</a></h2>
+    <h2><a href="/wedding-catering">Catering</a></h2>
     <h2><a href="/private-chef">Private Chef</a></h2>
     <h2><a href="/corporate-events">Corporate Events & Team Building</a></h2>
     <h2><a href="/private-events">Private Events</a></h2>

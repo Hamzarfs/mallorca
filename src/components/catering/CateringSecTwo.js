@@ -17,7 +17,7 @@ const CateringSecTwo = () => {
                   <ul className="list-unstyled">
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />
-                      <p>  <strong>Custom menu creatio -</strong> Tailored to your tastes and preferences.</p>
+                      <p>  <strong>Custom menu creation -</strong> Tailored to your tastes and preferences.</p>
                     </li>
                     <li className="d-flex align-items-center text-muted">
                       <FaCheck style={{ color: "#A19C7E", marginRight: "8px" }} />

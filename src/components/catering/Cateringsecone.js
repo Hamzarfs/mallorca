@@ -1,7 +1,7 @@
 import React from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import "../../cateringsecone.css";
-import cateringimg1 from "../../images/cateringimg1.webp";
+import cateringimg1 from "../../images/clubnauticogallery/clubnautico (47).webp";
 import cateringimg2 from "../../images/cateringimg2.webp";
 import { FaCheck } from "react-icons/fa";
 
@@ -27,9 +27,9 @@ const CateringSecOne = () => {
             Our Catering Services
           </h2>
           <p className="text-muted">
-            At Mallorca Weddings and Events, we believe that exceptional cuisine is at the heart of every unforgettable celebration. 
+          <b>Do you already have the venue for your event but need premium catering and event services? </b>At Mallorca Weddings and Events, we believe that exceptional cuisine is at the heart of every unforgettable celebration. 
             Beyond offering exclusive wedding catering at our four stunning venues, we also provide high-end catering services across 
-            the entire island, ensuring a seamless and personalized dining experience at the location of your choice.
+            the entire island, ensuring a seamless and personalised dining experience at the location of your choice.
           </p>
           <p className="text-muted">
             Whether you are hosting a beachside wedding, a private villa event, a corporate gathering, or a celebration at a 
@@ -67,8 +67,11 @@ const CateringSecOne = () => {
            to discuss your catering and event needs, and let us create an
           extraordinary celebration in Mallorca!
           </p>
+          <a href="/contact-us" target="_blank"> <button className="cateringsectwo-btn">CONTACT US</button></a>
           </div>
+        
         </div>
+        
       </div>
     </section>
   );

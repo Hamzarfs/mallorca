@@ -66,7 +66,7 @@ const VenueGallery = ({ images }) => {
       </PhotoProvider>
 
       {!showAll && images.length > visibleItems && (
-        <div className="text-center mt-4">
+        <div className="text-center py-4">
           <button 
             onClick={loadMore}
             className="btn-transparent"

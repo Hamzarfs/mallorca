@@ -21,9 +21,11 @@ import NewGallery from "./pages/NewGallery";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import WhatsAppButton from "./components/common/Whatsapp";
 
 const App = () => {
     return (
+        <> 
         <Router> {/* Fix: BrowserRouter use karo */}
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -31,7 +33,7 @@ const App = () => {
                 <Route path="/wedding-venues" element={<Weddingvenue />} />
                 <Route path="/our-team" element={<Ourteam />} />
                 <Route path="/contact-us" element={<Contactus />} />
-                <Route path="/catering" element={<Catering />} />
+                <Route path="/wedding-catering" element={<Catering />} />
                 <Route path="/private-chef" element={<Privatechef />} />
                 <Route path="/corporate-events" element={<Corporateevents />} />
                 <Route path="/private-events" element={<Privateevents />} />
@@ -45,9 +47,13 @@ const App = () => {
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-condition" element={<TermsAndConditions />} />
                
+               
 
             </Routes>
         </Router>
+        <WhatsAppButton/>
+        </>
+        
     );
 };
 

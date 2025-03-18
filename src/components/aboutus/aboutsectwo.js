@@ -1,6 +1,6 @@
 import React from "react";
 import "../../aboutustwo.css";
-import imageSrc from "../../images/aboutustwo.webp"; // Ensure the correct path
+import imageSrc from "../../images/aboutustwo2.webp"; // Ensure the correct path
 
 const AboutUsTwo = () => {
   return (

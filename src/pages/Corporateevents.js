@@ -10,7 +10,7 @@ import ContactDetailsEnd from '../components/home/ContactDetailsEnd';
 import Footer from '../components/home/footer';
 import OurTeamCards from '../components/OurTeam/OurTeam';
 
-import imageSrc from "../images/Corporatesec1.webp";
+import imageSrc from "../images/corporateleftimg.webp";
 import imageSrc2 from "../images/Corporate&TeamBuildingEvents.jpeg"; 
 import clubimg from "../images/clubnautico.webp";
 

@@ -20,7 +20,7 @@ const Footer = () => {
           <li><a href="/">Home</a></li>
           <li><a href="/about-us">About Us</a></li>
           <li><a href="/wedding-venues">Wedding Venues</a></li>
-                <li><a href="/catering">Catering</a></li>
+                <li><a href="/wedding-catering">Catering</a></li>
                 <li><a href="/private-chef">Private Chef</a></li>
                 <li><a href="/corporate-events">Corporate Events & Team Building</a></li>
                 <li><a href="/private-events">Private Events</a></li>

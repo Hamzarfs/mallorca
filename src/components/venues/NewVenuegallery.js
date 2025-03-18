@@ -90,7 +90,7 @@ const NewVenuegallery = ({ images }) => {
       </PhotoProvider>
 
       {filteredImages.length > visibleItems && (
-        <div className="text-center mt-4">
+        <div className="text-center py-4 ">
           <button 
             onClick={loadMore}
             className="btn-transparent"

@@ -2,6 +2,7 @@ import React from "react";
 import "../../aboutusthree.css";
 import imageSrc from "../../images/segioimg.webp";
 import imageSrc2 from "../../images/claire.webp"; 
+import lucas from "../../images/lucasimg.webp";
 
 const AboutUsThree = () => {
   return (
@@ -19,6 +20,7 @@ const AboutUsThree = () => {
             <div className="heading-container">
               <h2 className="stroke-text">Sergio</h2>
               <h2 className="strokhead">Sergio</h2>
+              <p><b>Director</b></p>
             </div>
             <p>
               With years of experience managing top-tier hotels across Spain
@@ -52,6 +54,7 @@ const AboutUsThree = () => {
             <div className="heading-container">
               <h2 className="stroke-text">Claire</h2>
               <h2 className="strokhead">Claire</h2>
+              <p><b>Wedding & Event Manager</b></p>
             </div>
             <p>
             Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. Formerly the Wedding & Events Manager at the prestigious Yacht Club Cala d’Or, Claire had the privilege of working alongside Sergio, describing herself as "the luckiest person in the world" to have been part of so many incredible weddings.
@@ -65,14 +68,15 @@ const AboutUsThree = () => {
         <div className="row align-items-center mt-5">
           {/* Left Column - Image */}
           <div className="col-md-5 text-center">
-            {/* <img src={imageSrc} alt="Sergio" className="img-fluid styled-image" /> */}
+            <img src={lucas} alt="lucas" className="img-fluid styled-image" />
           </div>
 
           {/* Right Column - Heading + Paragraph */}
           <div className="col-md-7">
             <div className="heading-container">
-              <h2 className="stroke-text">Lucas Aguilera </h2>
+              <h2 className="stroke-text">Lucas  </h2>
               <h2 className="strokhead">Lucas Aguilera </h2>
+              <p><b>Executive Chef</b></p>
             </div>
             <p>
             Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. Whether it’s an intimate gathering, a lavish wedding, a corporate function, or a grand-scale event, Luca’s passion and expertise ensure every dish is crafted to perfection.

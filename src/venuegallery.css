@@ -149,8 +149,9 @@
 /* Responsive */
 @media (max-width: 1024px) {
   .venuegallery-heading {
-    font-size: 30px;
-  }
+    font-size: 40px;
+    margin-top: 28px;
+}
 }
 
 @media (max-width: 768px) {

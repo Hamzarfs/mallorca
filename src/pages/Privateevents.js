@@ -35,7 +35,10 @@ function Privateevents() {
     <section className="weddingbnrtwo py-5">
       <div className="container d-flex flex-column align-items-center text-center">
         <div className="col-8 sm-12 md-10 lg-col-12">
-          <h3>Private Events & Celebrations</h3>
+        
+          <h2 className="strokhead mb-4">Private Events & Celebrations
+            <br></br>
+          </h2>
         <p className="venue-description">
   Celebrate life’s special moments in style at <strong>Club Náutico Porto Cristo</strong>, where breathtaking sea views, elegant surroundings, and exceptional cuisine come together to create unforgettable experiences. Whether you're planning a <strong>milestone birthday, anniversary, engagement party, family reunion, or any special occasion</strong>, our venue offers the perfect setting for a truly magical event.
 </p>
@@ -59,7 +62,9 @@ function Privateevents() {
 <p className="venue-description">
   ✅ <strong>Let’s make your celebration truly special! Contact us today and let us help you create an unforgettable private event at Club Náutico Porto Cristo.</strong>
 </p>
-
+<div className='py-5'>
+<a href="/contact-us" target="_blank"> <button className="cateringsectwo-btn">CONTACT US</button></a>
+</div>
         {/* Main Heading */}
         {/* <h2 className="wedvenues-heading" >
         Wedding Venues

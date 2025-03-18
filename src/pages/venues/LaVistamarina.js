@@ -38,28 +38,40 @@ import LavistaGallery16 from "../../images/lavistamarina/lavistamarina (16).webp
 import LavistaGallery17 from "../../images/lavistamarina/lavistamarina (17).webp";
 import LavistaGallery18 from "../../images/lavistamarina/lavistamarina (18).webp";
 import LavistaGallery19 from "../../images/lavistamarina/lavistamarina (19).webp";
+import LavistaGallery20 from "../../images/lavistamarina/lavistamarina (20).webp";
+import LavistaGallery21 from "../../images/lavistamarina/lavistamarina (21).webp";
+import LavistaGallery22 from "../../images/lavistamarina/lavistamarina (22).webp";
+import LavistaGallery23 from "../../images/lavistamarina/lavistamarina (23).webp";
+import LavistaGallery24 from "../../images/lavistamarina/lavistamarina (24).webp";
+import LavistaGallery25 from "../../images/lavistamarina/lavistamarina (25).webp";
+import LavistaGallery26 from "../../images/lavistamarina/lavistamarina (26).webp";
+import LavistaGallery27 from "../../images/lavistamarina/lavistamarina (27).webp";
+import LavistaGallery28 from "../../images/lavistamarina/lavistamarina (28).webp";
+import LavistaGallery29 from "../../images/lavistamarina/lavistamarina (29).webp";
+import LavistaGallery30 from "../../images/lavistamarina/lavistamarina (30).webp";
+import LavistaGallery31 from "../../images/lavistamarina/lavistamarina (31).webp";
+import LavistaGallery32 from "../../images/lavistamarina/lavistamarina (32).webp";
+import LavistaGallery33 from "../../images/lavistamarina/lavistamarina (33).webp";
+import LavistaGallery34 from "../../images/lavistamarina/lavistamarina (34).webp";
+import LavistaGallery35 from "../../images/lavistamarina/lavistamarina (35).webp";
+import LavistaGallery36 from "../../images/lavistamarina/lavistamarina (36).webp";
+import LavistaGallery37 from "../../images/lavistamarina/lavistamarina (37).webp";
+import LavistaGallery38 from "../../images/lavistamarina/lavistamarina (38).webp";
+import LavistaGallery39 from "../../images/lavistamarina/lavistamarina (39).webp";
+import LavistaGallery40 from "../../images/lavistamarina/lavistamarina (40).webp";
 
 const clubnauticaimages = [
-  LavistaGallery1,
-  LavistaGallery2,
-  LavistaGallery3,
-  LavistaGallery4,
-  LavistaGallery5,
-  LavistaGallery6,
-  LavistaGallery7,
-  LavistaGallery8,
-  LavistaGallery9,
-  LavistaGallery10,
-  LavistaGallery11,
-  LavistaGallery12,
-  LavistaGallery13,
-  LavistaGallery14,
-  LavistaGallery15,
-  LavistaGallery16,
-  LavistaGallery17,
-  LavistaGallery18,
-  LavistaGallery19,
+  LavistaGallery1, LavistaGallery2, LavistaGallery3, LavistaGallery4, LavistaGallery5,
+  LavistaGallery6, LavistaGallery7, LavistaGallery8, LavistaGallery9, LavistaGallery10,
+  LavistaGallery11, LavistaGallery12, LavistaGallery13, LavistaGallery14, LavistaGallery15,
+  LavistaGallery16, LavistaGallery17, LavistaGallery18, LavistaGallery19, LavistaGallery20,
+  LavistaGallery21, LavistaGallery22, LavistaGallery23, LavistaGallery24, LavistaGallery25,
+  LavistaGallery26, LavistaGallery27, LavistaGallery28, LavistaGallery29, LavistaGallery30,
+  LavistaGallery31, LavistaGallery32, LavistaGallery33, LavistaGallery34, LavistaGallery35,
+  LavistaGallery36, LavistaGallery37, LavistaGallery38, LavistaGallery39, LavistaGallery40,
 ];
+
+
 
 
 const venues = [
@@ -101,8 +113,9 @@ function LaVistamarina() {
     </div>
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
-        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "20px" }}>
         Celebrate in Style at La Vista Marina
+        <br></br>
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         Perched in the heart of Cala d’Or’s vibrant marina on Mallorca’s southeast coast, La Vista Marina is a sleek and modern rooftop venue offering a wedding experience as breathtaking as its panoramic views. Perfect for couples seeking a chic seaside celebration, this contemporary space blends sophisticated design with the natural beauty of the Mediterranean.<br></br><br></br>

@@ -11,7 +11,7 @@ const slides = [
     image: slider1,
     title: "Catering & Private Chef Services",
     text: "Transform your celebration into a culinary masterpiece with our Private Chef and catering service, delivering restaurant-quality cuisine in the comfort of your home or chosen venue anywhere on the island of Mallorca.",
-    link: "/catering", // Unique link for this slide
+    link: "/wedding-catering", // Unique link for this slide
   },
   {
     id: 2,

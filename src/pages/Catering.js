@@ -2,7 +2,7 @@
 import BreadcrumbSection from '../components/aboutus/BreadCrumb'
 import '../../src/App.css';
 import MainHeader from '../components/common/header';
-import cateringbg from '../../src/images/cateringbg.webp';
+import cateringbg from '../../src/images/cateringbgnewbanner.webp';
 import Topbar from '../components/home/topbar';
 import AboutUsTwo from '../components/aboutus/aboutsectwo';
 import AboutUsThree from '../components/aboutus/aboutussecthree';
@@ -26,7 +26,7 @@ function Catering() {
     {/* <BreadcrumbSection/> */}
     <div>
                 <BreadcrumbSection
-                    heading="Catering"
+                    heading="Wedding Catering"
                     // description="Precision Printing, Creative Designs"
                     // buttonText="Get Started"
                     backgroundImage={cateringbg}

@@ -2,7 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import "../../contactushome.css"; // Unique CSS for styling
+import { FaCheckCircle } from "react-icons/fa";
+import "../../contactushome.css";
 import MallorcaMap from "./map";
 
 // Validation schema
@@ -31,6 +32,7 @@ const ContactUsHome = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm({
     resolver: yupResolver(schema),
     mode: "onChange",
@@ -38,23 +40,21 @@ const ContactUsHome = () => {
 
   const [selectedServices, setSelectedServices] = useState([]);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [showThankYou, setShowThankYou] = useState(false);
   const dropdownRef = useRef(null);
   
   const services = ["Weddings", "Catering", "Private Chef", "Corporate Events", "Private Events"];
 
-  // Handle checkbox selection
   const handleServiceChange = (service) => {
     setSelectedServices((prev) =>
       prev.includes(service) ? prev.filter((s) => s !== service) : [...prev, service]
     );
   };
 
-  // Toggle dropdown manually
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -69,18 +69,27 @@ const ContactUsHome = () => {
 
   const onSubmit = (data) => {
     console.log("Form Data:", { ...data, selectedServices });
-    // Handle form submission (e.g., send data to the server)
+    reset();
+    setSelectedServices([]);
+    setShowThankYou(true);
+    setTimeout(() => setShowThankYou(false), 3000);
   };
 
   return (
     <section className="contactushome container">
+      {showThankYou && (
+        <div className="thank-you-message">
+          <FaCheckCircle className="check-icon" />
+          <h3>Thank you for your enquiry!</h3>
+          <p>We will be in touch very shortly to assist</p>
+        </div>
+      )}
+
       <div className="row align-items-center">
-        {/* Map Section */}
         <div className="col-md-6">
           <MallorcaMap />
         </div>
 
-        {/* Form Section */}
         <div className="col-md-6">
           <h2 className="contact-title">Contact Us</h2>
           <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
@@ -116,7 +125,6 @@ const ContactUsHome = () => {
               <div className="invalid-feedback">{errors.telephone?.message}</div>
             </div>
 
-            {/* Services Dropdown with Checkboxes */}
             <div className="form-group position-relative" ref={dropdownRef}>
               <button
                 type="button"

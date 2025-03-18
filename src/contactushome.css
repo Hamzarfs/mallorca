@@ -59,3 +59,59 @@
     color: white;
   }
   
+
+  .thank-you-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #AE9D81;
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 1000;
+    animation: slideIn 0.5s ease-out, fadeOut 0.5s ease-out 2.5s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .check-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: scaleUp 0.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translate(-50%, -40%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

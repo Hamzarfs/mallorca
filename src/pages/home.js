@@ -16,6 +16,7 @@ import Topbar from '../components/home/topbar';
 import Newheader from '../components/home/newheader';
 import WhatsAppButton from '../components/common/Whatsapp';
 import MallorcaMap from '../components/home/map';
+import AnimatedCursor from '../components/Animatedcurson';
 
 function home() {
   return (
@@ -54,6 +55,7 @@ function home() {
  
     <Footer/>
     <WhatsAppButton/>
+    {/* <AnimatedCursor/> */}
 
 
   </>

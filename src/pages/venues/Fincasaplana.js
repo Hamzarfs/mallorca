@@ -46,24 +46,7 @@ import fincasagallery26 from "../../images/fincasaplanagallery/fincasaplana (26)
 import fincasagallery27 from "../../images/fincasaplanagallery/fincasaplana (27).webp";
 import fincasagallery28 from "../../images/fincasaplanagallery/fincasaplana (28).webp";
 import fincasagallery29 from "../../images/fincasaplanagallery/fincasaplana (29).webp";
-import fincasagallery30 from "../../images/fincasaplanagallery/fincasaplana (30).webp";
-import fincasagallery31 from "../../images/fincasaplanagallery/fincasaplana (31).webp";
-import fincasagallery32 from "../../images/fincasaplanagallery/fincasaplana (32).webp";
-import fincasagallery33 from "../../images/fincasaplanagallery/fincasaplana (33).webp";
-import fincasagallery34 from "../../images/fincasaplanagallery/fincasaplana (34).webp";
-import fincasagallery35 from "../../images/fincasaplanagallery/fincasaplana (35).webp";
-import fincasagallery36 from "../../images/fincasaplanagallery/fincasaplana (36).webp";
-import fincasagallery37 from "../../images/fincasaplanagallery/fincasaplana (37).webp";
-import fincasagallery38 from "../../images/fincasaplanagallery/fincasaplana (38).webp";
-import fincasagallery39 from "../../images/fincasaplanagallery/fincasaplana (39).webp";
-import fincasagallery40 from "../../images/fincasaplanagallery/fincasaplana (40).webp";
-import fincasagallery41 from "../../images/fincasaplanagallery/fincasaplana (41).webp";
-import fincasagallery42 from "../../images/fincasaplanagallery/fincasaplana (42).webp";
-import fincasagallery43 from "../../images/fincasaplanagallery/fincasaplana (43).webp";
-import fincasagallery44 from "../../images/fincasaplanagallery/fincasaplana (44).webp";
-import fincasagallery45 from "../../images/fincasaplanagallery/fincasaplana (45).webp";
-import fincasagallery46 from "../../images/fincasaplanagallery/fincasaplana (46).webp";
-import fincasagallery47 from "../../images/fincasaplanagallery/fincasaplana (47).webp";
+
 
 const clubnauticaimages = [
   fincasagallery1,
@@ -95,24 +78,7 @@ const clubnauticaimages = [
   fincasagallery27,
   fincasagallery28,
   fincasagallery29,
-  fincasagallery30,
-  fincasagallery31,
-  fincasagallery32,
-  fincasagallery33,
-  fincasagallery34,
-  fincasagallery35,
-  fincasagallery36,
-  fincasagallery37,
-  fincasagallery38,
-  fincasagallery39,
-  fincasagallery40,
-  fincasagallery41,
-  fincasagallery42,
-  fincasagallery43,
-  fincasagallery44,
-  fincasagallery45,
-  fincasagallery46,
-  fincasagallery47,
+
 ];
 
 
@@ -155,8 +121,9 @@ function Fincasaplana() {
     </div>
     <div className="container d-flex justify-content-center align-items-center text-center mt-5">
       <div className="col-md-8 col-lg-8">
-        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "23px" }}>
         Say ‘I Do’ at the Historic Sa Plana Nova
+        
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         Imagine exchanging vows in the heart of Mallorca’s serene countryside, surrounded by the timeless beauty of Sa Plana Nova—a meticulously preserved finca dating back to 1880. Steeped in history and surrounded by breathtaking natural landscapes, this intimate venue offers a truly magical backdrop for your special day.<br></br><br></br>
@@ -164,6 +131,7 @@ function Fincasaplana() {
         <br></br><br></br>
         Whether you envision a rustic-chic ceremony, a romantic outdoor reception, or a more intimate gathering with loved ones, Sa Plana Nova offers endless possibilities to make your day uniquely yours. With personalized service and attention to every detail, we’ll help bring your dream wedding to life, creating memories to treasure for a lifetime.<br></br><br></br>
         Experience the timeless magic of Sa Plana Nova and let your love story unfold in this unforgettable setting.
+        <br /><br />
         </p>
 
       </div>
