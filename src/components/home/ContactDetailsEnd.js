@@ -38,7 +38,7 @@ const ContactDetailsEnd = () => {
         />  +44 7876 740598
               </a>{" "}
               |{" "}
-              <a href="tel:+34671635511" className="contact-link">
+              <a href="https://wa.me/34671635511" className="contact-link">
               <img
           src="https://flagcdn.com/w40/es.png"
           alt="Spain Flag"

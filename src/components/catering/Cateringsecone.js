@@ -27,7 +27,8 @@ const CateringSecOne = () => {
             Our Catering Services
           </h2>
           <p className="text-muted">
-          <b>Do you already have the venue for your event but need premium catering and event services? </b>At Mallorca Weddings and Events, we believe that exceptional cuisine is at the heart of every unforgettable celebration. 
+          <b>Do you already have the venue for your event but need premium catering and event services? </b> <br></br>
+          At Mallorca Weddings and Events, we believe that exceptional cuisine is at the heart of every unforgettable celebration. 
             Beyond offering exclusive wedding catering at our four stunning venues, we also provide high-end catering services across 
             the entire island, ensuring a seamless and personalised dining experience at the location of your choice.
           </p>
