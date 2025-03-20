@@ -47,8 +47,6 @@ const App = () => {
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-condition" element={<TermsAndConditions />} />
                
-               
-
             </Routes>
         </Router>
         <WhatsAppButton/>

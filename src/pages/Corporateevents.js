@@ -58,7 +58,7 @@ function Corporateevents() {
           {/* Right Column - Heading + Paragraph */}
           <div className="col-md-7">
             <div className="heading-container">
-              <h2 className="stroke-text">Corporate</h2>
+              {/* <h2 className="stroke-text">Corporate</h2> */}
               <h2 className="strokhead">Corporate & Team-Building Events
               </h2>
             </div>

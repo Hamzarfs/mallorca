@@ -1,7 +1,9 @@
 import React from "react";
 import "../../OurTeam.css"; // Unique CSS for styling
-import ourteam1 from "../../images/ourteam1.png";
-import ourteam2 from "../../images/ourteam2.png";
+import ourteam1 from "../../images/ourteam1.webp";
+import ourteam2 from "../../images/ourteam2.webp";
+import ourteam3 from "../../images/ourteam3.webp";
+
 
 const OurTeam = () => {
   return (
@@ -15,9 +17,9 @@ const OurTeam = () => {
               <img src={ourteam1} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Sergio</h2>
-                <p>With years of experience managing top-tier hotels across Spain and running his own successful Cooking Holidays business, Sergio brings a wealth of expertise and passion to the world of weddings and events. As the General Manager of the renowned Yacht Club Cala d’Or for 12 years, he oversaw hundreds of spectacular events, earning a stellar reputation in Mallorca’s events scene.</p>
+                <p>With years of experience managing top-tier hotels across Spain and running his own successful Cooking Holidays business, Sergio brings a wealth of expertise and passion to the world of weddings and events. </p>
                 <p>
-                Sergio then went on to set up Mallorca Weddings & Events almost 4 years ago.  His commitment to crafting exceptional cuisine, paired with his meticulous attention to detail, has made him a trusted name in creating unforgettable celebrations. Fluent in Italian, Spanish, Russian, and English, Sergio seamlessly connects with clients from around the globe, ensuring every event is as personal as it is extraordinary.
+                Sergio then went on to set up Mallorca Weddings & Events almost 4 years ago.  His commitment to crafting exceptional cuisine, paired with his meticulous attention to detail, has made him a trusted name in creating unforgettable celebrations.
                 </p>
               </div>
             </div>
@@ -41,7 +43,7 @@ const OurTeam = () => {
               <img src={ourteam2} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Claire</h2>
-                <p>Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. Formerly the Wedding & Events Manager at the prestigious Yacht Club Cala d’Or, Claire had the privilege of working alongside Sergio, describing herself as "the luckiest person in the world" to have been part of so many incredible weddings.</p>
+                <p>Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. Formerly the Wedding & Events Manager at the prestigious Yacht Club Cala d’Or</p>
                 <p>
                 Her deep knowledge of Mallorca, paired with excellent connections to the island's top-rated suppliers, ensures that your wedding will be flawlessly planned and executed with care, creativity, and unmatched expertise.
                 </p>
@@ -64,11 +66,11 @@ const OurTeam = () => {
           {/* Left Column - Image */}
           <div className="col-md-6 p-0 team-image">
             <div className="image-wrapper">
-              <img src={ourteam1} alt="Sergio" className="img-fluid w-100" />
+              <img src={ourteam3} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Lucas Aguilera</h2>
                 <p>
-            Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. Whether it’s an intimate gathering, a lavish wedding, a corporate function, or a grand-scale event, Luca’s passion and expertise ensure every dish is crafted to perfection.
+            Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. 
             </p>
             <p>
             Luca specializes in a diverse range of cuisines, including Mediterranean, Spanish, Italian, Latin American, Asian, Middle Eastern, and Vegan dishes. His extensive knowledge and creativity allow him to curate menus that cater to a variety of tastes and dietary preferences, ensuring an unforgettable dining experience for every guest.
@@ -86,8 +88,15 @@ const OurTeam = () => {
               <p className="text-white">Executive Chef
               </p>
             </div>
-            <img src={ourteam1} alt="Sergio" className="img-fluid w-100 hidden-image" />
+            <img src={ourteam3} alt="Sergio" className="img-fluid w-100 hidden-image" />
           </div>
+        </div>
+              <div className="container d-flex justify-content-center align-items-center gap-3 py-5">
+     
+             
+              <a href='/about-us' target="_blank"> <button className="weddingbrochure-btn">
+                 <span>Learn More</span>
+               </button> </a>
         </div>
       </div>
     </section>

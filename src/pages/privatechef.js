@@ -37,7 +37,7 @@ function Catering() {
     <div className="container d-flex justify-content-center align-items-center text-center mt-4">
       <div className="col-md-8 col-lg-8">
         <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
-        Private Chef Service – A Luxurious & Personalized Culinary Experience<br></br>
+        Private Chef Service – A Luxurious & Personalised Culinary Experience<br></br>
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
         At Mallorca Weddings and Events, our private chef service was created to meet the

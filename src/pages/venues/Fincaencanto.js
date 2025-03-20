@@ -11,14 +11,13 @@ import Footer from '../../components/home/footer';
 import WeddingBnrTwo from '../../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../../components/weddingvenues/venues';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
-import image1 from "../../images/venue5.webp"; 
-import image2 from "../../images/venue2.webp";
-import image3 from "../../images/venue1.webp";
-import image4 from "../../images/venue4.webp";
+import image1 from "../../images/weddingvenue2.webp"; 
+import image2 from "../../images/fincasa.webp";
+import image3 from "../../images/fincaart.webp";
+import image4 from "../../images/lavistamarinanewimg.webp";
 import VenueGallery from '../../components/venues/Venuegallery';
 
 import clubvid from "../../images/FincaEncanto.mp4";
-
 
 import Galleryencanto1 from "../../images/fincaencanto/Fincaencantogallery (1).webp";
 import Galleryencanto2 from "../../images/fincaencanto/Fincaencantogallery (2).webp";
@@ -40,9 +39,7 @@ const clubnauticaimages = [
   Galleryencanto1,
   Galleryencanto2,
   Galleryencanto5,
-  
   Galleryencanto7,
-  
   Galleryencanto9,
   Galleryencanto10,
   Galleryencanto11,
@@ -55,8 +52,6 @@ const clubnauticaimages = [
   Galleryencanto6,
   Galleryencanto8,
 ];
-
-
 
 const venues = [
   {

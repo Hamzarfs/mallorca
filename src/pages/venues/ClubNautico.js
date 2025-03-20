@@ -6,10 +6,10 @@ import Topbar from '../../components/home/topbar';
 import ContactDetailsEnd from '../../components/home/ContactDetailsEnd';
 import Footer from '../../components/home/footer';
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
-import image1 from "../../images/venue1.webp"; 
-import image2 from "../../images/venue2.webp";
-import image3 from "../../images/venue3.webp";
-import image4 from "../../images/venue4.webp";
+import image1 from "../../images/fincaart.webp"; 
+import image2 from "../../images/fincasa.webp";
+import image3 from "../../images/FincaEncanto.webp";
+import image4 from "../../images/lavistamarinanewimg.webp";
 import clubvid from "../../images/ClubNauticoPortoCristo.mp4";
 
 import VenueGallery from '../../components/venues/Venuegallery';

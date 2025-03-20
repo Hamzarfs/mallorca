@@ -14,10 +14,10 @@ import brochurePDF from "../../images/Wedding-Brochure.pdf";
 import VenueGallery from '../../components/venues/Venuegallery';
 
 import clubvid from "../../images/FincaArt.mp4";
-import image1 from "../../images/venue5.webp"; 
-import image2 from "../../images/venue2.webp";
-import image3 from "../../images/venue3.webp";
-import image4 from "../../images/venue4.webp";
+import image1 from "../../images/weddingvenue2.webp"; 
+import image2 from "../../images/fincasa.webp";
+import image3 from "../../images/FincaEncanto.webp";
+import image4 from "../../images/lavistamarinanewimg.webp";
 
 
 import VenueGallery1 from "../../images/fincaartgallery/fincaartgallery (1).webp";

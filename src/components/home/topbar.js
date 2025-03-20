@@ -16,20 +16,19 @@ const Topbar = () => {
           <div className="col-lg-2 d-flex align-items-center text-center">
   <FaPhoneAlt className="topbar-icon" />
   <div className="topbar-text">
-    <p>&nbsp; &nbsp;  &nbsp; <a href="tel:+447876740598" className="phone-link"><img
-          src="https://flagcdn.com/w40/gb.png"
-          alt="UK Flag"
-          width="20"
-          height="15"
-        /> +44 7876 740598</a></p>
-    <p>&nbsp; <a href="tel:+34671635511" className="phone-link"><img
-          src="https://flagcdn.com/w40/es.png"
-          alt="Spain Flag"
-          width="20"
-          height="15"
-        />  +34 671 63 55 11</a></p>
+    <p>&nbsp; &nbsp; &nbsp; 
+      <a href="https://wa.me/447876740598" className="phone-link" target="_blank" rel="noopener noreferrer">
+        <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" width="20" height="15" /> +44 7876 740598
+      </a>
+    </p>
+    <p>&nbsp; 
+      <a href="https://wa.me/34671635511" className="phone-link" target="_blank" rel="noopener noreferrer">
+        <img src="https://flagcdn.com/w40/es.png" alt="Spain Flag" width="20" height="15" /> +34 671 63 55 11
+      </a>
+    </p>
   </div>
 </div>
+
 
 
           {/* WhatsApp */}
