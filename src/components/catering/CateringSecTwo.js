@@ -10,7 +10,7 @@ const CateringSecTwo = () => {
         {/* Left Column - Text Content */}
         <div className="col-lg-6 cateringsectwo-text">
          <p className="text-muted">
-         With our personalized approach, you can book your private chef daily to prepare
+         With our personalised approach, you can book your private chef daily to prepare
          your favorite dishes at your chosen location. The service includes:
                   </p>
                  
