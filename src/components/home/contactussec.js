@@ -19,8 +19,8 @@ const schema = yup.object().shape({
     .required("Email is required"),
   telephone: yup
     .string()
-    .matches(/^\d{10,15}$/, "Telephone must be between 10 to 15 digits")
-    .required("Telephone is required"),
+    .matches(/^\d{0,16}$/, "Please enter valid phone number")
+    .required("Phone number is required"),
   enquiry: yup
     .string()
     .max(2000, "Enquiry cannot exceed 2000 characters")

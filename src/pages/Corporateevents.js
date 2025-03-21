@@ -12,7 +12,7 @@ import OurTeamCards from '../components/OurTeam/OurTeam';
 
 import imageSrc from "../images/corporateleftimg.webp";
 import imageSrc2 from "../images/Corporate&TeamBuildingEvents.jpeg"; 
-import clubimg from "../images/clubnautico.webp";
+import clubimg from "../images/corporateimg2.jpeg";
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -105,15 +105,12 @@ function Corporateevents() {
     </a> </strong>today and let’s start planning your perfect corporate gathering at Club Náutico Porto Cristo.
 </p>
 
+
+<div className=''>
+<a href="/contact-us" target="_blank"> <button className="cateringsectwo-btn">CONTACT US</button></a>
+</div>
           </div>
         </div>
-
-
-
-
-
-
-
           {/* Right Column - Heading + Paragraph */}
           <div className="row align-items-center ">
           <div className="col-md-12">

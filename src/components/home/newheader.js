@@ -14,7 +14,7 @@ const NewHeader = () => {
         <div className="container">
           <div className="row align-items-center">
             {/* Desktop Menu */}
-            <div className="col-lg-12 d-flex justify-content-center d-none d-lg-flex">
+            <div className="col-lg-12 d-flex justify-content-center d-none d-xl-flex">
               <ul className="new-header-menu">
                 {/* Dropdown Menu with Arrow */}
                 <li 
@@ -47,7 +47,7 @@ const NewHeader = () => {
             </div>
 
             {/* Mobile View */}
-            <div className="col-12 d-flex justify-content-between d-lg-none">
+            <div className="col-12 d-flex justify-content-between d-xl-none">
               <img src={logo} alt="Mallorca Header Logo" className="mobile-header-logo" />
               <div className="menu" onClick={() => setMenuOpen(true)}>
                 <FaBars className="menu-icon" />

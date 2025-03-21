@@ -149,6 +149,36 @@
     font-family: 'TT Firs Neue Trl', sans-serif;
 }
 
+/* NewHeader.css */
+
+/* Hide mobile header by default */
+.mobile-header-logo,
+.menu-icon {
+  display: none;
+}
+
+/* Show mobile header on screens up to 1399px */
+@media (max-width: 1399px) {
+  .d-xl-flex {
+    display: none !important;
+  }
+
+  .d-xl-none {
+    display: flex !important;
+  }
+
+  .mobile-header-logo,
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Rotate dropdown arrow when open */
+.dropdown-arrow.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
 @media (max-width: 768px) {
     .new-header {
         background-color: #F3E4CE;

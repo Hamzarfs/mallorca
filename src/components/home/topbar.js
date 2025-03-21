@@ -13,7 +13,7 @@ const Topbar = () => {
       <div className="container">
         <div className="row align-items-center">
           {/* Phone Numbers */}
-          <div className="col-lg-2 d-flex align-items-center text-center">
+          <div className="col-lg-3 d-flex align-items-center text-center">
   <FaPhoneAlt className="topbar-icon" />
   <div className="topbar-text">
     <p>&nbsp; &nbsp; &nbsp; 
@@ -47,7 +47,7 @@ const Topbar = () => {
 
 
           {/* Logo */}
-          <div className="col-lg-5 text-end">
+          <div className="col-lg-4 col-md-3 text-end">
           <a href="/">
     <img 
       src={logo} 
@@ -58,7 +58,7 @@ const Topbar = () => {
           </div>
 
 {/* Social Media Icons */}
-<div className="col-lg-3 d-flex justify-content-end footer-bottom ps-5">
+<div className="col-lg-3 col-md-4 d-flex justify-content-end footer-bottom">
     {/* <FaInstagram className="footer-left" />
     <FaYoutube className="topbar-social-icon" />
     <FaFacebookF className="topbar-social-icon" />

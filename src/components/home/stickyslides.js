@@ -4,14 +4,23 @@ import "../../StickySlides.css";
 import slider1 from "../../images/slider1catering.webp";
 import slider2 from "../../images/slide2.webp";
 import slider3 from "../../images/slide3.webp";
+import slider4 from "../../images/weddingcatteringhomebanner.webp";
+
 
 const slides = [
   {
     id: 1,
-    image: slider1,
-    title: "Catering & Private Chef Services",
-    text: "Transform your celebration into a culinary masterpiece with our Private Chef and catering service, delivering restaurant-quality cuisine in the comfort of your home or chosen venue anywhere on the island of Mallorca.",
+    image: slider4,
+    title: "Wedding Catering",
+    text: "At Mallorca Weddings and Events, we know that exceptional cuisine is the soul of every unforgettable celebration. While we proudly offer exclusive wedding catering at our four breathtaking venues, our services extend far beyond our own locations.",
     link: "/wedding-catering", // Unique link for this slide
+  },
+  {
+    id: 1,
+    image: slider1,
+    title: "Private Chef Service",
+    text: "Transform your celebration into a culinary masterpiece with our Private Chef and catering service, delivering restaurant-quality cuisine in the comfort of your home or chosen venue anywhere on the island of Mallorca.",
+    link: "/private-chef", // Unique link for this slide
   },
   {
     id: 2,
@@ -27,6 +36,7 @@ const slides = [
     text: "Our dedicated team is passionate about delivering unparalleled service in breathtaking locations, offering you an exclusive escape into luxury. From crafting exquisite menus tailored to your vision to sourcing the finest ingredients, we ensure every detail exceeds expectations.",
     link: "/private-events", // Unique link for this slide
   },
+  
 ];
 
 const Slide = ({ slide }) => {
@@ -45,8 +55,12 @@ const Slide = ({ slide }) => {
       <div className="slide-content">
         <h2>{slide.title}</h2>
         <p>{slide.text}</p>
-        <a href={slide.link} className="slide-btn">Find out more</a> {/* Dynamic link */}
-      <a href="/contact-us">  <button className="slide-btn">Get a Quote</button></a>
+
+        <div className="mt-4">
+
+        <a href={slide.link} className="slide-btn">Find out more</a>
+      <a href="/contact-us" className="slide-btn"> Get a Quote</a>
+      </div>
       </div>
     </motion.div>
   );
