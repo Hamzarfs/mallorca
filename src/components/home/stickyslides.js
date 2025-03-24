@@ -12,7 +12,7 @@ const slides = [
     id: 1,
     image: slider4,
     title: "Wedding Catering",
-    text: "At Mallorca Weddings and Events, we know that exceptional cuisine is the soul of every unforgettable celebration. While we proudly offer exclusive wedding catering at our four breathtaking venues, our services extend far beyond our own locations.",
+    text: "Already have your dream venue? Let us take care of the rest. At Mallorca Weddings and Events, we know that exceptional cuisine is the soul of every unforgettable celebration. While we proudly offer exclusive wedding catering at our four breathtaking venues, our services extend far beyond our own locations. We bring our premium catering and bespoke event services to any venue across the island, ensuring a seamless, personalized, and unforgettable dining experience—wherever your special day takes place.",
     link: "/wedding-catering", // Unique link for this slide
   },
   {
