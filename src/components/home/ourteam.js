@@ -19,7 +19,7 @@ const OurTeam = () => {
                 <h2>Sergio</h2>
                 <p>With years of experience managing top-tier hotels across Spain and running his own successful Cooking Holidays business, Sergio brings a wealth of expertise and passion to the world of weddings and events. </p>
                 <p>
-                Sergio then went on to set up Mallorca Weddings & Events almost 4 years ago.  His commitment to crafting exceptional cuisine, paired with his meticulous attention to detail, has made him a trusted name in creating unforgettable celebrations.
+                Sergio then went on to set up Mallorca Weddings & Events almost 4 years ago.  
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const OurTeam = () => {
                 <h2>Claire</h2>
                 <p>Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. Formerly the Wedding & Events Manager at the prestigious Yacht Club Cala d’Or</p>
                 <p>
-                Her deep knowledge of Mallorca, paired with excellent connections to the island's top-rated suppliers, ensures that your wedding will be flawlessly planned and executed with care, creativity, and unmatched expertise.
+                Her deep knowledge of Mallorca, paired with excellent connections to the island's top-rated suppliers, ensures that your wedding will be flawlessly planned
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ const OurTeam = () => {
             Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. 
             </p>
             <p>
-            Luca specializes in a diverse range of cuisines, including Mediterranean, Spanish, Italian, Latin American, Asian, Middle Eastern, and Vegan dishes. His extensive knowledge and creativity allow him to curate menus that cater to a variety of tastes and dietary preferences, ensuring an unforgettable dining experience for every guest.
+            Luca specializes in a diverse range of cuisines, including Mediterranean, Spanish, Italian, Latin American, Asian, Middle Eastern, and Vegan dishes. 
             </p>
    
               </div>

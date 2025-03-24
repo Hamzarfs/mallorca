@@ -6,9 +6,8 @@ import { FaCheckCircle } from "react-icons/fa";
 import "../../contactushome.css";
 import MallorcaMap from "./map";
 
-// Validation schema
 const schema = yup.object().shape({
-  fullName: yup
+  fullname: yup
     .string()
     .matches(/^[A-Za-z\s]+$/, "Full Name can only contain alphabets and spaces")
     .max(50, "Full Name cannot exceed 50 characters")
@@ -17,22 +16,24 @@ const schema = yup.object().shape({
     .string()
     .email("Invalid email")
     .required("Email is required"),
-  telephone: yup
+  phone: yup
     .string()
-    .matches(/^\d{0,16}$/, "Please enter valid phone number")
+    .matches(/^\+?\d{0,15}$/, "Please enter valid phone number (e.g. +34123456789)")
     .required("Phone number is required"),
-  enquiry: yup
+  message: yup
     .string()
-    .max(2000, "Enquiry cannot exceed 2000 characters")
-    .required("Enquiry is required"),
+    .max(2000, "Message cannot exceed 2000 characters")
+    .required("Message is required"),
 });
 
 const ContactUsHome = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitting },
     reset,
+    setValue,
+    watch,
   } = useForm({
     resolver: yupResolver(schema),
     mode: "onChange",
@@ -41,19 +42,21 @@ const ContactUsHome = () => {
   const [selectedServices, setSelectedServices] = useState([]);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [showThankYou, setShowThankYou] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const dropdownRef = useRef(null);
   
   const services = ["Weddings", "Catering", "Private Chef", "Corporate Events", "Private Events"];
+  const phoneValue = watch("phone");
 
   const handleServiceChange = (service) => {
     setSelectedServices((prev) =>
-      prev.includes(service) ? prev.filter((s) => s !== service) : [...prev, service]
+      prev.includes(service) 
+        ? prev.filter((s) => s !== service) 
+        : [...prev, service]
     );
   };
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
+  const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -62,17 +65,63 @@ const ContactUsHome = () => {
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const onSubmit = (data) => {
-    console.log("Form Data:", { ...data, selectedServices });
-    reset();
-    setSelectedServices([]);
-    setShowThankYou(true);
-    setTimeout(() => setShowThankYou(false), 3000);
+  const formatPhone = (value) => {
+    // Remove all non-digit and non-plus characters
+    const cleaned = value.replace(/[^\d+]/g, '');
+    
+    // Ensure only one plus at the start
+    if (cleaned.includes('+')) {
+      return '+' + cleaned.replace(/\+/g, '');
+    }
+    return cleaned;
+  };
+
+  const handlePhoneChange = (e) => {
+    const formatted = formatPhone(e.target.value);
+    setValue("phone", formatted, { shouldValidate: true });
+  };
+
+  const onSubmit = async (data) => {
+    setSubmitError("");
+    try {
+      const formData = {
+        fullname: data.fullname,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+        services: selectedServices
+      };
+
+      const response = await fetch("https://www.mallorcaweddingsandevents.com/php_mailer/index.php", {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Server responded with an error");
+      }
+
+      const result = await response.json();
+      
+      if (!result.success) {
+        throw new Error(result.message || "Submission failed");
+      }
+
+      reset();
+      setSelectedServices([]);
+      setShowThankYou(true);
+      setTimeout(() => setShowThankYou(false), 3000);
+    } catch (error) {
+      setSubmitError(error.message || "An error occurred while sending your message");
+    }
   };
 
   return (
@@ -92,21 +141,29 @@ const ContactUsHome = () => {
 
         <div className="col-md-6">
           <h2 className="contact-title">Contact Us</h2>
-          <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
+          {submitError && (
+            <div className="alert alert-danger" role="alert">
+              {submitError}
+            </div>
+          )}
+          
+          <form onSubmit={handleSubmit(onSubmit)} className="contact-form" noValidate>
             <div className="form-group">
               <input
                 type="text"
+                name="fullname"
                 placeholder="Full Name*"
-                {...register("fullName")}
-                className={`form-control ${errors.fullName ? "is-invalid" : ""}`}
-                maxLength={51}
+                {...register("fullname")}
+                className={`form-control ${errors.fullname ? "is-invalid" : ""}`}
+                maxLength={50}
               />
-              <div className="invalid-feedback">{errors.fullName?.message}</div>
+              <div className="invalid-feedback">{errors.fullname?.message}</div>
             </div>
 
             <div className="form-group">
               <input
                 type="email"
+                name="email"
                 placeholder="Email*"
                 {...register("email")}
                 className={`form-control ${errors.email ? "is-invalid" : ""}`}
@@ -116,56 +173,67 @@ const ContactUsHome = () => {
 
             <div className="form-group">
               <input
-                type="text"
-                placeholder="Telephone*"
-                {...register("telephone")}
-                className={`form-control ${errors.telephone ? "is-invalid" : ""}`}
+                type="tel"
+                name="phone"
+                placeholder="Phone* (e.g. +34123456789)"
+                {...register("phone")}
+                onChange={handlePhoneChange}
+                value={phoneValue || ''}
+                className={`form-control ${errors.phone ? "is-invalid" : ""}`}
                 maxLength={16}
               />
-              <div className="invalid-feedback">{errors.telephone?.message}</div>
+              <div className="invalid-feedback">{errors.phone?.message}</div>
             </div>
 
             <div className="form-group position-relative" ref={dropdownRef}>
               <button
                 type="button"
-                className="btn btn-outline-dark w-100 text-left"
+                className="btn btn-outline-dark w-100 text-left dropdown-toggle"
                 onClick={toggleDropdown}
+                aria-expanded={dropdownOpen}
               >
                 {selectedServices.length > 0 ? selectedServices.join(", ") : "Select Services"}
               </button>
 
               {dropdownOpen && (
-                <ul className="dropdown-menu show w-100 p-3 position-absolute">
+                <div className="dropdown-menu show w-100 p-3">
                   {services.map((service) => (
-                    <li key={service} className="form-check">
+                    <div key={service} className="form-check">
                       <input
                         type="checkbox"
                         className="form-check-input"
-                        id={service}
+                        id={`service-${service}`}
                         checked={selectedServices.includes(service)}
                         onChange={() => handleServiceChange(service)}
+                        value={service}
                       />
-                      <label className="form-check-label" htmlFor={service}>
+                      <label className="form-check-label" htmlFor={`service-${service}`}>
                         {service}
                       </label>
-                    </li>
+                    </div>
                   ))}
-                </ul>
+                </div>
               )}
             </div>
 
             <div className="form-group">
               <textarea
-                placeholder="Your Enquiry*"
-                {...register("enquiry")}
-                className={`form-control ${errors.enquiry ? "is-invalid" : ""}`}
-                maxLength={2001}
-              ></textarea>
-              <div className="invalid-feedback">{errors.enquiry?.message}</div>
+                name="message"
+                placeholder="Your Message*"
+                {...register("message")}
+                className={`form-control ${errors.message ? "is-invalid" : ""}`}
+                rows={5}
+                maxLength={2000}
+              />
+              <div className="invalid-feedback">{errors.message?.message}</div>
             </div>
 
-            <button type="submit" className="btn btn-outline-dark contact-button">
-              SEND MESSAGE
+            <button 
+              type="submit" 
+              className="btn btn-outline-dark contact-button"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Sending..." : "SEND MESSAGE"}
             </button>
           </form>
         </div>

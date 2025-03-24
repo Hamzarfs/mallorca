@@ -81,3 +81,84 @@
   background: white;
   color: black;
 }
+
+@media (max-width: 768px) {
+  .leftimgcontent .row {
+    flex-direction: column;
+  }
+  
+  .text-container {
+    padding: 40px;
+    color: #ffffff;
+    height: auto; /* Changed from fixed height to auto */
+    min-height: 400px; /* Set a minimum height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This centers content vertically */
+    align-content: center;
+  }
+
+  .image-container {
+    order: -1; /* This makes image appear first */
+  }
+  
+  /* Optional: adjust image height on mobile */
+  .image-wrapper img,
+  .image-wrapper video {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Limit image height */
+    object-fit: cover;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .text-container {
+    min-height: 500px; /* Taller height specifically for tablets */
+  }
+}
+
+/* For tablets (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .leftimgcontent .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-container,
+  .text-container {
+    width: 100%;
+  }
+
+  .text-container {
+    padding: 50px 40px;
+    min-height: 400px; /* Fixed minimum height for tablets */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-wrapper {
+    height: 350px; /* Fixed height for image area */
+  }
+
+  .image-wrapper img,
+  .image-wrapper video {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* For mobile (below 768px) */
+@media (max-width: 767px) {
+  .text-container {
+    min-height: 450px; /* Slightly taller for mobile */
+    padding: 40px 30px;
+  }
+
+  .image-wrapper {
+    height: 300px;
+  }
+}

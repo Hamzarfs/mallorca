@@ -10,7 +10,8 @@ const MegaMenu = ({ isOpen, onClose }) => {
         {/* 🔹 First Row: Logo & Close Button */}
         <div className="row align-items-center">
           <div className="col-6">
-            <img src={logo} alt="Mallorca Weddings & Events" className="mega-logo" />
+          <a href="/">
+            <img src={logo} alt="Mallorca Weddings & Events" className="mega-logo" /></a>
           </div>
           <div className="col-6 text-end">
             <FaTimes className="close-btn" onClick={onClose} />
@@ -28,7 +29,7 @@ const MegaMenu = ({ isOpen, onClose }) => {
     <h2><a href="/">Home</a></h2>
     <h2><a href="/about-us">About Us</a></h2>
     <h2><a href="/wedding-venues">Wedding Venues</a></h2>
-    <h2><a href="/wedding-catering">Catering</a></h2>
+    <h2><a href="/wedding-catering">Wedding Catering</a></h2>
     <h2><a href="/private-chef">Private Chef</a></h2>
     <h2><a href="/corporate-events">Corporate Events & Team Building</a></h2>
     <h2><a href="/private-events">Private Events</a></h2>

@@ -48,7 +48,8 @@ const NewHeader = () => {
 
             {/* Mobile View */}
             <div className="col-12 d-flex justify-content-between d-xl-none">
-              <img src={logo} alt="Mallorca Header Logo" className="mobile-header-logo" />
+            <a href="/">
+              <img src={logo} alt="Mallorca Header Logo" className="mobile-header-logo" /></a>
               <div className="menu" onClick={() => setMenuOpen(true)}>
                 <FaBars className="menu-icon" />
               </div>
