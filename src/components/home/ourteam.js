@@ -13,7 +13,7 @@ const OurTeam = () => {
         <div className="row align-items-stretch team-row">
           {/* Left Column - Image */}
           <div className="col-md-6 p-0 team-image">
-            <div className="image-wrapper">
+            <div className="team-wrapper">
               <img src={ourteam1} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Sergio</h2>
@@ -39,11 +39,11 @@ const OurTeam = () => {
         <div className="row align-items-stretch team-row flex-row-reverse">
           {/* Left Column - Image (Now on Right due to flex-row-reverse) */}
           <div className="col-md-6 p-0 team-image">
-            <div className="image-wrapper">
+            <div className="team-wrapper">
               <img src={ourteam2} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Claire</h2>
-                <p>Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. Formerly the Wedding & Events Manager at the prestigious Yacht Club Cala d’Or</p>
+                <p>Claire brings 16 years of passionate dedication to the wedding industry, making her an expert at creating unforgettable celebrations. </p>
                 <p>
                 Her deep knowledge of Mallorca, paired with excellent connections to the island's top-rated suppliers, ensures that your wedding will be flawlessly planned
                 </p>
@@ -65,12 +65,12 @@ const OurTeam = () => {
                 <div className="row align-items-stretch team-row">
           {/* Left Column - Image */}
           <div className="col-md-6 p-0 team-image">
-            <div className="image-wrapper">
+            <div className="team-wrapper">
               <img src={ourteam3} alt="Sergio" className="img-fluid w-100" />
               <div className="hover-content">
                 <h2>Lucas Aguilera</h2>
                 <p>
-            Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events, delivering exceptional dining experiences for all types of celebrations. 
+            Luca Aguilera, an Argentinian-born, highly talented, and experienced Executive Chef, leads the culinary team at Mallorca Weddings & Events.
             </p>
             <p>
             Luca specializes in a diverse range of cuisines, including Mediterranean, Spanish, Italian, Latin American, Asian, Middle Eastern, and Vegan dishes. 

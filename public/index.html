@@ -34,6 +34,26 @@
   })(window,document,'script','dataLayer','GTM-MMRGBN4G');
 </script>
 <!-- End Google Tag Manager -->
+
+
+<!-- Event snippet for Click en WhatsApp conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-1062762205/urpoCLaYnakaEN3t4foD',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
+  
   </head>
   <body>
     <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->

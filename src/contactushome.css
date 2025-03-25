@@ -79,11 +79,12 @@
   }
   
   .check-icon {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    /* margin-bottom: 1rem; */
+    padding-right: 3px;
     animation: scaleUp 0.5s ease-out;
-  }
-  
+    color: #4E321A;
+}
   @keyframes slideIn {
     from {
       transform: translate(-50%, -40%);

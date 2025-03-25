@@ -36,7 +36,7 @@ function Catering() {
    
     <div className="container d-flex justify-content-center align-items-center text-center mt-4">
       <div className="col-md-8 col-lg-8">
-        <h2 className="" style={{ fontSize: "40px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
+        <h2 className="" style={{ fontSize: "35px", fontWeight: "700", color: "#A19C7E", marginBottom: "10px" }}>
         Private Chef Service <br></br> A Luxurious & Personalised Culinary Experience
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>

@@ -3,14 +3,12 @@
   background-color: #f3ebe0;
 }
 
+
 .bgcolor {
   background-color: #B6AA93;
   height: 100%;
 }
 
-.image-container {
-  padding-right: 0;
-}
 
 .image-wrapper {
   position: relative;
@@ -82,7 +80,17 @@
   color: black;
 }
 
+.image-container {
+  /* padding-right: 0; */
+  padding: 0;
+}
+
 @media (max-width: 768px) {
+
+
+  p.section-text.pb-5.mb-5 {
+    padding-bottom: 180px !important;
+}
   .leftimgcontent .row {
     flex-direction: column;
   }
@@ -107,9 +115,14 @@
   .image-wrapper video {
     width: 100%;
     height: auto;
-    max-height: 300px; /* Limit image height */
+    /* max-height: 300px;  */
     object-fit: cover;
   }
+
+
+  .image-container {
+    padding: 0;
+}
 }
 
 
