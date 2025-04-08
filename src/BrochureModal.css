@@ -1,0 +1,29 @@
+/* Custom Modal Styling */
+.modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    padding: 1.5rem;
+  }
+  
+  .modal-body {
+    padding: 2rem;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid rgba(78, 50, 26, 0.2);
+  }
+  
+  .form-control:focus {
+    border-color: #4E321A;
+    box-shadow: 0 0 0 0.25rem rgba(78, 50, 26, 0.25);
+  }
+  
+  .btn-close {
+    filter: invert(96%) sepia(7%) saturate(549%) hue-rotate(315deg) brightness(97%) contrast(92%);
+  }

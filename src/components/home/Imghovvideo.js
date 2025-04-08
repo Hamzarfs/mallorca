@@ -9,10 +9,16 @@ import img3 from "../../images/FincaEncanto.webp";
 import img4 from "../../images/lavistamarinanewimg.webp";
 import vid3 from "../../images/FincaEncanto.mp4"; 
 import brochurePDF from "../../images/Wedding-Brochure.pdf";
+import { useBrochureModal } from '../hooks/useBrochureModal';
+
+import '../../BrochureModal.css';
+import BrochureModal from "../BrochureModal";
+
 // import vid4 from "../../images/FincaSaPlanaNova.mp4"; 
 
 const ImageHovVideo = () => {
   const videoRefs = [useRef(null), useRef(null)];
+  
 
   const handleMouseEnter = (index) => {
     if (videoRefs[index].current) {
@@ -26,6 +32,16 @@ const ImageHovVideo = () => {
       videoRefs[index].current.currentTime = 0;
     }
   };
+
+  const {
+    showModal,
+    formData,
+    submitted,
+    handleOpen,
+    handleClose,
+    setFormData,
+    setSubmitted
+  } = useBrochureModal();
 
   return (
     <section className="imagehovvideo py-5">
@@ -117,12 +133,29 @@ const ImageHovVideo = () => {
       </div>
 
       <div className="container d-flex justify-content-center align-items-center gap-3 py-5">
-       <button
+       {/* <button
            className="weddingbrochure-btn px-4"
            onClick={() => window.open(brochurePDF, "_blank")}
          >
            <span>VIEW OUR WEDDING BROCHURE</span>
-         </button>
+         </button> */}
+
+<button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
+ 
      
       <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
          <span>CONTACT US</span>

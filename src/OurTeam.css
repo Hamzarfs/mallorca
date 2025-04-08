@@ -122,6 +122,14 @@
   /* height: 461px; */
 }
 
+
+
+.ourteam .team-image img {
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+  height: 245px;
+}
+
   }
 
   @media (min-width: 767px) and (max-width: 991px) {
@@ -137,6 +145,8 @@
   height: 300px;
   transition: transform 0.5s ease-in-out;
 }
+
+
 
 
 
