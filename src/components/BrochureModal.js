@@ -16,7 +16,7 @@ const BrochureModal = ({ show, onHide, formData, setFormData, submitted, setSubm
     setSubmitError('');
     
     try {
-      const response = await fetch('https://mallorca.digilitsolutions.com/php_mailer/send-brochure.php', {
+      const response = await fetch('https://mallorcaweddingsandevents.com/php_mailer/send-brochure.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

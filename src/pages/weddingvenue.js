@@ -12,11 +12,27 @@ import WeddingBnrTwo from '../components/weddingvenues/weddingbnrtwo';
 import WedVenues from '../components/weddingvenues/venues';
 
 import brochurePDF from "../images/Wedding-Brochure.pdf";
+import { useBrochureModal } from '../components/hooks/useBrochureModal';
+
+import '../BrochureModal.css';
+import BrochureModal from "../components/BrochureModal";
 
 // import HeroBanner from '../components/home/mainbanner';
 
 
-function weddingvenue() {
+function WeddingVenue() {
+
+  const {
+    showModal,
+    formData,
+    submitted,
+    handleOpen,
+    handleClose,
+    setFormData,
+    setSubmitted
+  } = useBrochureModal();
+
+
   return (
     <>
     <Topbar/>
@@ -48,12 +64,29 @@ function weddingvenue() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 mb-5">
-   <button
+   {/* <button
            className="weddingbrochure-btn px-4"
            onClick={() => window.open(brochurePDF, "_blank")}
          >
            <span>VIEW OUR WEDDING BROCHURE</span>
-         </button>
+         </button> */}
+
+
+<button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
          <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
          <span>CONTACT US</span>
        </button> </a>
@@ -80,4 +113,4 @@ function weddingvenue() {
   );
 }
 
-export default weddingvenue;
+export default WeddingVenue;
