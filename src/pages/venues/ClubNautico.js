@@ -13,6 +13,10 @@ import image4 from "../../images/lavistamarinanewimg.webp";
 import clubvid from "../../images/ClubNauticoPortoCristo.mp4";
 
 import VenueGallery from '../../components/venues/Venuegallery';
+import { useBrochureModal } from '../../components/hooks/useBrochureModal';
+
+import '../../BrochureModal.css';
+import BrochureModal from "../../components/BrochureModal";
 
 // Dynamically import all 144 images
 const clubnauticaimages = [];
@@ -44,7 +48,22 @@ const venues = [
   },
 ];
 
+
+
+
 function Clubnautica() {
+
+  const {
+    showModal,
+    formData,
+    submitted,
+    handleOpen,
+    handleClose,
+    setFormData,
+    setSubmitted
+  } = useBrochureModal();
+  
+
   return (
     <>
       <Topbar />
@@ -86,19 +105,37 @@ function Clubnautica() {
         </div>
       </div>
       <div className="container d-flex justify-content-center align-items-center gap-3">
-        <button
+        {/* <button
           className="weddingbrochure-btn px-4"
           onClick={() => window.open(brochurePDF, "_blank")}
         >
           <span>VIEW OUR WEDDING BROCHURE</span>
-        </button>
+        </button> */}
+        <button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
+
+
+
         <a href='/contact-us' target="_blank">
           <button className="weddingbrochure-btn">
             <span>CONTACT US</span>
           </button>
         </a>
       </div>
-
+      
+    
       <VenueGallery images={clubnauticaimages} />
 
       <section className="venuegallery container">

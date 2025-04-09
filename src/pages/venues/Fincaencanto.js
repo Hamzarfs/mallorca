@@ -35,6 +35,12 @@ import Galleryencanto14 from "../../images/fincaencanto/Fincaencantogallery (14)
 import Galleryencanto15 from "../../images/fincaencanto/Fincaencantogallery (15).webp";
 import Galleryencanto16 from "../../images/fincaencanto/Fincaencantogallery (16).webp";
 
+
+import { useBrochureModal } from '../../components/hooks/useBrochureModal';
+
+import '../../BrochureModal.css';
+import BrochureModal from "../../components/BrochureModal";
+
 const clubnauticaimages = [
   Galleryencanto1,
   Galleryencanto2,
@@ -78,6 +84,18 @@ const venues = [
 
 
 function Fincaencanto() {
+
+
+    const {
+      showModal,
+      formData,
+      submitted,
+      handleOpen,
+      handleClose,
+      setFormData,
+      setSubmitted
+    } = useBrochureModal();
+    
   return (
     <>
     <Topbar/>
@@ -109,12 +127,27 @@ function Fincaencanto() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 ">
-    <button
+    {/* <button
       className="weddingbrochure-btn px-4"
       onClick={() => window.open(brochurePDF, "_blank")}
     >
       <span>VIEW OUR WEDDING BROCHURE</span>
-    </button>
+    </button> */}
+
+<button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
 
  <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
     <span>CONTACT US</span>

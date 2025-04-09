@@ -59,7 +59,10 @@ import LavistaGallery37 from "../../images/lavistamarina/lavistamarina (37).webp
 import LavistaGallery38 from "../../images/lavistamarina/lavistamarina (38).webp";
 import LavistaGallery39 from "../../images/lavistamarina/lavistamarina (39).webp";
 import LavistaGallery40 from "../../images/lavistamarina/lavistamarina (40).webp";
+import { useBrochureModal } from '../../components/hooks/useBrochureModal';
 
+import '../../BrochureModal.css';
+import BrochureModal from "../../components/BrochureModal";
 const clubnauticaimages = [
   LavistaGallery1, LavistaGallery2, LavistaGallery3, LavistaGallery4, LavistaGallery5,
   LavistaGallery6, LavistaGallery7, LavistaGallery8, LavistaGallery9, LavistaGallery10,
@@ -99,6 +102,18 @@ const venues = [
 
 
 function LaVistamarina() {
+
+    const {
+      showModal,
+      formData,
+      submitted,
+      handleOpen,
+      handleClose,
+      setFormData,
+      setSubmitted
+    } = useBrochureModal();
+    
+  
   return (
     <>
     <Topbar/>
@@ -131,12 +146,28 @@ function LaVistamarina() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 ">
-    <button
+    {/* <button
       className="weddingbrochure-btn px-4"
       onClick={() => window.open(brochurePDF, "_blank")}
     >
       <span>VIEW OUR WEDDING BROCHURE</span>
-    </button>
+    </button> */}
+
+<button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
+
 
  <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
     <span>CONTACT US</span>

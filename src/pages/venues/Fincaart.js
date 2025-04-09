@@ -50,6 +50,11 @@ import VenueGallery27 from "../../images/fincaartgallery/fincaartgallery (27).we
 import VenueGallery28 from "../../images/fincaartgallery/fincaartgallery (28).webp";
 import VenueGallery29 from "../../images/fincaartgallery/fincaartgallery (29).webp";
 
+import { useBrochureModal } from '../../components/hooks/useBrochureModal';
+
+import '../../BrochureModal.css';
+import BrochureModal from "../../components/BrochureModal";
+
 
 // import HeroBanner from '../components/home/mainbanner';
 
@@ -111,6 +116,18 @@ const venues = [
 
 
 function Clubnautica() {
+
+  const {
+    showModal,
+    formData,
+    submitted,
+    handleOpen,
+    handleClose,
+    setFormData,
+    setSubmitted
+  } = useBrochureModal();
+  
+  
   return (
     <>
     <Topbar/>
@@ -144,12 +161,28 @@ function Clubnautica() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 ">
-    <button
+    {/* <button
       className="weddingbrochure-btn px-4"
       onClick={() => window.open(brochurePDF, "_blank")}
     >
       <span>VIEW OUR WEDDING BROCHURE</span>
-    </button>
+    </button> */}
+
+<button
+        className="weddingbrochure-btn px-4"
+        onClick={handleOpen}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
+
+      <BrochureModal
+        show={showModal}
+        onHide={handleClose}
+        formData={formData}
+        setFormData={setFormData}
+        submitted={submitted}
+        setSubmitted={setSubmitted}
+      />
 
  <a href='/contact-us' target="_blank"> <button className="weddingbrochure-btn">
     <span>CONTACT US</span>
