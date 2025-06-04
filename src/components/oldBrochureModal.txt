@@ -1,3 +1,7 @@
+
+
+
+
 import React, { useState } from 'react';
 import { Modal, Button, Form, Spinner } from 'react-bootstrap';
 import { FaCheckCircle } from 'react-icons/fa';
@@ -46,15 +50,9 @@ const BrochureModal = ({ show, onHide, formData, setFormData, submitted, setSubm
 
   return (
     <Modal show={show} onHide={onHide} centered>
-      {submitted ? (
-        <Modal.Header closeButton style={{ backgroundColor: '#4E321A', color: '#F3EBE0' }}>
-          <Modal.Title>Thank You for Your Inquiry</Modal.Title>
-        </Modal.Header>
-      ) : (
-        <Modal.Header closeButton style={{ backgroundColor: '#4E321A', color: '#F3EBE0' }}>
-          <Modal.Title>Download Wedding Brochure</Modal.Title>
-        </Modal.Header>
-      )}
+      <Modal.Header closeButton style={{ backgroundColor: '#4E321A', color: '#F3EBE0' }}>
+        <Modal.Title>Download Wedding Brochure</Modal.Title>
+      </Modal.Header>
       
       <Modal.Body style={{ backgroundColor: '#F3EBE0' }}>
         {!submitted ? (
@@ -121,8 +119,8 @@ const BrochureModal = ({ show, onHide, formData, setFormData, submitted, setSubm
         ) : (
           <div className="text-center">
             <FaCheckCircle className="text-success mb-2" style={{ fontSize: '2.5rem' }} />
-            <h5>Thank you, {formData.name} for reaching out.</h5>
-            <p>We'll be in touch shortly with your wedding brochure and next steps.</p>
+            <h5>Thank you, {formData.name}!</h5>
+            <p>Your brochure is being sent to {formData.email}</p>
           </div>
         )}
       </Modal.Body>
