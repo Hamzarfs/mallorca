@@ -142,12 +142,12 @@ function Fincasaplana() {
         
         </h2>
         <p style={{ fontSize: "16px", color: "#333", lineHeight: "1.6" }}>
-        Imagine exchanging vows in the heart of Mallorca’s serene countryside, surrounded by the timeless beauty of Sa Plana Nova—a meticulously preserved finca dating back to 1880. Steeped in history and surrounded by breathtaking natural landscapes, this intimate venue offers a truly magical backdrop for your special day.<br></br><br></br>
-        Accommodating up to 18 guests in eight double rooms and one quadruple room, Sa Plana Nova perfectly blends traditional Mallorcan charm with modern comforts. Its expansive terrace, with panoramic views of the rolling countryside, is ideal for wedding celebrations, sunset toasts, and peaceful morning reflections. Lush surroundings of holly oaks, almond, carob, and wild olive trees provide a naturally stunning setting, enhancing the romance of every moment.
-        <br></br><br></br>
+        Sa Plana Nova perfectly blends traditional Mallorcan charm with modern comforts. Ideal for hosting large parties and gatherings, the finca is surrounded by holly oaks, almond, carob, and wild olive trees, creating a naturally stunning setting that enhances the romance of every moment. Its expansive terrace, overlooking the rolling countryside, is perfect for wedding celebrations, sunset toasts, and peaceful morning reflections.<br></br><br></br>
+        {/* Accommodating up to 18 guests in eight double rooms and one quadruple room, Sa Plana Nova perfectly blends traditional Mallorcan charm with modern comforts. Its expansive terrace, with panoramic views of the rolling countryside, is ideal for wedding celebrations, sunset toasts, and peaceful morning reflections. Lush surroundings of holly oaks, almond, carob, and wild olive trees provide a naturally stunning setting, enhancing the romance of every moment. */}
+        {/* <br></br><br></br>
         Whether you envision a rustic-chic ceremony, a romantic outdoor reception, or a more intimate gathering with loved ones, Sa Plana Nova offers endless possibilities to make your day uniquely yours. With personalized service and attention to every detail, we’ll help bring your dream wedding to life, creating memories to treasure for a lifetime.<br></br><br></br>
         Experience the timeless magic of Sa Plana Nova and let your love story unfold in this unforgettable setting.
-        <br /><br />
+        <br /><br /> */}
         </p>
 
       </div>
