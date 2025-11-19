@@ -46,9 +46,15 @@ function weddingvenue() {
    
     </div>
     <div className="container d-flex justify-content-center align-items-center gap-3 mb-5">
-  <button className="weddingbrochure-btn px-4">
+  {/* <button className="weddingbrochure-btn px-4">
     <span>VIEW OUR WEDDING BROCHURE</span>
-  </button>
+  </button> */}
+  <button
+        className="weddingbrochure-btn px-4"
+        onClick={() => window.open(brochurePDF, "_blank")}
+      >
+        <span>VIEW OUR WEDDING BROCHURE</span>
+      </button>
   <button className="weddingbrochure-btn">
     <span>CONTACT US</span>
   </button>
